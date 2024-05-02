@@ -1,0 +1,13 @@
+:: System Restart/Reboot.
+cls
+color D
+@echo off
+choice /c:R /n /m "Press R to reboot/restart your PC and apply all tweaks successfully: "
+if errorlevel 1 (
+    echo You pressed R. Rebooting...
+    shutdown /r /t 0
+) else (
+    echo You didn't press R. 
+    echo Please manually restart your pc!
+    pause
+)
