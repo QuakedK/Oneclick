@@ -50,7 +50,7 @@ ___
 (Asus Armoury Crate, CCleaner, Avast Antivirus)
 ___
 
-(Corsair Icue, Msi Dragon Center, VisiSonics, Realtek Audio Service Gigabtye Bloat)
+(Corsair Icue, Msi Dragon Center, VisiSonics, Realtek Audio Service, Gigabtye Bloat)
 ___
 
 (Mircosoft Copilot)
