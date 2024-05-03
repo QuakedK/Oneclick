@@ -1,7 +1,12 @@
-:: (Quaked) Latency Tweaks.
+:: Created by Quaked.
+:: Join my discord: https://discord.gg/h5fXfmBKey or If the link expires follow my tiktok: https://www.tiktok.com/@_quaked_ 
+:: Code Snippet Credit: AmitXV, Calypto, Savitarax, Khorive  
+ 
 @echo off
-cls
+title Latency Tweaks
 color 9
+
+:: (Quaked) Latency Tweaks.
 chcp 65001 >nul 2>&1
 echo.
 echo.
@@ -24,8 +29,49 @@ echo.                                  ╚════════════�
 echo.                                                                          
 timeout 2 > nul
 
+:: Restore Point.      
 cls
-color D
+Color D
+echo. 
+echo. 
+echo.		                     
+echo.				  ░█▀▄░█▀▀░█▀▀░▀█▀░█▀█░█▀▄░█▀▀░░░█▀█░█▀█░▀█▀░█▀█░▀█▀
+echo.				  ░█▀▄░█▀▀░▀▀█░░█░░█░█░█▀▄░█▀▀░░░█▀▀░█░█░░█░░█░█░░█░
+echo.				  ░▀░▀░▀▀▀░▀▀▀░░▀░░▀▀▀░▀░▀░▀▀▀░░░▀░░░▀▀▀░▀▀▀░▀░▀░░▀░
+echo.
+echo.                      ╔════════════════════════════════════════════════════════════════════════╗                    
+echo.                      ║            Create a restore point to undo system changes               ║
+echo.                      ║  Quaked's team isn't liable for issues; it's recommended to make one.  ║
+echo.                      ║                ^(Custom OS users may face limitations^)                  ║                   
+echo.                      ╚════════════════════════════════════════════════════════════════════════╝
+echo.
+
+chcp 437 >nul
+@echo off
+
+echo Enabling System Protection!
+powershell -ExecutionPolicy Unrestricted -NoProfile Enable-ComputerRestore -Drive 'C:\'>nul 2>&1
+Reg.exe delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\SystemRestore" /v "RPSessionInterval" /f  >nul 2>&1
+Reg.exe delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\SystemRestore" /v "DisableConfig" /f >nul 2>&1
+Reg.exe add "HKLM\Software\Microsoft\Windows NT\CurrentVersion\SystemRestore" /v "SystemRestorePointCreationFrequency" /t REG_DWORD /d 0 /f  >nul 2>&1
+timeout 1 > nul 
+
+set /p choice=Do you want to make a restore point? (Y/N): 
+if /i "%choice%"=="Y" (
+    echo Creating restore point...
+    powershell -Command "Checkpoint-Computer -Description 'OneClick V4 Restore Point'"
+    echo Restore point successfully created.
+    timeout 2 > nul 
+) else if /i "%choice%"=="N" (
+    echo Not creating a restore point, use at discretion.
+    timeout 2 > nul 
+) else (
+    echo Invalid choice. Please choose Y or N.
+)
+
+
+cls
+color 9
 chcp 437 >nul
 echo (Quaked) Applying System Clock Settings...
 bcdedit /deletevalue useplatformclock
@@ -35,7 +81,7 @@ echo System Clock Settings appiled successfully.
 timeout 2 > nul
 
 cls
-color 9
+color D
 echo (Quaked) Applying Priority Separation 2A... 
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\PriorityControl" /v "Win32PrioritySeparation" /t REG_DWORD /d 0x2a /f
 echo Priority Separation appiled successfully.
@@ -43,7 +89,7 @@ timeout 2 > nul
 
 cls
 @echo off
-color D
+color 9
 echo (Quaked) Installing and Setting up Timer Res...
 echo.
 echo Choose an option:
@@ -140,7 +186,7 @@ if exist "%downloadsFolder%\%fileName%" (
 
 :SkipTimer
 cls
-color 9
+color D
 echo (Khorive) Tweaking NDIS...
 chcp 437 >nul
 @echo off
@@ -174,6 +220,7 @@ endlocal
 timeout 2 > nul
 
 cls
+color 9
 echo (Calypto) Tweaking and Disabling things in Device Manager...
 @echo off
 setlocal enabledelayedexpansion
@@ -271,9 +318,9 @@ echo.
 echo Device Manager appiled successfully.
 timeout 2 > nul
 
-:: (Quaked) Power Plan Selection.
-@echo off
+
 cls
+@echo off
 chcp 65001 >nul 2>&1
 color D
 echo.
@@ -345,7 +392,10 @@ if exist "%downloadsFolder%\%fileName%" (
     goto :endpower
 )
 
-cls
+
 :endpower
-echo Skipped Power Plan Section! 
+chcp 437 >nul
+color 9
+cls
+echo Latency Tweaks Successful Ran!
 pause
