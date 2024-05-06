@@ -56,4 +56,13 @@ ___
 (Mircosoft Copilot)
 ___
 
+(Virtual Hard Disk)
+___
+
+(Hyper-V Support/Virtualization)
+___
+
+
+
+
 # Please Refer to the [changelog](https://github.com/QuakedK/Oneclick/blob/main/Changelog.md) for any other potential unsupported features or information, We are not responsible for those who don't read up.
