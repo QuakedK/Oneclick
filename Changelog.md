@@ -79,3 +79,21 @@
 *Updated*
 - Updated OrcaLite to V2, Now Deletes Leftover Onedrive and UpdateOrchestrator tasks. 
 
+---
+
+5/7/24 <3
+
+**Oneclick V5.2**
+
+**Big Improvement**
+- V5.2 Add's back & fixes an invoke script, I orginally removed. 
+Leading to -10 Processes.
+
+*Small*
+- Fixed Edge delete, it now also deletes the edge shortcuts.
+- Suppressed/Nul'd Annoying things.
+
+*Update*
+- Updated Orca
+- Updated OrcaLite
+- Updated the pack to include both of them.
