@@ -65,4 +65,13 @@ ___
 (Widgets)
 ___
 
+(UAC)
+___
+
+(IPv6)
+___
+
+(Smart Screen & LockApp)
+___
+
 # Please Refer to the [changelog](https://github.com/QuakedK/Oneclick/blob/main/Changelog.md) for any other potential unsupported features or information, We are not responsible for those who don't read up.
