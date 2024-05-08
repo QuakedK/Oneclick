@@ -97,3 +97,21 @@ Leading to -10 Processes.
 - Updated Orca
 - Updated OrcaLite
 - Updated the pack to include both of them.
+
+---
+
+5/8/24 <3
+
+**Oneclick V5.3 Changelog!**
+
+*Added*
+- Smart Screen Remover.
+- LockApp Remover.
+- Uac Disabler.
+- IPv6 Disabler.
+
+
+*Fixed*
+- Restore Point Name.
+
+  
