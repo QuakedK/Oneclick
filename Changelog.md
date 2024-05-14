@@ -116,4 +116,14 @@ Leading to -10 Processes.
 *Fixed*
 - Restore Point Name.
 
+---
+
+5/14/24 <3
+
+**Oneclick V5.4 Changelog!**
+
+- Fixed Spelling Error Lmao
+
+  
+
   
