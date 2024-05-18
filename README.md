@@ -6,3 +6,5 @@ OneClick's primary goal is to debloat Windows by disabling Telemetry, unnecessar
 Simply run [Oneclick](https://github.com/QuakedK/Oneclick/releases/download/Tweak/Oneclick-V5.5.bat) as admin, and almost everything else is automatic, except user-required inputs.
 
 It's important to note many of the debloat features/related things aren't optional; please read [Unsupported Features](https://github.com/QuakedK/Oneclick/blob/main/Unsupported%20Features.md) for more details.
+
+Join the [Discord!](https://discord.gg/PaDWbvzJnG)
