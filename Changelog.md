@@ -124,6 +124,26 @@ Leading to -10 Processes.
 
 - Fixed Spelling Error Lmao
 
-  
+---
+
+5/18/24 <3
+
+**Oneclick V5.5 Changelog!**
+
+*Added*
+- Show Hidden Files and Folders.
+- Disable Taskbar Widgets.
+- Updated OOShutup10 Config.
+- Put Vcruntimes downloader in Timer Res setup.
+
+*Fixed*
+- Restore Point Code.
+- Organized CTT Code.
+- Changed OOShutup10 & Config to download in %Temp%.
+- Changed NvidiaProfileInspector & Config to download in %Temp%.
+- Changed SetTimerResolution.exe to download in desktop.
+- Changed Islc to download in desktop.
+
+ 
 
   
