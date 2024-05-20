@@ -126,6 +126,36 @@ Leading to -10 Processes.
 
 ---
 
+5/20/24 <3
+
+**Oneclick V5.7 Changelog!**
+
+*New/Added*
+- Enable Show Hidden Files and Folders.
+- Disable Taskbar Widgets.
+- Disable Stickykeys.
+- New And More Nvidia Tweaks & Better Orgainization.
+- Added Mircosoft Visual Runtime Installer (Needed for SetTimerResolution.exe)
+- Dns Jumper Installer.
+- Nvidia Telemetry Uninstaller (Breaks Shadowplay/Clipping, Use OBS instead but it's optional)
+- Made Device Manager Tweaks optional, and warned of potential issues.
+
+*Revamps*
+- Revamped the restore point section.
+- Revamped the order of CTT Tweaks & Spelling for CTT Tweaks
+- Revamped Enable Darkmode and Gave the option for light mode.
+- Revamped a majority of the gpu tweaks section!
+
+*Fixed*
+- OOshutup10 & Config now downloads in your %temp% folder.
+- Fixed NDIS Tweaks displaying errors.
+- Fixed NDIS tweaks closing if "Unable to detect".
+- Fixed Remote Desktop Connection Remover.
+- Fixed Wifi Fixer auto restarting.
+- Fixed Device Manager Tweaks showing Intel error's for amd users by nuling them.
+- Removed ColorPrevalence.
+
+---
 
  
 
