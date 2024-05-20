@@ -1,5 +1,5 @@
 # Unsupported or disabled features of Oneclick
-**Here's what oneclick V4.5 currently disables:**
+**Here's what Oneclick V5.7 currently disables:**
 ___
 
 (All Mircosoft Related things)
@@ -72,6 +72,12 @@ ___
 ___
 
 (Smart Screen & LockApp)
+___
+
+(Sticky Keys)
+___
+
+(Taskbar Widgets)
 ___
 
 # Please Refer to the [changelog](https://github.com/QuakedK/Oneclick/blob/main/Changelog.md) for any other potential unsupported features or information, We are not responsible for those who don't read up.
