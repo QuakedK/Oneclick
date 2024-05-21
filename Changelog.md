@@ -157,6 +157,33 @@ Leading to -10 Processes.
 
 ---
 
- 
+5/20/24 <3
 
+**Oneclick V5.9 Changelog!**
+
+Oneclick V5.7 = 171KB & 3413 lines of code.
+                 ^
+Oneclick V5.9 = 186KB & 3665 lines of code.
+
+*Created*
+- New Network Tweaks V1 bat (Added in Oneclick) **Got Help From @mathako**.
+- Search Remover (Not Optional but have a alternative).
+- StartMenuExperienceHost Remover.
+- ShellExperienceHost Remover.
+- taskhostw Remover.
+- Open Shell Menu Installer (Search alternative)
+- New Nvidia tweak.
+
+*Added*
+- Red text for restore point to help others know it's recommended.
+
+*Fixed*
+- Spelling Errors.
+- Ascii art positions.
+- Gpu Selection goto command's.
+
+**This new update will reduce processes by 4-6
+taskhostw.exe, ShellExperienceHost.exe, StartMenuExperienceHost.exe & UdkUserSvc_403e**
+ 
+---
   
