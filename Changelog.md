@@ -186,4 +186,51 @@ Oneclick V5.9 = 186KB & 3665 lines of code.
 taskhostw.exe, ShellExperienceHost.exe, StartMenuExperienceHost.exe & UdkUserSvc_403e**
  
 ---
+
+5/22/24 <3
+
+**Oneclick V6.0 Changelog!**
+
+Oneclick V5.9 = 186KB & 3665 lines of code.
+                 ^
+Oneclick V6.0 = 192KB & 3753 lines of code.
+
+*Made*
+Made Process Destroyer, Process Destroyer is a batch file that disables over 30 different 
+Services using using nsudo with the highest possible privileges to to achieve this.....                       
+
+*General*
+Moved Cleanup and Defrag Script to the very end of the script again.
+
+*DNS Section*
+- Nul'd Google & Cloudflare Dns Change.
+- Fixed the postion of the asciiart to be more center. 
+- Fixed spelling and spacing!
+
+*Network Tweaks*
+- Changed the red text to "Can cause connection issues, so be cautious. (Wouldn't Recommand)"
+- Removed VLAN ID tweak, as it seemed to be one of the biggest problem in terms of fucking up wifi.
+- Fixed spelling.
+
+*Defrag*
+- Took out the unnecessary text.
+- Added Red text saying "Reminder, Might Take a while"
+- Fixed the script automatically skipping.
+- Moved the asciiart border to the left a little.
+
+*Power Plan*
+- Moved the delete commands for the default power plans to the end.
+- Moved the asciiart border to the left a little.
+- Added red text saying "1. (Recommended) Quaked Ultimate Performance"
+
+*Orca Lite*
+- Added an asciiart border to explain orca.
+- Changed the asciiart name to Orca Lite.
+- Added Red text above the yes or no that says (Recommended)
+
+*App Debloat**
+- Fixed Mircosoft Teams remover.
+- Added Red text saying "Reminder, will take a while"
+
+---
   
