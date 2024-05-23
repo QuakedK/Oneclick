@@ -81,6 +81,8 @@ ___
 ___
 
 (Search)
+
+There's a alternative that will be installed in it's place [Open Shell Menu](https://github.com/Open-Shell/Open-Shell-Menu/releases/tag/v4.4.191)
 ___
 
 # Please Refer to the [changelog](https://github.com/QuakedK/Oneclick/blob/main/Changelog.md) for any other potential unsupported features or information, We are not responsible for those who don't read up.
