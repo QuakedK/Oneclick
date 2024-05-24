@@ -233,4 +233,16 @@ Moved Cleanup and Defrag Script to the very end of the script again.
 - Added Red text saying "Reminder, will take a while"
 
 ---
-  
+
+5/24/24 <3
+
+**Oneclick V6.1 Changelog!**
+
+*Fixed*
+- Fixed Oneclick extracting with 2 folders.
+- Edited the "Read Me Important" txt file.
+- Changed the Requirments for Process Destroyer installation.
+- Fixed Nvidia Telemetry Clientnot skipping.
+- Updated Process Destroyer to V1.5.
+
+---
