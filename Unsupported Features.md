@@ -1,5 +1,5 @@
 # Unsupported or disabled features of Oneclick
-**Here's what Oneclick V6.0 currently disables:**
+**Here's what Oneclick V6.1 currently disables:**
 ___
 
 (All Mircosoft Related things)
