@@ -246,3 +246,30 @@ Moved Cleanup and Defrag Script to the very end of the script again.
 - Updated Process Destroyer to V1.5.
 
 ---
+
+6/1/24 <3
+
+**Oneclick V6.2 Changelog!**
+
+Oneclick V6.1 = 193KB & 3753 lines of code.
+                 ^
+Oneclick V6.2 = 194KB & 3778 lines of code.
+
+*Open Shell Menu/Windows Search*
+- Made Windows Search Remover Optional.
+- Added more emphasis on installing open shell menu!
+
+*Process Destroyer*
+- Added more emphasis on whats required to use process destroyer
+- Fixed Spelling errors in process destroyer.
+
+*Fixed*
+- Fixed Spelling errors in process destroyer.
+- Fixed Oneclick ver being outdated.
+
+*Unsupported Features*
+- Just updated info
+
+---
+
+
