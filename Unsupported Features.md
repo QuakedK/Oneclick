@@ -80,14 +80,8 @@ ___
 (Taskbar Widgets)
 ___
 
-(Search)
-
-There's a alternative that will be installed in it's place [Open Shell Menu](https://github.com/Open-Shell/Open-Shell-Menu/releases/tag/v4.4.191)
-___
-
-(Restore Point Creation)
-
-Only disabled if you used Process Destroyer, Althought it doesn't disable the ability to system restore from a existing restore point. But just the ability to create a new one.
+(Process Destroyer)
+Please Read [Process Destroyer Unsupported Features](https://github.com/QuakedK/Process-Destroyer/blob/main/Unsupported%20Features.md)
 ___
 
 # Please Refer to the [changelog](https://github.com/QuakedK/Oneclick/blob/main/Changelog.md) for any other potential unsupported features or information, We are not responsible for those who don't read up.
