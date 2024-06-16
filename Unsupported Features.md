@@ -80,6 +80,12 @@ ___
 (Taskbar Widgets)
 ___
 
+(Spotify)
+
+It might break, It's suggested you use the [website ver](https://www.spotify.com/de-en/download/windows/) or download [Spicetify](https://github.com/QuakedK/Downloads/blob/main/Spicetify%20Installer.bat) before doing Oneclick.
+___
+
+
 (Process Destroyer)
 
 Please Read [Process Destroyer Unsupported Features](https://github.com/QuakedK/Process-Destroyer/blob/main/Unsupported%20Features.md)
