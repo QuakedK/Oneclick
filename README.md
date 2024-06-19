@@ -10,6 +10,6 @@ Although it doesn't necessarily mean you have too. We also recommend downloading
 It's important to note many of the debloat features/related things aren't optional this is why it's recommended every potential user read
 [Unsupported Features](https://github.com/QuakedK/Oneclick/blob/main/Unsupported%20Features.md) for more details.
 
-1. Download [Oneclick](https://github.com/QuakedK/Oneclick/releases/download/optimizer/Oneclick-V6.2.bat).
+1. Download [Oneclick](https://github.com/QuakedK/Oneclick/releases/download/optimizer/Oneclick-V6.7.bat).
 2. Right-click & run it as admin, and almost everything else is automatic, except user-required inputs.
 3. Once you reach the Extra's section, simply click "Restart" to apply all tweasks!
