@@ -21,12 +21,12 @@ ___
 
 (Snipping Tool)
 
-There's a fix for this, but if that doesn't work use [LightShot](https://app.prntscr.com/en/download.html) or [Free Snipping Tool](https://freesnippingtool.com/download).
+Use [LightShot](https://app.prntscr.com/en/download.html) or [Free Snipping Tool](https://freesnippingtool.com/download) Instead.
 ___
 
 (Clipboard)
 
-There's a fix for this, but if that doesn't work use [Clipclip](https://app.prntscr.com/en/download.html) or [Ditto](https://ditto-cp.sourceforge.io/).
+Use [Clipclip](https://app.prntscr.com/en/download.html) or [Ditto](https://ditto-cp.sourceforge.io/)  Instead.
 ___
 
 (Hibernation Power Settings)
@@ -35,22 +35,10 @@ ___
 (Storage Sense/Storage options in settings)
 ___
 
-(Mouse Acceleration)
+(Printing)
 ___
 
 (Windows Updates)
-___
-
-(Print Services)
-___
-
-(Logitech and Razor Apps)
-___
-
-(Asus Armoury Crate, CCleaner, Avast Antivirus)
-___
-
-(Corsair Icue, Msi Dragon Center, VisiSonics, Realtek Audio Service, Gigabtye Bloat)
 ___
 
 (Mircosoft Copilot)
@@ -63,9 +51,6 @@ ___
 ___
 
 (Widgets)
-___
-
-(UAC)
 ___
 
 (IPv6)
@@ -84,7 +69,6 @@ ___
 
 It might break, It's suggested you use the [website ver](https://www.spotify.com/de-en/download/windows/) or download [Spicetify](https://github.com/QuakedK/Downloads/blob/main/Spicetify%20Installer.bat) before doing Oneclick.
 ___
-
 
 (Process Destroyer)
 
