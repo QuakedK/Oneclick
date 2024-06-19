@@ -5,7 +5,7 @@ OneClick's primary goal is to debloat Windows by disabling Telemetry, unnecessar
 
 # Usage
 For the best and most favorably results, We recommend running Oneclick on a fresh install. This way we can guarantee nothing in your OS could possibly conflict or incorretly interact with Oneclick. 
-Although it doesn't necessarily mean you have too.
+Although it doesn't necessarily mean you have too. We also recommend downloading [Dcontrol](https://www.sordum.org/9480/defender-control-v2-1/) to permanently disable windows defender.
 
 It's important to note many of the debloat features/related things aren't optional this is why it's recommended every potential user read
 [Unsupported Features](https://github.com/QuakedK/Oneclick/blob/main/Unsupported%20Features.md) for more details.
