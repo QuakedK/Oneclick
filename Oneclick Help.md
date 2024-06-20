@@ -24,3 +24,8 @@ ___
    
 Run [Win Defend Fix](https://github.com/QuakedK/Downloads/blob/main/Win%20Defend%20Fix.bat) as admin and type Yes, or try this [Video](https://www.youtube.com/watch?v=P5Y9EASsK9Y)
 ___
+
+6. Can't Run run or open files.
+   
+Re-enenable UAC or Drag the file to your Desktop!
+___
