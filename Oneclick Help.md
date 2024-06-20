@@ -15,12 +15,12 @@ ___
 Run the "Wifi Fixer" within Oneclick or [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Turn%20On%20Wifi.bat), It's possibly you may have disabled Wifi by doing the Wifi Device Manager Tweaks or by running Process Destoryer. I'd Recommend using your restore Point.
 ___
 
-4. BlueTooth.
+4. Bluetooth.
    
 Run [Service Control](https://github.com/QuakedK/Downloads/blob/main/Service%20Control.bat) as admin and re-enable everything from  C, E, G, I, K, to M.
 ___
 
-5. BlueTooth.
+5. Windows Security/Defender.
    
 Run [Win Defend Fix](https://github.com/QuakedK/Downloads/blob/main/Win%20Defend%20Fix.bat) as admin and type Yes, or try this [Video](https://www.youtube.com/watch?v=P5Y9EASsK9Y)
 ___
