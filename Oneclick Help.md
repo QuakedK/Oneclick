@@ -12,7 +12,7 @@ ___
 
 3. Wifi.
    
-Run the "Wifi Fixer" within Oneclick or [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Turn%20On%20Wifi.bat), It's possibly you may have disabled Wifi by doing the Wifi Device Manager Tweaks or by running Process Destoryer. I'd Recommend using your restore Point.
+Run the "Wifi Fixer" within the Extra's Section or [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Turn%20On%20Wifi.bat), It's possibly you may have disabled Wifi by doing the Wifi Device Manager Tweaks or by running Process Destoryer. I'd Recommend using your restore Point.
 ___
 
 4. Bluetooth.
