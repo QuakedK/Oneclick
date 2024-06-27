@@ -19,6 +19,11 @@ Although if you’re Bluetooth device has a dongle like for example a Logitech P
 as the dongle stands in for it!
 ___
 
+(Wifi)
+
+Run the Wifi Fixer in Extras to turn it back on or use the fixer in the full package download!
+___
+
 (Snipping Tool)
 
 Use [LightShot](https://app.prntscr.com/en/download.html) or [Free Snipping Tool](https://freesnippingtool.com/download) Instead.
