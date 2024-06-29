@@ -30,6 +30,8 @@ ___
 Re-enenable UAC or Drag the file to your Desktop! 
 
 Can also run [NSudo](https://github.com/QuakedK/Downloads/raw/main/NSudoLG.exe), just click "Enable All Privileges" and drag you file into NSudo. 
+
 If you get a error saying trusted installer, open cmd as admin and paste sc config TrustedInstaller start=disabled
-if you get failed to created process  cmd /c start "%USERPROFILE%\Downloads\NSudoLG.exe" "C:\Users\Admin\Desktop\Fortnite-Optimizer-V1.0.bat"
+
+if you get failed to created process, open cmd as admin "YourNSudoPATH" -ShowWindowMode:Show -U:T -P:E "APPyouCANTopenPATH"
 ___
