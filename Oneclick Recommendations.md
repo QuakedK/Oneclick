@@ -1,4 +1,6 @@
 # Optional Things & Features:
+**Important Recommendation** | Download [Dcontrol](https://www.sordum.org/downloads/?st-defender-control) & disable Windows Defender and add to the exclusion list.
+
 Windows Search | Recommended to remove!
 
 Priority Separation | 22 or 46 Decimal Recommended!
