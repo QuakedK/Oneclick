@@ -1,4 +1,6 @@
 # Optional Things & Features:
+**Important Advice** | For the best and most favorably results, We recommend running Oneclick on a fresh Stock Win 11 install. This way we can guarantee nothing in your OS could possibly conflict or incorretly interact with Oneclick. Although it doesn't necessarily mean you have too.
+
 **Important Recommendation** | Download [Dcontrol](https://www.sordum.org/downloads/?st-defender-control) & disable Windows Defender and add to the exclusion list.
 
 Windows Search | Recommended to remove!
