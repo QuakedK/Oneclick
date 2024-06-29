@@ -14,4 +14,4 @@ It's important to note many of the debloat features/related things aren't option
 2. Right-click & run it as admin, and almost everything else is automatic, except user-required inputs.
 3. Once you reach the Extra's section, simply click "Restart" to apply all tweasks!
 
-If you need Help, go to [Oneclick Help](https://github.com/QuakedK/Oneclick/blob/main/Oneclick%20Help.md)
+If you need Help, go to [Oneclick Help](https://github.com/QuakedK/Oneclick/blob/main/Oneclick%20Help.md) or [Oneclick Recommendations](https://github.com/QuakedK/Oneclick/blob/main/Oneclick%20Help.md)
