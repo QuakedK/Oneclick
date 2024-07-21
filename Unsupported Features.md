@@ -77,7 +77,14 @@ ___
 
 (Process Destroyer)
 
+**Not Recommended**
+
+Process Destroyer is an optional feature at the end of Oneclick in the Extras section.
+
+You Need to meet the [Process Destroyer Requirements](https://github.com/QuakedK/Process-Destroyer/blob/main/README.md) if you wish to use it, and if you do 
 Please Read [Process Destroyer Unsupported Features](https://github.com/QuakedK/Process-Destroyer/blob/main/Unsupported%20Features.md)
-___
+
+
+
 
 # Please Refer to the [changelog](https://github.com/QuakedK/Oneclick/blob/main/Changelog.md) for any other potential unsupported features or information, We are not responsible for those who don't read up.
