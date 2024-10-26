@@ -35,3 +35,7 @@ If you get a error saying trusted installer, open cmd as admin and paste sc conf
 
 if you get failed to created process, open cmd as admin "YourNSudoPATH" -ShowWindowMode:Show -U:T -P:E "APPyouCANTopenPATH"
 ___
+
+7. Powerplan doesn't show up.
+
+Open Cmd as admin and paste reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power" /v PlatformAoAcOverride /t REG_DWORD /d 0 /f then restart. The powerplans should be visable now!
