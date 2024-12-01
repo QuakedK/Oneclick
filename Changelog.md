@@ -272,4 +272,70 @@ Oneclick V6.2 = 194KB & 3778 lines of code.
 
 ---
 
+6/19/24 <3
 
+**Oneclick V6.7 Changelog!**
+
+Oneclick V6.2 = 194KB & 3778 lines of code.
+                 ^
+Oneclick V6.7 = 202KB & 3839 lines of code.
+
+*New Features*
+- 1. Administrator Privileges Detection, If the user is detected to have not ran Oneclick as admin it not only say as much. 
+But will also prompt the user asking for Privileges. If they say yes, it will open a new oneclick as admin!
+- 2. Windows Defender Detection, If the using has windows defender running in the background it will prompt/recommend you disable it.
+- 3. TrustedInstaller Detection, If TrustedInstaller is disabled NSudo will not work properly. This script will detect if it's disabled and reenable it.
+- 4. Auto install of Oneclick Tools folder, By default includes NSudo, Orca and Amd.
+- 5. Added an Amd script that disables Amd related bloat using NSudo.
+- 6. Orca now automatically being excuted in the Unnecessary Tasks Section.
+- 7. Gpu Auto Detection, Gpu tweaks fully automatically appiled.
+- 8. Automatically applying 22 Dec/16 Hex Priority Separation.
+- 9. Visual C++ 2015-2022 Redistributable Detection, If not installed will install automatically.
+- 10. Auto Install Timer Res, also detects windows version and applies global's if needed.
+- 11. Added Bluetooth Device (RFCOMM Protocol TDI) Disabler.
+- 12. Added Intel(R) Wireless Bluetooth (R) Disabler.
+- 13. Added Microsoft Bluetooth Enumerator Disabler.
+- 14. Added Microsoft Bluetooth LE Enumerator Disabler.
+- 15. Added Mircosoft Print to PDF Disabler.
+- 16. Added Root Print Queue Disabler.
+- 17. Intel(R) Wi-Fi Disabler.
+- 18. WAN Miniport (IKEv2) Disabler.
+- 19. WAN Miniport (IP) Disabler.
+- 20. Added WAN Miniport (IPv6) Disabler.
+- 21. Added WAN Miniport (L2TP) Disabler.
+- 22. Added WAN Miniport (Network Monitor) Disabler.
+- 23. Added WAN Miniport (PPPOE) Disabler.
+- 24. Added WAN Miniport (PPTP) Disabler. 
+- 25. Added WAN Miniport (SSTP) Disabler.
+- 26. Added a prompt that asks if the plan imported correctly, if it didn't it restores the default schemes.
+- 27. Added Windows Cleanup section, better grouped section.
+- 28. Added Extras section.
+- 29. Added App Uninstaller making each unsupported (Non) microsoft app optional.
+- 30. App Installer has Obs studio download, and Direct Download to Spotify and Discord.  
+- 31. Updated Process Destroyer to V2.1, Now disables LicenseManager, gpsvc, EventLog, PlugPlay & SgrmBroker, also now auto excutes via oneclick if selected.
+- 32. Added Lms Service Disabler.
+- 33. Added Esifsvc Service Disabler.
+- 34. Added AppReadiness Service Disabler.
+- 35. Added DtsApo4Service Service Disabler.
+- 36. Added NVIDIA High Definition Audio Disabler.
+- 37. Added ArmouryCrateControlInterface Disabler.
+- 38. Added AsusAppService Disabler.
+- 39. Added ASUSOptimization Disabler.
+- 40. Added ASUSSoftwareManager Disabler.
+- 41. Added ASUSSwitch Disabler.
+- 42. Added ASUSSystemAnalysis Disabler.
+- 43. Added ASUSSystemDiagnosis Disabler.
+
+*Fixed*
+- 44. The Group svchost.exe processes part, was incorrectly set up meaning it did absolutely nothing, now it properly 
+detects your ram and add's the correct SvcHostSplitThresholdInKB value.
+- 45. Sped up half half of the script using timeout 1 instead of 2.
+- 46. Every Choice related thing now contains error handling for if you click the wrong button/answer it takes you back.
+- 47. Fixed All Visual errors/Nul'd all errors.
+
+*Deleted*
+- 48. Removed System Theme part.
+- 49. Removed all unnessary @echo off's.
+- 50. Removed All Rem & timeout commands in Device manager Tweaks.
+
+---
