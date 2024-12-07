@@ -15,14 +15,14 @@ As an Open Source Project dedicated to transparency, it's very important we guid
 [Dcontrol Reddit Post #2](https://www.reddit.com/r/windows/comments/tcqiwm/hey_guys_can_someone_say_if_dcontrol_is_safe_link/)
 [Chatgpt Source](https://chatgpt.com/share/675358f0-a5d0-800d-97ca-b11fa24b5430)
 
-[Timer Resolution](https://github.com/valleyofdoom/TimerResolution/releases/tag/SetTimerResolution-v1.0.0) | A program that lowers syetem latency by adjusting the system clock.
+[Timer Resolution](https://github.com/valleyofdoom/TimerResolution/releases/tag/SetTimerResolution-v1.0.0) | A program that lowers system latency by adjusting the system clock.
 
 [OOshutup10](https://dl5.oo-software.com/files/ooshutup10/OOSU10.exe) & [OOshutup10 Config](https://drive.google.com/uc?export=download&id=1v7N241A58mn__45YSQCsn2lelrz7yR6_) | A program that disables tracking, spyware and various different forms of bloat..
 
 # Optional Downloads
 [Open Shell](https://github.com/Open-Shell/Open-Shell-Menu/releases/download/v4.4.191/OpenShellSetup_4_4_191.exe) & [Open Shell Config](https://github.com/QuakedK/Oneclick/blob/main/Downloads/OpenShellTheme.xml) | A Windows Search Alternative.
 
-[Nvidia Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/2.4.0.4/nvidiaProfileInspector.zip) & [Nvidia Profile Inspector Config](https://github.com/QuakedK/Oneclick/blob/main/Downloads/QuakedOptimizedNVProflie.nip) | A Nvidia Control Panel Editer/Inspector.
+[Nvidia Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/2.4.0.4/nvidiaProfileInspector.zip) & [Nvidia Profile Inspector Config](https://github.com/QuakedK/Oneclick/blob/main/Downloads/QuakedOptimizedNVProflie.nip) | A Nvidia Control Panel Editor/Inspector.
 
 [Visual C++ 2015-2022 Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe) | A Microsoft Runtimes installer.
 
