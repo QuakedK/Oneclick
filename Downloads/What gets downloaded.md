@@ -20,12 +20,12 @@ As an Open Source Project dedicated to transparency, it's very important we guid
 [OOshutup10](https://dl5.oo-software.com/files/ooshutup10/OOSU10.exe) & [OOshutup10 Config](https://drive.google.com/uc?export=download&id=1v7N241A58mn__45YSQCsn2lelrz7yR6_) | A program that disables tracking, spyware and various different forms of bloat..
 
 # Optional Downloads
-[Open Shell](https://github.com/Open-Shell/Open-Shell-Menu/releases/download/v4.4.191/OpenShellSetup_4_4_191.exe) & [Open Shell Config](https://github.com/QuakedK/Downloads/raw/main/Menu_Settings_1.xml) | A Windows Search Alternative.
+[Open Shell](https://github.com/Open-Shell/Open-Shell-Menu/releases/download/v4.4.191/OpenShellSetup_4_4_191.exe) & [Open Shell Config](https://github.com/QuakedK/Oneclick/blob/main/Downloads/OpenShellTheme.xml) | A Windows Search Alternative.
 
-[Nvidia Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/2.4.0.4/nvidiaProfileInspector.zip) & [Nvidia Profile Inspector Config](https://raw.githubusercontent.com/QuakedK/Downloads/main/QuakedOptimizedNVProflie.nip) | A Nvidia Control Panel Editer/Inspector.
+[Nvidia Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/2.4.0.4/nvidiaProfileInspector.zip) & [Nvidia Profile Inspector Config](https://github.com/QuakedK/Oneclick/blob/main/Downloads/QuakedOptimizedNVProflie.nip) | A Nvidia Control Panel Editer/Inspector.
 
 [Visual C++ 2015-2022 Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe) | A Microsoft Runtimes installer.
 
-[Quaked Ultimate Performance.pow](https://aka.ms/vs/17/release/vc_redist.x64.exe) & [Quaked Ultimate Performance Idle Off.pow](https://aka.ms/vs/17/release/vc_redist.x64.exe) | A Custom Power Plan.
+[Quaked Ultimate Performance.pow](https://github.com/QuakedK/Oneclick/blob/main/Downloads/QuakedUltimatePerformance.pow) & [Quaked Ultimate Performance Idle Off.pow](https://github.com/QuakedK/Oneclick/blob/main/Downloads/QuakedUltimatePerformanceIdleOff.pow) | A Custom Power Plan.
 
 [Process Destroyer](https://github.com/QuakedK/Process-Destroyer/releases/download/tweak/Oneclick-Process-Destroyer-2.1.bat) | An advanced Service Disabler using NSudo.
