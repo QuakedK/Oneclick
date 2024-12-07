@@ -24,6 +24,10 @@ ___
 Run the Wifi Fixer in Extras to turn it back on or use the fixer in the full package download!
 ___
 
+(VPN)
+
+___
+
 (Snipping Tool)
 
 Use [LightShot](https://app.prntscr.com/en/download.html) or [Free Snipping Tool](https://freesnippingtool.com/download) Instead.
