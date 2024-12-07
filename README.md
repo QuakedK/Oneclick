@@ -12,6 +12,6 @@ It's important to note many of the debloat features/related things aren't option
 
 1. Download [Oneclick](https://github.com/QuakedK/Oneclick/releases/download/optimizer/Oneclick-V6.7.bat).
 2. Right-click & run it as admin, and almost everything else is automatic, except user-required inputs.
-3. Once you reach the Extra's section, simply click "Restart" to apply all tweasks!
+3. Once you reach the Extra's section, simply click "Restart" to apply all tweaks!
 
 If you need Help, go to [Oneclick Help](https://github.com/QuakedK/Oneclick/blob/main/Oneclick%20Help.md) or [Oneclick Recommendations](https://github.com/QuakedK/Oneclick/blob/main/Oneclick%20Recommendations.md)
