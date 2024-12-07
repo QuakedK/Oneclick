@@ -5,9 +5,9 @@ As an Open Source Project dedicated to transparency, it's very important we guid
 
 [NSudo](https://github.com/M2TeamArchived/NSudo/releases/tag/9.0-Preview1) | An Open Source tool that lets you run programs or commands with full system privileges.
 
-[Orca](https://github.com/QuakedK/Orca) | An UpdateOrchestrator disabler.
+[Orca](https://github.com/QuakedK/Oneclick/blob/main/Scripts/Orca.bat) | An UpdateOrchestrator disabler.
 
-[Amd](https://github.com/QuakedK/Downloads/blob/main/AMD%20Bloat.bat) | An Amd Service disabler.
+[Amd](https://github.com/QuakedK/Oneclick/blob/main/Scripts/AMD%20Bloat.bat) | An Amd Service disabler.
 
 [Dcontrol](https://www.sordum.org/9480/defender-control-v2-1/) | A Windows Defender disabler, Due to the nature and purpose of dControl.exe disabling windows defender of course it gets flagged. Dcontrol is made by Sordum a known and reputable website known for creating popular software like DNS Jumper, PowerRun, Edge Blocker and More!
 [Dcontrol Xilly Suggestion](https://www.youtube.com/watch?v=8HM35kG3C7c)
