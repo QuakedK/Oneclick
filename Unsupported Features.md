@@ -92,7 +92,7 @@ ___
 
 (Windows Version)
 
-Win 11 24H2, is entirely glitched and not recommended, check [24H2](https://github.com/QuakedK/Oneclick/issues/4). Please Use Win 11 22H2 or 22H3 :)
+Win 11 24H2, is entirely glitched and not recommended, check [24H2](https://github.com/QuakedK/Oneclick/issues/4). Please Use Win 11 22H2 or 23H2 :)
 
 ___
 
