@@ -13,7 +13,7 @@ It's important to note many of the debloat features/related things aren't option
 Have any questions about what gets ran & downloaded?
 Go to [What's Downloaded ](https://github.com/QuakedK/Oneclick/blob/main/Downloads/What%20gets%20downloaded.md) 
 
-1. Download [Oneclick](https://github.com/QuakedK/Oneclick/releases/download/optimizer/Oneclick-V6.7.bat).
+1. Download [Oneclick](https://github.com/QuakedK/Oneclick/releases/download/optimizer/Oneclick-V7.0.bat).
 2. Right-click & run it as admin, and almost everything else is automatic, except user-required inputs.
 3. Once you reach the Extra's section, simply click "Restart" to apply all tweaks!
 
