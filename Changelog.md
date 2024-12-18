@@ -339,3 +339,120 @@ detects your ram and add's the correct SvcHostSplitThresholdInKB value.
 - Removed All Rem & timeout commands in Device manager Tweaks.
 
 ---
+
+**Oneclick V7.0 Changelog**
+
+Oneclick V6.7 = 203KB & 3839 lines of code.
+                 ^
+Oneclick V7.0 = 202KB & 3789 lines of code.
+
+*More Transparency with Downloads*
+- Created a Downloads Folder in Oneclick's github, that contains downloaded resources and tools.
+- Oneclick Tools folder now contains txt files that link and explain the files/tools.
+- Changed the Oneclick Tools link from my Random Repository to the Oneclick Repository.
+- OOshutup10 + Config is now included in the Oneclick Tools Folder.
+- Made a What gets downloaded.md explaining all of the oneclick downloads.
+- Changed the OpenShell.xml link to the Oneclick Github.
+- Changed Nvidia Profile Inspector to the offical source & Config link to the Oneclick Github.
+- Changed the Visual C++ 2015-2022 Redistributable download link to offical source.
+- Power Plans are now included in Oneclick Tools folder.
+- Changed all App Installer download links to offical sources.
+- Changed DNSJumper download link to offical source.
+
+*More Transparency with NSudo Runs*
+- AMD Bloat comment now includes explanation on it's fuction/purpose.
+- Orca/UpdateOrchestrator Bloat comment now includes explanation on it's fuction/purpose.
+
+*New Features*
+- Windows Detection, if it detects win 10 or lower it tells the user 11 is recommended!
+- Windows 24H2 Detections, tells the user it's unsupported etc.
+- Improved Defender Dectection, if it detects you have defender on it will download Dcontrol & help you set it up. (Skipable) 
+- Improved Startup App disabler, instead of deleting the startup reg it now disables you're startup apps allowing the user to reenable them in task manager.
+- Adding and detecting if the user needs the GlobalTimerResolutionRequests reg key is now at the start.
+- Win 10 20H2 and above detection, if it's detected it applies the timeres 10 fix.
+- Made (Khorive, Inspired) NDIS Tweaks optional.
+- Updated Power Plans they now have AWAYMODE, ALLOWSTANDBY, HYBRIDSLEEP, PROCTHROTTLEMIN, CPMINCORES and THROTTLING changes instead of disabling after.
+- Auto Game High Performance Graphics Preference.
+- Auto App Power Saving Graphics Preference.
+- Auto Setting Windows Processes Priority.
+- Auto Setting Games Priority to High.
+- Auto Setting App Priority to Low. 
+- Auto Setting Game FullScreen OPT's to Disabled.    
+
+*Added*
+- Readded Priority Separation Section and added the remaining Delay Destroyer code.
+- Added Fortnite Optimizer into the extras section.
+- Added Free Windows key/Massgravel's Microsoft Activation Script.
+- Added Sound Bloat, Deletes Realtek, Sound Research and VisiSonics bloat with NSudo in the Manufacturer/Prebuild Services section.
+- Added (Not recommended Can only get search back by system restoring) message to the OpenShell Install.
+- Added bcdedit /set useplatformtick no, lowers delta's by 0.0400ms or higher!
+- Added Ultimate Performance delete and removed High Performance delete.
+- Added PlatformAoAcOverride reg could fix power plan import problems.
+- Added Hex Conversions to Priority Separation.
+- Added (Not recommended) to defrag.
+- Process Destroyer now takes you to the requirements page/github.
+
+*Removed*
+- Removed the 0.504ms Timer Res Recommendation, now 0.507ms.
+- Removed the 22dec Priority Separation Recommendation, now 42dec.
+- Removed bcdedit /set useplatformtick yes.
+- Removed Drive D, E and F off the Defrag list. (C drive is the most important/needed one)
+- Removed + Opensar from the Discord install.
+- Removed + Spicetify from the Spotify install.
+
+*Random Services*
+- smphost Service Disabler.
+- MSDTC Service Disabler.
+
+*Intel Disablers*
+- Intel(R) Platform License Manager Service Disabler.
+- ibtsiva Service Disabler.
+- IntelAudioService Service Disabler.
+- Intel(R) Capability Licensing Service TCP IP Interface Service Disabler.
+- cphs Service Disabler.
+- DSAService Service Disabler.
+- DSAUpdateService Service Disabler.
+- igfxCUIService2.0.0.0 Service Disabler.
+- RstMwService Service Disabler.
+- Intel(R) SUR QC SAM Service Disabler.
+- SystemUsageReportSvc_QUEENCREEK Service Disabler.
+- iaStorAfsService Service Disabler.
+
+*HP Disablers*
+- HPAppHelperCap Service Disabler.
+- HPDiagsCap Service Disabler.
+- HpTouchpointAnalyticsService Disabler.
+- HPNetworkCap Service Disabler.
+- HPOmenCap Service Disabler.
+- HPSysInfoCap Service Disabler.
+- Hp Audio Control Remover.
+
+*Logitech Disabler* (Not Needed for anything)
+- logi_lamparray_service Disabler (Returned to non optional, Not needed one bit.)
+
+*CCleaner Disablers* (Deletes both CCleaner and it's Secure Browser)
+- ccleaner Service Disabler.
+- ccleanerm Disabler.
+- CCleanerPerformanceOptimizerService Disabler.
+- Deletes CCleaner and Secure Browser.
+
+*Fixed*
+- Nul'd Oneclick Tools mkdir.
+- Fixed spelling error of defrag.
+- Removed Disable Defender Auto Sample Submission. (Should Fix not being able to run things as Admin.)
+- Fixed spelling of Microsoft in Mircosoft Apps Remover.
+- Fixed 46 Decimal, it's actually supposed to 42 Decimal.
+- Fixed Spelling of wifi devices.
+- Optimized Device Manager code from 245 lines to 121.
+- Uncapitalized the up in cleanup.
+- Fixed and removed unnecessary paths in File Cleanup.
+- Fixed Defrag /X to /D.
+- Fixed all of App Installers links!
+- Fixed spacing of Y/N in Network Tweaks.
+- Made DNS Jumper Recommendation Green.
+- Fixed Spelling error in Network Tweaks, "This might take awhile, as the changes are suppressed and nulled."
+- Fixed spacing in "3 seconds" in Process Destroyer.
+- Updated Discord Link
+- Nulled Microsoft.Windows.Search uninstall.
+
+---
