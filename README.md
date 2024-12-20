@@ -20,7 +20,7 @@ Go to [What's Downloaded ](https://github.com/QuakedK/Oneclick/blob/main/Downloa
 # Help
 If you having issues or need help join our [Discord Server](https://discord.gg/B8EmFVkdFU)!
 
-You can also go to [Oneclick Help](https://github.com/QuakedK/Oneclick/blob/main/Oneclick%20Help.md) or [Oneclick Recommendations](https://github.com/QuakedK/Oneclick/blob/main/Oneclick%20Recommendations.md)!
+You can also go to [Oneclick Help](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Help.md) or [Oneclick Recommendations](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Recommendations.md)!
 
 
 
