@@ -1,5 +1,5 @@
 # Unsupported or disabled features of Oneclick
-**Here's what Oneclick V6.7 currently disables:**
+**Here's what Oneclick V7.0 currently disables:**
 ___
 
 (All Mircosoft Related things)
@@ -85,7 +85,7 @@ ___
 
 Process Destroyer is an optional feature at the end of Oneclick in the Extras section.
 
-You Need to meet the [Process Destroyer Requirements](https://github.com/QuakedK/Process-Destroyer/blob/main/README.md) if you wish to use it, and if you do 
+You Need to meet the [Process Destroyer Requirements](https://github.com/QuakedK/Process-Destroyer/blob/main/Requirements.md) if you wish to use it, and if you do 
 Please Read [Process Destroyer Unsupported Features](https://github.com/QuakedK/Process-Destroyer/blob/main/Unsupported%20Features.md)
 
 ___
