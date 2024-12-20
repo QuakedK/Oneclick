@@ -22,7 +22,7 @@ ___
 
 5. Windows Security/Defender.
    
-Open [Security Health Setup](https://github.com/QuakedK/Downloads/blob/main/securityhealthsetup_e16941e14861a6d24750ecdf05c548189b33182a.exe) as admin and restart or Run [Win Defend Fix](https://github.com/QuakedK/Downloads/blob/main/Win%20Defend%20Fix.bat) as admin and type Yes then restart, or try this [Video](https://www.youtube.com/watch?v=P5Y9EASsK9Y)
+Open [Security Health Setup](https://github.com/QuakedK/Downloads/blob/main/securityhealthsetup_e16941e14861a6d24750ecdf05c548189b33182a.exe) as admin and restart or run [Win Defend Fix](https://github.com/QuakedK/Downloads/blob/main/Win%20Defend%20Fix.bat) as admin and type Yes then restart, or try this [Video](https://www.youtube.com/watch?v=P5Y9EASsK9Y)
 ___
 
 6. Can't Run run or open files.
