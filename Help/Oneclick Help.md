@@ -1,4 +1,4 @@
-# Oneclick: Fixes, Help and More!
+# Oneclick: Fixes, Help and More! | [Discord Server](https://discord.gg/B8EmFVkdFU)
 
 1. Oneclick Doesn't install?
    
