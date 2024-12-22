@@ -459,10 +459,12 @@ Oneclick V7.0 = 202KB & 3789 lines of code.
 
 ---
 
-**Oneclick V7.0 Rerelease**
-
 12/22/24 <3
+
+**Oneclick V7.0 Rerelease**
 
 *Fixed/Removed*
 - Removed Timerres folder delete.
 - Removed DPC Checker folder delete.
+
+---
