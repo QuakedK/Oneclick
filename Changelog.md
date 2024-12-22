@@ -340,6 +340,8 @@ detects your ram and add's the correct SvcHostSplitThresholdInKB value.
 
 ---
 
+12/18/24 <3
+
 **Oneclick V7.0 Changelog**
 
 Oneclick V6.7 = 203KB & 3839 lines of code.
@@ -456,3 +458,11 @@ Oneclick V7.0 = 202KB & 3789 lines of code.
 - Nulled Microsoft.Windows.Search uninstall.
 
 ---
+
+**Oneclick V7.0 Rerelease**
+
+12/22/24 <3
+
+*Fixed/Removed*
+- Removed Timerres folder delete.
+- Removed DPC Checker folder delete.
