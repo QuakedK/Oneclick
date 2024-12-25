@@ -467,4 +467,8 @@ Oneclick V7.0 = 202KB & 3789 lines of code.
 - Removed Timerres folder delete.
 - Removed DPC Checker folder delete.
 
+12/24/24 <3
+
+- Added Core isolation/Memory integrity disabler!
+
 ---
