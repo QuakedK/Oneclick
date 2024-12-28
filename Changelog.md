@@ -473,5 +473,6 @@ Oneclick V7.0 = 202KB & 3789 lines of code.
 
 12/28/24 <3
 - Moved Process Destroyer Requirements back to Y/N screen.
+- added rd /s /q "C:\Oneclick Tools\DPC Checker" >nul 2>&1 to :TimerRes11.
 
 ---
