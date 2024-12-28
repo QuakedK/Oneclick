@@ -471,4 +471,7 @@ Oneclick V7.0 = 202KB & 3789 lines of code.
 
 - Added Core isolation/Memory integrity disabler!
 
+12/28/24 <3
+- Moved Process Destroyer Requirements back to Y/N screen.
+
 ---
