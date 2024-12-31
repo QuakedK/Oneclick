@@ -461,7 +461,7 @@ Oneclick V7.0 = 202KB & 3789 lines of code.
 
 12/22/24 <3
 
-**Oneclick V7.0 Rerelease**
+**Oneclick V7.0 Rerelease/Update**
 
 *Fixed/Removed*
 - Removed Timerres folder delete.
@@ -473,6 +473,11 @@ Oneclick V7.0 = 202KB & 3789 lines of code.
 
 12/28/24 <3
 - Moved Process Destroyer Requirements back to Y/N screen.
-- added rd /s /q "C:\Oneclick Tools\DPC Checker" >nul 2>&1 to :TimerRes11.
+- Added rd /s /q "C:\Oneclick Tools\DPC Checker" >nul 2>&1 to :TimerRes11.
+
+12/31/24 <3
+- Updated Nvidia Profile inspector nip, now includes Cuda - Force P2 state to Off.
+- Added Process Destroyer folder delete.
+- Changed Timer Res value to 0.504ms.
 
 ---
