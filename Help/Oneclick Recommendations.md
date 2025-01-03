@@ -8,7 +8,7 @@ Windows Search | Recommended to remove!
 
 Priority Separation | 42 Decimal/2A Hexadecimal Recommended!
 
-Timer Res Value | 0.507ms Recommended!
+Timer Res Value | 0.504ms Recommended!
 
 NDIS Tweaks | Not Recommended, Can Network issues but improve latency on the NDIS driver.
 
