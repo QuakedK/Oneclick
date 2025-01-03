@@ -480,4 +480,7 @@ Oneclick V7.0 = 202KB & 3789 lines of code.
 - Added Process Destroyer folder delete.
 - Changed Timer Res value to 0.504ms.
 
+ 1/1/25 <3
+ - Removed the power plan delete code.
+
 ---
