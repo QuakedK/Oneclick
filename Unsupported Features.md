@@ -17,6 +17,11 @@ ___
 You cannot play the Windows store/Bedrock version of Minecraft due to the required services to login being disabled. The java version of Minecraft works using [Minecraft Legacy Launcher](https://aka.ms/minecraftClientWindows), [Lunar Client](https://www.lunarclient.com/download) or [Badlion Client](https://www.badlion.net/).
 ___
 
+(Razer Apps) 
+
+Razor apps have been reported to break and not work like razer synapse.
+___
+
 (Bluetooth)
 
 Natively Oneclick disables Bluetooth, but most Bluetooth devices with usb dongles allow for use and connection even after Oneclick. If your device has no dongle and requires full wireless connection I would not recommend using Oneclick. The process of reverting Bluetooth is long and tedious, requiring you to enable a lot of disabled services basically making the debloat aspect of Oneclick useless. Not recommended but here's a [Bluetooth Fixer](https://github.com/QuakedK/Downloads/blob/main/Bluetooth%20Fixer.bat).
