@@ -54,7 +54,13 @@ ___
 
 (Windows Updates)
 
-Unlike what many people think Windows Updates are not actually needed.
+Unlike what the majority of people think, Windows Updates are not actually needed.
+___
+
+(Spotify)
+
+Spotify may or may not break, as I'm still unsure of what exactly breaks spotify for some users but they report songs being greyed out. 
+I'd recommend using the Website version of spotify not the Microsoft store version, as that may be the reported problem. [Spotify Website Ver](https://www.spotify.com/de-en/download/windows/) before doing Oneclick.
 ___
 
 (Storage Sense/Storage options in settings)
@@ -84,11 +90,6 @@ ___
 (Taskbar Widgets)
 ___
 
-(Spotify)
-
-It might break, It's suggested you use the [website ver](https://www.spotify.com/de-en/download/windows/) or download [Spicetify](https://github.com/QuakedK/Downloads/blob/main/Spicetify%20Installer.bat) before doing Oneclick, maybe both lmao.
-___
-
 (Process Destroyer)
 
 **Not Recommended**
@@ -96,15 +97,12 @@ ___
 Process Destroyer is an optional feature at the end of Oneclick in the Extras section.
 
 You Need to meet the [Process Destroyer Requirements](https://github.com/QuakedK/Process-Destroyer/blob/main/Requirements.md) if you wish to use it, and if you do 
-Please Read [Process Destroyer Unsupported Features](https://github.com/QuakedK/Process-Destroyer/blob/main/Unsupported%20Features.md)
-
+Please Read [Process Destroyer Unsupported Features](https://github.com/QuakedK/Process-Destroyer/blob/main/Unsupported%20Features.md) for important unsupported/disabled features and fixes.
 ___
 
 (Windows Version)
 
-Win 11 24H2, is entirely glitched and not recommended, check [24H2](https://github.com/QuakedK/Oneclick/issues/4). Please Use Win 11 22H2 or 23H2 :)
-
+Win 11 24H2, is unsupported on Oneclick due to bugs Microsoft introduced and hasn't fixed yet. There an unknown list and number of bugs but if you're curious of a known reported bug check [24H2](https://github.com/QuakedK/Oneclick/issues/4). Oneclick is recommended to be ran on Win 11 22H2 or 23H2, although Win 10 also works. If you're interested in a full guide including windows downloads read [Windows Version Support](https://github.com/QuakedK/Oneclick/blob/main/Help/Windows%20Version%20Support.md). If you still want to run Oneclick on 24H2 run  [No Version Windows Check Oneclick](https://github.com/m1nuzz/Oneclick-NoVersionCheckWindows)
 ___
-
 
 # Please Refer to the [changelog](https://github.com/QuakedK/Oneclick/blob/main/Changelog.md) for any other potential unsupported features or information, We are not responsible for those who don't read up.
