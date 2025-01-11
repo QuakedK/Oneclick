@@ -24,7 +24,7 @@ ___
 
 (Wifi)
 
-Natively Oneclick disables Wifi, but it can simply be turned on by running the Wifi Fixer in the End/Extras section of Oneclick. You can also directly download the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Turn%20On%20Wifi.bat) here!
+Natively Oneclick disables Wifi, but it can simply be turned on by running the Wifi Fixer in the End/Extras section of Oneclick. You can also directly download the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Turn%20On%20Wifi.bat) here! Still having issues with wifi? Read [Oneclick Help's](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Help.md) number 3!
 ___
 
 (VPN)
