@@ -2,22 +2,22 @@
 
 1. Oneclick Doesn't install?
    
-Try using a different "Browser", Go to your browser and open downloads and right click and press "Keep", Disable "Windows Defender" by opening windows security & going to real time threat protection and turning it off.
+Try using a different browser. Open your browser and go to the "Downloads" section. Right-click the file and select "Keep." To disable Windows Defender, open Windows Security, navigate to "Real-Time Protection," and turn it off.
 ___
 
 2. Oneclick Not Opening.
-   
-Try disabling Windows Defender/any other antivirus, Drag Oneclick to your desktop, Possibly enable UAC or use [NSudo](https://github.com/M2TeamArchived/NSudo/releases/tag/9.0-Preview1)!
+
+Try disabling Windows Defender or any other antivirus software. Drag the OneClick file to your desktop. You may also consider enabling UAC or using [NSudo](https://github.com/M2TeamArchived/NSudo/releases/tag/9.0-Preview1)!
 ___
 
 3. Wifi.
    
-Run the "Wifi Fixer" within the Extra's Section of Oneclick or Download the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Turn%20On%20Wifi.bat). It's also possible you may have disabled Wifi by doing the Wifi Device Manager Tweaks, Network Tweaks or by running Process Destoryer. I'd Recommend using your restore Point!
+Run the "Wifi Fixer" within the Extra's Section of Oneclick or Download the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Turn%20On%20Wifi.bat). It's also possible you may have disabled Wifi by doing the Wifi Device Manager Tweaks, Network Tweaks or by running Process Destoryer. Device Manager Tweaks include a Wifi Device disabler that disables wifi devices which need to be renabled in device manager. Network Tweaks may cause connection issues and brick your wifi driver therefore we recommend avoiding it or using a restore point to revert them. Process Destoryer disables wifi permanently, therefore you'll have to avoid Process Destoryer to use wifi.
 ___
 
 4. Bluetooth.
-   
-Run [Service Control](https://github.com/QuakedK/Downloads/blob/main/Service%20Control.bat) as admin and re-enable everything from  C, E, G, I, K, to M. (Not recommended, many unnecessary services get reenabled)
+
+Run [Bluetooth Fixer](https://github.com/QuakedK/Downloads/blob/main/Bluetooth%20Fixer.bat) or run [Service Control](https://github.com/QuakedK/Downloads/blob/main/Service%20Control.bat) as admin and re-enable everything from  C, E, G, I, K, to M. (Not recommended, many unnecessary services get reenabled)
 ___
 
 5. Windows Security/Defender.
