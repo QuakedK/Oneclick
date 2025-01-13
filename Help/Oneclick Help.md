@@ -7,7 +7,7 @@ ___
 
 2. Oneclick Not Opening.
 
-Try disabling Windows Defender or any other antivirus software. Drag the OneClick file to your desktop. You may also consider enabling UAC or using [NSudo](https://github.com/M2TeamArchived/NSudo/releases/tag/9.0-Preview1)!
+Try disabling Windows Defender or any other antivirus software. Drag the OneClick file to your desktop. You may also consider enabling UAC or using [NSudo](https://github.com/QuakedK/Downloads/raw/main/NSudoLG.exe)!
 ___
 
 3. Wifi.
