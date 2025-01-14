@@ -22,5 +22,5 @@ Oneclick is designed, built and extensively tested on Windows 11 and Win 11 22H2
 [Chris Titus Rufus Guide](https://youtu.be/PYOsevW3KdA?si=TXlkbaY5YiDFsnRW&t=1381)
 
 **No USB Tutorial**: 
-[Stix No USB Guide](https://www.youtube.com/watch?v=xeq7Z8TlOIE) or
+[Stix No USB Guide](https://www.youtube.com/watch?v=A3Ig7utyaPo) or
 [Xilly No USB Guide](https://www.youtube.com/watch?v=FNaTnVvS_j0)
