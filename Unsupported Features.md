@@ -99,12 +99,16 @@ ___
 
 (Process Destroyer)
 
-**Not Recommended**
+**Not Recommended**: If you're curious
 
 Process Destroyer is an optional feature at the end of Oneclick in the Extras section.
 
 You Need to meet the [Process Destroyer Requirements](https://github.com/QuakedK/Process-Destroyer/blob/main/Requirements.md) if you wish to use it, and if you do 
 Please Read [Process Destroyer Unsupported Features](https://github.com/QuakedK/Process-Destroyer/blob/main/Unsupported%20Features.md) for important unsupported/disabled features and fixes.
+
+**Is Process Destroyer Recommended?:** Process Destroyer is not a recommended utility, as it destroys a lot of functionality which can be seen in the Unsupported List. And because of this Process Destroyer is considered an extreme service remover likely removing things the average user will almost always find necessary. A good example of a scenario the average user may face is windows installer being disabled meaning some programs and app's cannot be installed after Process Destroyer. However a good use case for Process Destroyer would be an advanced user who understands the fixes located in the Unsupported List understands the many ways to get around potential issues they may face. if you're a potential user who understands the fixes and doesn't mind the tedious task of sometimes re-enabling some things just to maximize your system then Process Destroyer is perfect for you!
+
+**How much processes does Process Destroyer remove?:** After the idea use of Oneclick with no wifi idling for 15 minutes, you'll likly be around 40 including timer res and open shell. After the use of Process Destroyer it will drop by 10 Processses, making it 30 including timer res and open shell. This is exactly why we must stress Process Destroyer is not needed nor recommended to achieve a low process count! Only after you've done Oneclick and want to maximize your system even more is when Process Destroyer is recommended.
 ___
 
 (Windows Version)
