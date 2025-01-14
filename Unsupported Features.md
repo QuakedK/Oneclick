@@ -5,6 +5,8 @@ ___
 (All Microsoft Related things)
 
 Example: Microsoft Store, Microsoft Apps, Microsoft Edge, Microsoft Login, Microsoft Account, & OneDrive.
+
+**Note: Microsoft Store, Microsoft Apps, Microsoft Edge and OneDrive get deleted.**
 ___
 
 (All Xbox Related things & Games)
