@@ -1,4 +1,4 @@
-# OneClick 
+# OneClick
 OneClick's primary goal is to debloat Windows by disabling Telemetry, unnecessary services, and applying various tweaks to improve the user's performance! But why stop there? To become the best Free Ultimate Tweaking Utility, we must constantly be adding and implementing new features and discoveries. OneClick does more than just debloating; We have Latency tweaks, Network tweaks, Power tweaks, GPU tweaks, and more!
 
 ![Oneclick](https://github.com/QuakedK/Oneclick/assets/124531365/a058ad27-6c3c-401d-911b-700421056cfb)
