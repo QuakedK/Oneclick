@@ -47,7 +47,7 @@ Oneclick disables services that mess with VPN connection, Vpn's/Apps like Exitla
 
 Cloudflare Warp can easily be fixed by enabling WLAN AutoConfig and Windows Connection Manager.
 
-Open CMD and paste sc config "WlanSvc" start=auto &&  sc config "Wcmsvc" start=disabled then restart.
+Open CMD and paste sc config "WlanSvc" start=auto &&  sc config "Wcmsvc" start=auto then restart.
 ___
 
 (Snipping Tool)
