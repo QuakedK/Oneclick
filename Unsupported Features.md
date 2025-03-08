@@ -19,6 +19,13 @@ ___
 You cannot play the Windows store/Bedrock version of Minecraft due to the required services to login being disabled. The java version of Minecraft works using [Minecraft Legacy Launcher](https://aka.ms/minecraftClientWindows), [Lunar Client](https://www.lunarclient.com/download) or [Badlion Client](https://www.badlion.net/).
 ___
 
+(Rockstar Games Launcher) 
+
+The Rockstar Games Launcher breaks, but can be easily fixed by re-enabling the service.
+
+Open CMD and paste sc config "Rockstar Service" start=demand then restart.
+___
+
 (Razer Apps) 
 
 Razor apps have been reported to break and not work like razer synapse.
@@ -36,7 +43,17 @@ ___
 
 (VPN)
 
-Oneclick disables services that mess with VPN connection, as of now I haven't investigated a fix. Things like Exitlag and cloudflare warp are affected.
+Oneclick disables services that mess with VPN connection, Vpn's/Apps like Exitlag and Cloudflare Warp are affected.
+
+Cloudflare Warp can easily be fixed by enabling WLAN AutoConfig and Windows Connection Manager.
+
+Open CMD and paste
+
+sc config "WlanSvc" start=auto
+
+sc config "Wcmsvc" start=auto 
+
+then restart.
 ___
 
 (Snipping Tool)
