@@ -39,7 +39,7 @@ ___
 
 7. Cloudflare Warp.
 
-Open CMD and paste sc config "WlanSvc" start=auto &&  sc config "Wcmsvc" start=disabled then restart.
+Open CMD and paste sc config "WlanSvc" start=auto &&  sc config "Wcmsvc" start=auto then restart.
 ___
 
 8. Taskbar stuck.
