@@ -24,6 +24,8 @@ ___
 The Rockstar Games Launcher breaks, but can be easily fixed by re-enabling the service.
 
 Open CMD and paste sc config "Rockstar Service" start=demand then restart.
+
+If that doesn't work and you're on enternet please run the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Turn%20On%20Wifi.bat) as admin!
 ___
 
 (Razer Apps) 
