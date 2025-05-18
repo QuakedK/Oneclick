@@ -11,7 +11,7 @@ ___
 
 2. Can't run or open files.
    
-Try dragging the file to your desktop, download and run [UAC Enabler](https://github.com/QuakedK/Downloads/blob/main/UAC%20Enabler.bat) as admin or Right clicking the file, open "properties" and check "Unblock,"
+Try dragging the file to your desktop, download and run [UAC Enabler](https://github.com/QuakedK/Downloads/blob/main/UAC%20Enabler.bat) as admin or Right clicking the file, open "properties" and check "Unblock"
 
 ___   
 
@@ -116,7 +116,8 @@ then restart.
 
 ___
 
-15. Epic games not installing or crashing/
+15. Epic games not installing or crashing.
+
 Open CMD and paste sc config "EpicGamesUpdater" start=auto &&  sc config "EpicOnlineServices" start=auto then restart.
 
 ___
