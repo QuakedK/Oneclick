@@ -103,3 +103,20 @@ ___
 13. Powerplan doesn't show up.
 
 Open Cmd as admin and paste reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power" /v PlatformAoAcOverride /t REG_DWORD /d 0 /f then restart. The powerplans should be visable now!
+
+___
+
+14. Xbox Controller not connecting via cable.
+
+Open Cmd as admin and paste
+1. sc config "DeviceAssociationService" start=auto
+2. sc config "DmEnrollmentSvc" start=auto 
+3. sc config "dmwappushservice" start=auto 
+then restart.
+
+___
+
+15. Epic games not installing or crashing/
+Open CMD and paste sc config "EpicGamesUpdater" start=auto &&  sc config "EpicOnlineServices" start=auto then restart.
+
+___
