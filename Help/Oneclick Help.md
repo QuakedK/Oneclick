@@ -61,7 +61,7 @@ As stated in the in the [Unsupported List](<https://github.com/QuakedK/Oneclick/
 2. Type set "fileURL=https://dl.google.com/chrome/install/latest/chrome_installer.exe"
 3. Type set "fileName=ChromeSetup.exe"
 4. Type set "downloadsFolder=%USERPROFILE%\Downloads\"
-5. Type curl -s -L "%fileURL%" -o "%downloadsFolder%%fileName%"
+5. Type curl -s -L "%fileURL%" -o "%downloadsFolder%\%fileName%"
 6. Open file explorer and navigate to your "Downloads Folder" and "chrome_installer.exe" should be there!
 
 [Example Picture](https://imgur.com/a/Q9rWHqr)
