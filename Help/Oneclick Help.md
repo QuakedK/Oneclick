@@ -121,3 +121,15 @@ ___
 Open CMD and paste sc config "EpicGamesUpdater" start=auto &&  sc config "EpicOnlineServices" start=auto then restart.
 
 ___
+
+16. DPC  Checker not running on start up. (Unknown Issue)
+
+Download [Start DPC Checker Oneclick Ver](https://github.com/QuakedK/Downloads/blob/main/Start%20DPC%20Checker%20Oneclick%20Ver.bat) and then click Winkey + R = Shell:startup and drag the newly download bat into the folder, then restart!
+
+Tired of the UAC prompt? Open CMD and paste reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /f /v EnableLUA /t REG_DWORD /d 0 then restart.
+
+Don't want to disable UAC? Use [BatToEXEPortable](https://github.com/Makazzz/BatToExePortable) and convert the Start DPC Checker.bat to an exe and drag it into the Shell:startup folder then right click > Properties > Compatibility and then check "Run this program as an Administrator"
+
+(Unknown Issue) Unsure why some systems have DPC Checker open fine via the registry and other's don't.
+___
+
