@@ -484,3 +484,8 @@ Oneclick V7.0 = 202KB & 3789 lines of code.
  - Removed the power plan delete code.
 
 ---
+
+ 5/20/25 <3
+ - Fixed DisableDynamicPstate's path.
+
+---
