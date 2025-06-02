@@ -19,7 +19,7 @@ Go to [What's Downloaded ](https://github.com/QuakedK/Oneclick/blob/main/Downloa
 3. Once you reach the Extra's section, simply click "Restart" to apply all tweaks!
 
 # Help
-If you having issues or need help join our [Discord Server](https://discord.gg/YxDRkJah)!
+If you having issues or need help join our [Discord Server](https://discord.gg/8NqDSMzYun)!
 
 You can also go to [Oneclick Help](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Help.md), [Oneclick Recommendations](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Recommendations.md) or [Oneclick Changelog](https://github.com/QuakedK/Oneclick/blob/main/Changelog.md)!
 
