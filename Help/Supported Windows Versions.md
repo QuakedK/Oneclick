@@ -27,12 +27,12 @@ Windows 10 versions after 2004 or in specific, version 20H2 and above have broke
 
 **Windows 11 Downloads**: 
 [Win 11 22H2,](https://os.click/en/Windows:Windows_11:22H2:22621.4169:Multi-Edition:en-us:x64)
-[Win 11 23H2,](https://drive.massgrave.dev/en-us_windows_11_consumer_editions_version_23h2_updated_june_2025_x64_dvd_90f58599.iso)
-[Win 11 24H2.](https://drive.massgrave.dev/en-us_windows_11_consumer_editions_version_24h2_updated_june_2025_x64_dvd_e743555f.iso)
+[Win 11 23H2,](https://os.click/en/Windows:Windows_11:23H2:22631.4169:Multi-Edition:en-us:x64)
+[Win 11 24H2.](https://os.click/en/Windows:Windows_11:24H2:26100.1742:Multi-Edition:en-us:x64)
 
 **Windows 10 Downloads**: 
-[Win 10 22H2 Server,](https://drive.massgrave.dev/en-us_windows_server_2022_updated_june_2025_x64_dvd_e200772d.iso)
-[Win 10 22H2.](https://drive.massgrave.dev/en-us_windows_10_consumer_editions_version_22h2_updated_june_2025_x64_dvd_aace2d00.iso)
+[Win 10 22H2 Server,](https://massgrave.dev/windows_server_links#windows-server-2022)
+[Win 10 22H2.](https://os.click/en/Windows:Windows_10:22H2:19045.4894:Multi-Edition:en-us:x64)
 
 ** USB Tutorial**: 
 [Quaked Guide,](https://youtu.be/iO6n63TWv-E)
