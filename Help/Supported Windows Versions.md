@@ -34,10 +34,10 @@ Windows 10 versions after 2004 or in specific, version 20H2 and above have broke
 [Win 10 22H2 Server,](https://massgrave.dev/windows_server_links#windows-server-2022)
 [Win 10 22H2.](https://os.click/en/Windows:Windows_10:22H2:19045.4894:Multi-Edition:en-us:x64)
 
-** USB Tutorial**: 
+**USB Tutorial**: 
 [Quaked Guide,](https://youtu.be/iO6n63TWv-E)
 [Chris Titus Rufus Guide.](https://youtu.be/PYOsevW3KdA?si=TXlkbaY5YiDFsnRW&t=1381)
 
-** No USB Tutorial**: 
+**No USB Tutorial**: 
 [Stix No USB Guide,](https://www.youtube.com/watch?v=A3Ig7utyaPo)
 [Xilly No USB Guide.](https://www.youtube.com/watch?v=FNaTnVvS_j0)
