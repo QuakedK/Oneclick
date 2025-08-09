@@ -133,3 +133,8 @@ Don't want to disable UAC? Use [BatToEXEPortable](https://github.com/Makazzz/Bat
 (Unknown Issue) Unsure why some systems have DPC Checker open fine via the registry and other's don't.
 ___
 
+17. Brightness Control
+
+Laptop User report issues controlling their brightness, how ever you can easily solve that by using [Gamma Manager](https://github.com/luan5431/Gamma-Manager).
+
+___
