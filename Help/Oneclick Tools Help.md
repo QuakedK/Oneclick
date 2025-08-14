@@ -1,6 +1,6 @@
 # Oneclick Tools Folder: Help, Instructions and More! | [Discord Server](https://discord.gg/B8EmFVkdFU)
 
-Sometimes the Oneclick Tool folder may not download, get flagged or contain missing contents.
+Sometimes the [Oneclick Tools folder](https://github.com/QuakedK/Oneclick/blob/main/Downloads/OneclickTools.zip) may not download, get flagged or contain missing contents.
 
 # #1 False Flagging
 The Oneclick Tools folder often get falsely flagged because of Dcontrol. Dcontrol being a program that disable defender hence why it's flagged heavily, however we can avoid this in multiple ways.
@@ -51,9 +51,10 @@ If you get this don't panic, do the following.
 
 
 # #2 Manual Download
-1. Right Click OneclickTools.zip, then Extract all.
-2. Once extracted, rename it to Oneclick Tools with a space.
-3. Then Drag it to C:
+1. Download [Oneclick Tools Dolder Direct Download](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/OneclickTools.zip) or [Regular Oneclick Tools Download](https://github.com/QuakedK/Oneclick/blob/main/Downloads/OneclickTools.zip).
+2. Right Click OneclickTools.zip, then Extract all.
+3. Once extracted, rename it to Oneclick Tools with a space.
+4. Then Drag Oneclick Tools to the C:
 
 > [!CAUTION]
 > Make sure you don't drag OneclickTools\OneclickTools to C: but the OneclickTools that has folders inside.
