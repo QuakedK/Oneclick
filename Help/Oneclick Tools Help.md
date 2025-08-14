@@ -51,11 +51,12 @@ If you get this don't panic, do the following.
 
 
 # #2 Manual Download
-1. Right Click OneclickTools, then Extract all.
+1. Right Click OneclickTools.zip, then Extract all.
 2. Once extracted, rename it to Oneclick Tools with a space.
 3. Then Drag it to C:
 
 > [!CAUTION]
 > Make sure you don't drag OneclickTools\OneclickTools to C: but the OneclickTools that has folders inside.
 
-<img width="1136" height="648" alt="image" src="https://github.com/user-attachments/assets/dc568fd6-e0cc-4a76-85a4-491861e72078" />
+<img width="1136" height="648" alt="image" src="https://github.com/user-attachments/assets/95a255fd-93a7-4c20-8926-396307650f70" />
+
