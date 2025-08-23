@@ -35,7 +35,7 @@ ___
 
 (Bluetooth)
 
-Natively Oneclick disables Bluetooth, but most Bluetooth devices with usb dongles allow for use and connection even after Oneclick. If your device has no dongle and requires full wireless connection I would not recommend using Oneclick. The process of reverting Bluetooth is long and tedious, requiring you to enable a lot of disabled services basically making the debloat aspect of Oneclick useless. Not recommended but here's a [Bluetooth Fixer](https://github.com/QuakedK/Downloads/blob/main/Bluetooth%20Fixer.bat).
+Natively Oneclick disables Bluetooth, but most Bluetooth devices with usb dongles allow for use and connection even after Oneclick. If your device has no dongle and requires full wireless connection I would not recommend using Oneclick. The process of reverting Bluetooth is long and tedious, requiring you to enable a lot of disabled services basically making the debloat aspect of Oneclick useless.
 ___
 
 (Wifi)
