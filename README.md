@@ -2,7 +2,9 @@
 OneClick's primary goal is to debloat Windows by disabling Telemetry, unnecessary services, and applying various tweaks to improve the user's performance! But why stop there? To become the best Free Ultimate Tweaking Utility, we must constantly be adding and implementing new features and discoveries. OneClick does more than just debloating; We have Latency tweaks, Network tweaks, Power tweaks, GPU tweaks, and more!
 
 ![Oneclick](https://github.com/QuakedK/Oneclick/assets/124531365/a058ad27-6c3c-401d-911b-700421056cfb)
-![GitHub Release Downloads](https://img.shields.io/github/downloads/QuakedK/Oneclick/total)
+![GitHub Release Downloads](https://img.shields.io/github/downloads/QuakedK/Oneclick/total) 
+
+Downloads Technically inaccurate as I deleted and reuploaded V7.0 losing around 25-30K+. More info here [Oneclick Download Count](https://github.com/QuakedK/Oneclick/issues/16)
 
 # Usage
 For the best and most favorably results, we recommend running Oneclick on a fresh/stock Win 11 22H2 or 23H2 install; not [24H2](https://github.com/QuakedK/Oneclick/blob/main/Help/Windows%20Version%20Support.md). This way we can guarantee nothing conflicts with or interrupts Oneclick during the tweaking process!
