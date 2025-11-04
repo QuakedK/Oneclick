@@ -29,7 +29,8 @@ Windows 10 versions after 2004 or in specific, version 20H2 and above have broke
 **Windows 11 Downloads**: 
 [Win 11 22H2,](https://os.click/en/Windows:Windows_11:22H2:22621.4169:Multi-Edition:en-us:x64)
 [Win 11 23H2,](https://os.click/en/Windows:Windows_11:23H2:22631.4169:Multi-Edition:en-us:x64)
-[Win 11 24H2.](https://os.click/en/Windows:Windows_11:24H2:26100.1742:Multi-Edition:en-us:x64)
+[Win 11 24H2,](https://os.click/en/Windows:Windows_11:24H2:26100.1742:Multi-Edition:en-us:x64)
+[Win 11 25H2.](https://files.rg-adguard.net/language/4a6851f0-5170-1d80-41c5-27b604bd64a5)
 
 **Windows 10 Downloads**: 
 [Win 10 22H2 Server,](https://massgrave.dev/windows_server_links#windows-server-2022)
