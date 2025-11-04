@@ -4,8 +4,9 @@ Running Oneclick on an unsupported version of Windows can cause issues, bugs and
 However running Oneclick on a supported version of Windows guarantees full support, stability and functionality!
 
 # #1 Supported Windows Versions:
-Oneclick is designed, built and extensively tested on Windows 11 22H2 with testing and support to 23H2 later added and now officially support to 24H2.
+Oneclick is designed, built and extensively tested on Windows 11 22H2 with testing and support to 23H2 later added and now officially support to 24H2 and 25H2.
 ```
+Windows 11 25H2 - *Supported*
 Windows 11 24H2 - *Supported*
 Windows 11 23H2 - *Supported*
 Windows 11 22H2 - *Supported*
