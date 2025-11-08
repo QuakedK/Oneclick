@@ -24,6 +24,34 @@ This faster timing directly influences how reactive the system feels under load,
 
 At the desktop and system level, the lower resolution or higher frequency timing sharpens the responsiveness of the user interface and general multitasking. Context switches, process wake-ups, and deferred procedure calls occur sooner, so windows react more immediately.
 
+# Timer Resolution Windows Support.
+
+Windows 10:
+
+Starting with Windows 10 version 2004, Microsoft changed how the system timer works. Timer resolution requests are no longer applied system-wide, they’re handled per process and managed dynamically by the operating system for efficiency and power savings. Although specifically for Windows 10 Users, installing and having DPC Checker open effectively restores near-global behavior. However installing [Win 10 22H2 Server,](https://massgrave.dev/windows_server_links#windows-server-2022) allows you to restore default behavior with the GlobalTimerResolutionRequests Registry Key.
+
+Windows 11:
+
+Unlike Windows 10, Windows 11 has the ability to restore the default behavior immediately with the GlobalTimerResolutionRequests Registry Key. (Similar to Windows Server 2022)
+
+1. Simple open CMD as admin and paste the following ↓
+```
+reg add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\kernel" /v "GlobalTimerResolutionRequests" /t REG_DWORD /d "1" /f
+```
+2. Restart your pc!
+
+# Timer Resolution BCDEdits.
+
+When setting up Timer Resolution, many people configure the BCD to ensure the system uses consistent, high-precision timers, preventing Windows from using legacy system timers.
+
+1. Simple open CMD as admin and paste the following ↓
+```
+bcdedit /deletevalue useplatformclock 
+bcdedit /set useplatformtick no 
+bcdedit /set disabledynamictick yes 
+```
+2. Restart your pc!
+
 # Which Timer Resolution Value Should You Use?
 
 Timer resolution is much more complex than putting the resolution at 0.5 ms. From what I can understand, the general idea is the lower the resolution the less stable the timer will become. This is the reason why most knowledgeable people don't actually set the resolution at 0.50ms. However slightly increasing the resolution can help it stabilize itself, giving a more stable and desired result.
