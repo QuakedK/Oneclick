@@ -45,7 +45,7 @@ Hickensa's [Microadjust](https://github.com/HickerDicker/microadjust) to virtual
 However simply running those benchmarking applications, won't necessarily give us accurate results because there's an additional step required.
 When benchmarking your resolution, it need to be down under system load allowing for an accurate method of testing the stability of a resolution. Most people prefer running Prime95, a common stress testing utility, with small FFTs selected while running either Amit's micro-adjust-benchmark or Hickensa's Microadjust.
 
-&nbsp;1. Download [Timer Resolution Setup](https://github.com/QuakedK/Scripting-Station/blob/main/Packs/Timer%20Resolution/Timer%20Resolution%20Setup%20V1.0.bat) and [Prime95](https://download.mersenne.ca/gimps/v30/30.19/p95v3019b20.win64.zip).
+&nbsp;1. Download [Timer Resolution Setup.bat](https://github.com/QuakedK/Scripting-Station/blob/main/Packs/Timer%20Resolution/Timer%20Resolution%20Setup%20V1.0.bat) and [Prime95](https://download.mersenne.ca/gimps/v30/30.19/p95v3019b20.win64.zip).
 
 &nbsp;2. Now run "Timer Resolution Setup V1.0.bat".
 
@@ -94,3 +94,26 @@ I wouldn't necessarily recommend a value for everyone, but as far as I've observ
 5070
 5080
 ```
+
+# Links/Sources.
+
+Tools:
+[SetTimerResolution](https://github.com/valleyofdoom/TimerResolution),
+[MeasureSleep](https://github.com/valleyofdoom/TimerResolution/releases/tag/MeasureSleep-v1.0.0),
+[micro-adjust-benchmark](https://github.com/valleyofdoom/TimerResolution/blob/main/micro-adjust-benchmark.ps1),
+[Prime95](https://download.mersenne.ca/gimps/v30/30.19/p95v3019b20.win64.zip).
+
+My Tools:
+[Quaked Timer Resolution Setup.bat](https://github.com/QuakedK/Scripting-Station/blob/main/Packs/Timer%20Resolution/Timer%20Resolution%20Setup%20V1.0.bat),
+[Quaked Timer Resolution Resources](https://github.com/QuakedK/Scripting-Station/raw/refs/heads/main/Packs/Timer%20Resolution/TimerResolutionResources.zip).
+
+Tutorials:
+[Misaki's Video](https://www.youtube.com/watch?v=k1P1V4_S5f4),
+[Hickensa's Video](https://www.youtube.com/watch?v=_Gi1PLgGZww),
+[Savitarax's Video](https://www.youtube.com/watch?v=oKK-T482iv8),
+[Xilly's Video](https://www.youtube.com/watch?v=uGMrZEpJlL8).
+
+
+Line Plot:
+[Draxlr](https://www.draxlr.com/tools/line-chart-generator/)
+
