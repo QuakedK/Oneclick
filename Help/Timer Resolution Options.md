@@ -36,13 +36,16 @@ If you take a look at the following picture, you can see how the "Resolution Val
 
 # Testing Timer Resolution?
 
+> [!NOTE]
+> Make sure Visual C++ 2015–2022 Redistributable is installed, its runtimes are needed to run Amit's Timer Resolution.
+
 To go about testing resolutions, you don't necessarily need to manually test the resolution with MeasureSleep, you can use [Amit's](https://github.com/valleyofdoom) own [micro-adjust-benchmark](https://github.com/valleyofdoom/TimerResolution/blob/main/micro-adjust-benchmark.ps1). Which allows us to messure timer related information and view it by plotting it at [Plotly](https://chart-studio.plotly.com/create). You can also use other benchmarking programs like 
 Hickensa's [Microadjust](https://github.com/HickerDicker/microadjust) to virtually do the same thing.
 
 However simply running those benchmarking applications, won't necessarily give us accurate results because there's an additional step required.
-When benchmarking your resolution, it need to be down under system load allowing for an accurate method of testing the stability of a resolution. Most people prefer running Prime95, a common stress testing utility, with small FFTs selected.
+When benchmarking your resolution, it need to be down under system load allowing for an accurate method of testing the stability of a resolution. Most people prefer running Prime95, a common stress testing utility, with small FFTs selected while running either Amit's micro-adjust-benchmark or Hickensa's Microadjust.
 
-&nbsp;1.
+&nbsp;1. Download [Timer Resolution](https://github.com/valleyofdoom/TimerResolution/releases/tag/SetTimerResolution-v1.0.0), [micro-adjust-benchmark](https://github.com/valleyofdoom/TimerResolution/blob/main/micro-adjust-benchmark.ps1) and [Prime95](https://www.mersenne.org/download/).
 
-
+&nbsp;2. 
 
