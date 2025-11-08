@@ -17,7 +17,7 @@ Any Windows 10 Version - *Limited Support*
 Oneclick was not originally built for Windows 10, so full support, stability, and functionality cannot be guaranteed.
 However, because Windows 10 is structurally similar to Windows 11, many users have successfully run Oneclick on Windows 10 22H2 with minimal issues.
 
-Windows 10 versions after 2004 or in specific, version 20H2 and above have broken Timer Resolution's meaning System Delta's are forced at 15ms. However DPC Checker being open can fix this issue, but even better just download a Windows 10 Server version and you won't need a fix. Fyi during Installation choose Windows Server 2022 Standard (Desktop Experience)
+Windows 10 versions starting 2004 or after e.g 20H2 and above have broken Timer Resolution's meaning System Delta's are forced at 15ms. However DPC Checker being open can fix this issue, but even better just download a Windows 10 Server version and you won't need a fix. Fyi during Installation choose Windows Server 2022 Standard (Desktop Experience)
 
 # #3 Windows Install
 
