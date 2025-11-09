@@ -1,6 +1,6 @@
 # Search Removal Options
 
-<img width="978" height="512" alt="image" src="https://github.com/user-attachments/assets/5398919f-7386-45eb-a3f5-e270e5838133" />
+<img width="978" height="512" alt="image" src="https://github.com/user-attachments/assets/0a14aed2-0476-4fed-96ed-58d4a72672d7" />
 
 # #1 Keep Search
 This option is pretty self-explanatory and used for those who want to keep the basic and default Windows Search.
