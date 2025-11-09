@@ -1,15 +1,19 @@
 # Search Removal Options
 
-<img width="978" height="512" alt="image" src="https://github.com/user-attachments/assets/0ac3d759-268c-421f-8e94-e11b4d0c37f1" />
+<img width="978" height="512" alt="image" src="https://github.com/user-attachments/assets/5398919f-7386-45eb-a3f5-e270e5838133" />
 
 # #1 Keep Search
 This option is pretty self-explanatory and used for those who want to keep the basic and default Windows Search.
 
 # #2 Remove Search
 This option completely removes the default Windows Search for a ligher alternative, known as [Open Shell Menu](https://github.com/Open-Shell/Open-Shell-Menu).
-It doesn't just disable search, but rather completely delete Search components.
+The option doesn't just disable search, but rather completely deletes Search related components. Meaning only a restore point or using the revert commands can get search back, after selecing the removal of search.
 
 # #3 Known Issues After Removing Search.
+
+> [!NOTE]
+> Most of the following issues, are related to how Oneclick removes Search related components upon, the user selecting the removal of search.
+
 1. User's won't be after to left-click taskbar icons/apps.
 2. User's won't be able to access Wifi on taskbar due to not being able to left-click taskbar related items.
 However this can be easily fixed by selecting your Wifi before loggging in or Pressing Ctrl, Alt, Del and selecting Wifi there!
