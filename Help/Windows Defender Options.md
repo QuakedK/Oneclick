@@ -2,10 +2,10 @@
 
 <img width="978" height="512" alt="image" src="https://github.com/user-attachments/assets/b5bd5a78-f132-4f3e-9c4d-47660fb70983" />
 
-# #1 Windows Defender
+# #1 Keep Windows Defender
 This option is pretty self-explanatory and used for those who want to keep Windows Defender.
 
-# #2 Windows Defender
+# #2 Disable Windows Defender
 This option uses the program [Dcontrol](https://www.sordum.org/9480/defender-control-v2-1/), to fully disable Windows Defender.
 
 Selecting Disable Windows Defender, will guide the user to disable Real Time Protection and Tamper Protection. Then it will automatically install and open Dcontol, guiding the user on how to properly use the program.
