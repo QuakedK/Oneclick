@@ -83,6 +83,9 @@ Spotify may or may not break, as I'm still unsure of what exactly breaks spotify
 I'd recommend using the Website version of spotify not the Microsoft store version, as that may be the reported problem. [Spotify Website Ver](https://www.spotify.com/de-en/download/windows/) before doing Oneclick.
 ___
 
+(Task Scheduler)
+___
+
 (Storage Sense/Storage options in settings)
 ___
 
@@ -122,11 +125,6 @@ Please Read [Process Destroyer Unsupported Features](https://github.com/QuakedK/
 **Is Process Destroyer Recommended?:** Process Destroyer is not a recommended utility, as it destroys a lot of functionality which can be seen in the Unsupported List. And because of this Process Destroyer is considered an extreme service remover likely removing things the average user will almost always find necessary. A good example of a scenario the average user may face is windows installer being disabled meaning some programs and app's cannot be installed after Process Destroyer. However a good use case for Process Destroyer would be an advanced user who understands the fixes located in the Unsupported List understands the many ways to get around potential issues they may face. if you're a potential user who understands the fixes and doesn't mind the tedious task of sometimes re-enabling some things just to maximize your system then Process Destroyer is perfect for you!
 
 **How much processes does Process Destroyer remove?:** After the idea use of Oneclick with no wifi idling for 15 minutes, you'll likly be around 40 including timer res and open shell. After the use of Process Destroyer it will drop by 10 Processses, making it 30 including timer res and open shell. This is exactly why we must stress Process Destroyer is not needed nor recommended to achieve a low process count! Only after you've done Oneclick and want to maximize your system even more is when Process Destroyer is recommended.
-___
-
-(Windows Version)
-
-Win 11 24H2, is unsupported on Oneclick due to bugs Microsoft introduced and hasn't fixed yet. There an unknown list and number of bugs but if you're curious of a known reported bug check [24H2](https://github.com/QuakedK/Oneclick/issues/4). Oneclick is recommended to be ran on Win 11 22H2 or 23H2, although Win 10 also works. If you're interested in a full guide including windows downloads read [Windows Version Support](https://github.com/QuakedK/Oneclick/blob/main/Help/Windows%20Version%20Support.md). If you still want to run Oneclick on 24H2 run  [No Version Windows Check Oneclick](https://github.com/m1nuzz/Oneclick-NoVersionCheckWindows)
 ___
 
 # Please Refer to the [changelog](https://github.com/QuakedK/Oneclick/blob/main/Changelog.md) for any other potential unsupported features or information, We are not responsible for those who don't read up. If you need help go to [Oneclick Help](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Help.md)!
