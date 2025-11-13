@@ -20,7 +20,7 @@ Note: If you created a Restore Point you can just use that <3
 # Epic Games Laucnher
 Notability ever since the Epic Games Laucnher was updated or since Epic Online Services was introduced, the launcher tends to get stuck on updating.  (Included in Oneclick, -> Extara's -> Fixers) 
 
-Manual Fix: 
+**Manual Fix:** 
 
 &nbsp;1. Simple open CMD as admin and paste the following ↓
 ```
@@ -32,7 +32,7 @@ sc config "EpicOnlineServices" start=auto
 # Rockstar Games Laucnher
 Similar the Epic Games Laucnher fix, setting Rockstar Games to auto will also fix it. (Included in Oneclick, -> Extara's -> Fixers) 
 
-Manual Fix: 
+**Manual Fix:**
 
 &nbsp;1. Simple open CMD as admin and paste the following ↓
 ```
@@ -43,7 +43,7 @@ sc config "Rockstar Service" start=auto
 # Cloudflare Warp
 (Included in Oneclick, -> Extara's -> Fixers) 
 
-Manual Fix: 
+**Manual Fix:**
 
 &nbsp;1. Simple open CMD as admin and paste the following ↓
 ```
@@ -55,12 +55,75 @@ sc config "Wcmsvc" start=auto
 # Monitor Switching Back to 60hz
 Seems to be related to 24H2 and onwards.
 
-Manual Fix: 
+**Manual Fix:**
 
 &nbsp;1. Simple open CMD as admin and paste the following ↓
 ```
 sc config DispBrokerDesktopSvc start=auto 
 ```
 &nbsp;2. Restart your pc!
+
+# Restore Point
+Oneclick Automatically runs [Update Disabler](https://github.com/QuakedK/Update-Disabler), which seemingly breaks the normal way of restoring through Windows.
+
+<img width="854" height="484" alt="image" src="https://github.com/user-attachments/assets/810cffaf-5ef0-4eae-aa81-878b5b11fc16" />
+
+**Work Around:** 
+
+&nbsp;1. Hold Shift and click Restart.
+
+&nbsp;2. Once in Advanced Recovery, click Troubleshoot -> Advanced Options -> System Restore
+
+
+**Revert Update Disabler:** (Fixes the normal way of restoring through Windows)
+
+1. Open CMD and Paste the following.
+```bat
+sc config TrustedInstaller start=auto
+```
+2. Open [Nsudo](https://github.com/QuakedK/Task-Destroyer/raw/refs/heads/main/Downloads/NSudoLG.exe) and Enable All Privileges.
+3. Then type CMD in the Address Bar, then click run and paste the following commands.
+```bat
+reg import "C:\Oneclick Tools\Update Disabler\Reg Backup\PolicyBackup.reg"
+reg import "C:\Oneclick Tools\Update Disabler\Reg Backup\WindowsUpdateServiceBackup.reg" 
+reg import "C:\Oneclick Tools\Update Disabler\Reg Backup\UpdateOrchestratorServiceBackup.reg"
+reg import "C:\Oneclick Tools\Update Disabler\Reg Backup\WindowsUpdateMedicServiceBackup.reg"
+reg delete "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate" /f
+
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\DoSvc.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\DoSvc.dll.mui" "C:\Windows\System32\en-US"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\MoNotificationUxStub.exe" "C:\Windows\System32"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\MusUpdateHandlers.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\MusUpdateHandlers.dll.mui" "C:\Windows\System32\en-US"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\MusUpdateHandlers1.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\MusUpdateHandlers1.dll.mui" "C:\Windows\System32\en-US"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\Sihclient.exe" "C:\Windows\System32"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\sihclient.exe.mui" "C:\Windows\System32\en-US"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\UIEOrchestrator.exe" "C:\Windows\System32"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\UpdateAgent.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\UpdateCompression.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\SysWOW64\UpdateCompression.dll" "C:\Windows\SysWOW64"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\updatecsp.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\updatepolicy.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\UpdatePolicy.dll.mui" "C:\Windows\System32\en-US"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\UpdateReboot.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\UpgradeResultsUI.exe" "C:\Windows\System32"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\UpgradeResultsUI.exe.mui" "C:\Windows\System32\en-US"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\upfc.exe" "C:\Windows\System32"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\UsoClient.exe" "C:\Windows\System32"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\WaaSAssessment.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\WaaSMedicPS.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\WaaSMedicSvc.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\wuauclt.exe" "C:\Windows\System32"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\wusa.exe" "C:\Windows\System32"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\System32\wusa.exe.mui" "C:\Windows\System32\en-US"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\SysWOW64\wusa.exe" "C:\Windows\SysWOW64"
+move /Y "C:\Oneclick Tools\Update Disabler\Apps Backup\USS" "C:\Windows\UUS"
+
+sc config TrustedInstaller start=auto >nul 2>&1
+sc config uhssvc start=auto >nul 2>&1
+sc config BITS start=auto >nul 2>&1
+sc config DoSvc start=auto >nul 2>&1
+```
 
 
