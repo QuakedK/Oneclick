@@ -157,6 +157,8 @@ move /Y "C:\Oneclick Tools\Backup\Search\StartMenuExperienceHost.exe" "C:\Window
 move /Y "C:\Oneclick Tools\Backup\Search\ShellExperienceHost.exe" "C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy"
 move /Y "C:\Oneclick Tools\Backup\Search\taskhostw.exe" "C:\Windows\System32"
 ```
+3. Install [Microsoft Edge](https://www.microsoft.com/en-us/edge/download?form=MA13FJ) in order to get web2 back which is required to use search on 24H2+.
+4. Unintall Openshell.
 
 # Microsoft Apps
 1. Open Powershell as admin.
