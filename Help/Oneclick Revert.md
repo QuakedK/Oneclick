@@ -103,11 +103,9 @@ mkdir "C:\WINDOWS\System32\Tasks\Microsoft\Windows"
 reg import "C:\Oneclick Tools\Backup\Services\ServicesBackup.reg"
 ```
 
-# Widgetss
-
 # Smartscreen
 1. Open [Nsudo](https://github.com/QuakedK/Task-Destroyer/raw/refs/heads/main/Downloads/NSudoLG.exe) and Enable All Privileges.
-2. Then type CMD in the Address Bar, then click run and paste the following command.
+2. Then type CMD in the Address Bar, then click run and paste the following commands.
 ```bat
 move "C:\Oneclick Tools\Backup\Smartscreen\smartscreen.exe" "C:\WINDOWS\System32"
 move "C:\Oneclick Tools\Backup\Smartscreen\CHXSmartScreen.exe" "C:\Windows\SystemApps\Microsoft.Windows.AppRep.ChxApp_cw5n1h2txyewy"
@@ -122,7 +120,7 @@ move "C:\Oneclick Tools\Backup\LockApp\LockApp.exe" "C:\Windows\SystemApps\Micro
 
 # Xbox Exe's
 1. Open [Nsudo](https://github.com/QuakedK/Task-Destroyer/raw/refs/heads/main/Downloads/NSudoLG.exe) and Enable All Privileges.
-2. Then type CMD in the Address Bar, then click run and paste the following command.
+2. Then type CMD in the Address Bar, then click run and paste the following commands.
 ```bat
 move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\GameBarPresenceWriter.exe" "C:\Windows\System32"
 move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\GameBarPresenceWriter.proxy.dll" "C:\Windows\System32"
@@ -151,7 +149,7 @@ move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\Windows.Gaming.XboxLive.Storage.dll
 
 # Search
 1. Open [Nsudo](https://github.com/QuakedK/Task-Destroyer/raw/refs/heads/main/Downloads/NSudoLG.exe) and Enable All Privileges.
-2. Then type CMD in the Address Bar, then click run and paste the following command.
+2. Then type CMD in the Address Bar, then click run and paste the following commands.
 ```bat
 :: Revert Service.
 reg add "HKLM\System\CurrentControlSet\Services\UdkUserSvc" /v "Start" /t REG_DWORD /d "3" /f
@@ -163,29 +161,9 @@ move /Y "C:\Oneclick Tools\Backup\Search\ShellExperienceHost.exe" "C:\Windows\Sy
 move /Y "C:\Oneclick Tools\Backup\Search\taskhostw.exe" "C:\Windows\System32"
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Microsoft Apps
+1. Open Powershell as admin.
+2. Then paste the following commands.
+```bat
+Get-AppxPackage -AllUsers | ForEach-Object {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppxManifest.xml"}
 ```
