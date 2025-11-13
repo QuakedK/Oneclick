@@ -5,7 +5,7 @@ On this Github page, will go over some simple and easy fixes!
 # Wi-Fi
 As explained in the [Unsupported List](https://github.com/QuakedK/Oneclick/edit/main/Unsupported%20Features.md#wifi), Wi-Fi is natively unsupported/disabled. However, it can be easily re-enabled by running the Wi-Fi Fixer located in the Extras or End Section of Oneclick.
 
-<img width="800" height="419" alt="image (1)" src="https://github.com/user-attachments/assets/f01d9384-f362-4d18-8459-581de6205968" />
+<img width="978" height="512" alt="image" src="https://github.com/user-attachments/assets/7e1c261f-de17-484c-8651-14a8db7cf702" />
 
 Note: If you created a Restore Point you can just use that <3
 
@@ -74,6 +74,7 @@ Oneclick Automatically runs [Update Disabler](https://github.com/QuakedK/Update-
 
 &nbsp;2. Once in Advanced Recovery, click Troubleshoot -> Advanced Options -> System Restore
 
+Having trouble navigating in Advanced Recovery? Watch this excellent [tutorial!](https://youtube.com/shorts/v1K0BQoV34A?feature=share)
 
 **Revert Update Disabler:** (Fixes the normal way of restoring through Windows)
 
