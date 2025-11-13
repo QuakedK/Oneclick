@@ -23,7 +23,8 @@ However this can be easily fixed by selecting your Wifi before loggging in or Pr
 > [!NOTE]
 > If you created a System Restore Point, you can use that to revert the removal of search. <3
 
-1. Open CMD and paste the following then restart.
+1. Open [Nsudo](https://github.com/QuakedK/Task-Destroyer/raw/refs/heads/main/Downloads/NSudoLG.exe) and Enable All Privileges.
+2. Then type CMD in the Address Bar, then click run and paste the following command.
 ```bat
 :: Revert Service.
 reg add "HKLM\System\CurrentControlSet\Services\UdkUserSvc" /v "Start" /t REG_DWORD /d "3" /f
@@ -34,3 +35,5 @@ move /Y "C:\Oneclick Tools\Backup\Search\StartMenuExperienceHost.exe" "C:\Window
 move /Y "C:\Oneclick Tools\Backup\Search\ShellExperienceHost.exe" "C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy"
 move /Y "C:\Oneclick Tools\Backup\Search\taskhostw.exe" "C:\Windows\System32"
 ```
+3. Install [Microsoft Edge](https://www.microsoft.com/en-us/edge/download?form=MA13FJ) in order to get web2 back which is required to use search on 24H2+.
+4. Unintall Openshell.
