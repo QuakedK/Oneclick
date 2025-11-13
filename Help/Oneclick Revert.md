@@ -104,3 +104,88 @@ reg import "C:\Oneclick Tools\Backup\Services\ServicesBackup.reg"
 ```
 
 # Widgetss
+
+# Smartscreen
+1. Open [Nsudo](https://github.com/QuakedK/Task-Destroyer/raw/refs/heads/main/Downloads/NSudoLG.exe) and Enable All Privileges.
+2. Then type CMD in the Address Bar, then click run and paste the following command.
+```bat
+move "C:\Oneclick Tools\Backup\Smartscreen\smartscreen.exe" "C:\WINDOWS\System32"
+move "C:\Oneclick Tools\Backup\Smartscreen\CHXSmartScreen.exe" "C:\Windows\SystemApps\Microsoft.Windows.AppRep.ChxApp_cw5n1h2txyewy"
+```
+
+# LockApp
+1. Open [Nsudo](https://github.com/QuakedK/Task-Destroyer/raw/refs/heads/main/Downloads/NSudoLG.exe) and Enable All Privileges.
+2. Then type CMD in the Address Bar, then click run and paste the following command.
+```bat
+move "C:\Oneclick Tools\Backup\LockApp\LockApp.exe" "C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy"
+```
+
+# Xbox Exe's
+1. Open [Nsudo](https://github.com/QuakedK/Task-Destroyer/raw/refs/heads/main/Downloads/NSudoLG.exe) and Enable All Privileges.
+2. Then type CMD in the Address Bar, then click run and paste the following command.
+```bat
+move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\GameBarPresenceWriter.exe" "C:\Windows\System32"
+move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\GameBarPresenceWriter.proxy.dll" "C:\Windows\System32"
+move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\GameChatOverlayExt.dll" "C:\Windows\System32"
+move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\GameChatTranscription.dll" "C:\Windows\System32"
+move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\GamePanel.exe" "C:\Windows\System32"
+move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\GamePanelExternalHook.dll" "C:\Windows\System32"
+move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\gamestreamingext.dll" "C:\Windows\System32"
+move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\GameSystemToastIcon.contrast-white.png" "C:\Windows\System32"
+move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\GameSystemToastIcon.png" "C:\Windows\System32"
+move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\gameux.dll" "C:\Windows\System32"
+move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\gamingtcui.dll" "C:\Windows\System32"
+move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\GraphicsPerfSvc.dll" "C:\Windows\System32"
+move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\XblAuthManager.dll" "C:\Windows\System32"
+move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\XblAuthManagerProxy.dll" "C:\Windows\System32"
+move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\XblAuthTokenBrokerExt.dll" "C:\Windows\System32"
+move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\XblGameSave.dll" "C:\Windows\System32"
+move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\XblGameSaveExt.dll" "C:\Windows\System32"
+move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\XblGameSaveProxy.dll" "C:\Windows\System32"
+move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\XblGameSaveTask.exe" "C:\Windows\System32"
+move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\XboxNetApiSvc.dll" "C:\Windows\System32"
+move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\Windows.Gaming.Preview.dll" "C:\Windows\System32"
+move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\Windows.Gaming.UI.GameBar.dll" "C:\Windows\System32"
+move \Y "C:\Oneclick Tools\Backup\Xbox Bloat\Windows.Gaming.XboxLive.Storage.dll" "C:\Windows\System32"
+```
+
+# Search
+1. Open [Nsudo](https://github.com/QuakedK/Task-Destroyer/raw/refs/heads/main/Downloads/NSudoLG.exe) and Enable All Privileges.
+2. Then type CMD in the Address Bar, then click run and paste the following command.
+```bat
+:: Revert Service.
+reg add "HKLM\System\CurrentControlSet\Services\UdkUserSvc" /v "Start" /t REG_DWORD /d "3" /f
+
+:: Revert exe's.
+move /Y "C:\Oneclick Tools\Backup\Search\SearchHost.exe" "C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy"
+move /Y "C:\Oneclick Tools\Backup\Search\StartMenuExperienceHost.exe" "C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy"
+move /Y "C:\Oneclick Tools\Backup\Search\ShellExperienceHost.exe" "C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy"
+move /Y "C:\Oneclick Tools\Backup\Search\taskhostw.exe" "C:\Windows\System32"
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
