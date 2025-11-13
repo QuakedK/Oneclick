@@ -2,24 +2,24 @@
 ⚠️ **Please read carefully, we are not responsible for any issues that may occur:**
 ___
 
-(All Microsoft Related things)
+# (All Microsoft Related things)
 
 Example: Microsoft Store, Microsoft Apps, Microsoft Edge, Microsoft Login, Microsoft Account, & OneDrive.
 
 **Note: Microsoft Store, Microsoft Apps, Microsoft Edge and OneDrive get deleted.**
 ___
 
-(All Xbox Related things & Games)
+# (All Xbox Related things & Games)
 
 Example: Xbox Game Bar, Xbox DVR, Xbox App, Xbox Login, or any other Xbox related games.
 ___
 
-(Minecraft)
+# (Minecraft)
 
 You cannot play the Windows store/Bedrock version of Minecraft due to the required services to login being disabled. The java version of Minecraft works using [Minecraft Legacy Launcher](https://aka.ms/minecraftClientWindows), [Lunar Client](https://www.lunarclient.com/download) or [Badlion Client](https://www.badlion.net/).
 ___
 
-(Rockstar Games Launcher) 
+# (Rockstar Games Launcher) 
 
 The Rockstar Games Launcher breaks, but can be easily fixed by re-enabling the service.
 
@@ -28,22 +28,22 @@ Open CMD and paste sc config "Rockstar Service" start=demand then restart.
 If that doesn't work and you're on enternet please run the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Turn%20On%20Wifi.bat) as admin!
 ___
 
-(Razer Apps) 
+# (Razer Apps) 
 
 Razor apps have been reported to break and not work like razer synapse.
 ___
 
-(Bluetooth)
+# (Bluetooth)
 
 Natively Oneclick disables Bluetooth, but most Bluetooth devices with usb dongles allow for use and connection even after Oneclick. If your device has no dongle and requires full wireless connection I would not recommend using Oneclick. The process of reverting Bluetooth is long and tedious, requiring you to enable a lot of disabled services basically making the debloat aspect of Oneclick useless.
 ___
 
-(Wifi)
+# (Wifi)
 
 Natively Oneclick disables Wifi, but it can simply be turned on by running the Wifi Fixer in the End/Extras section of Oneclick. You can also directly download the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Turn%20On%20Wifi.bat) here! Still having issues with wifi? Read [Oneclick Help's](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Help.md) number 3!
 ___
 
-(VPN)
+# (VPN)
 
 Oneclick disables services that mess with VPN connection, Vpn's/Apps like Exitlag and Cloudflare Warp are affected.
 
@@ -52,68 +52,68 @@ Cloudflare Warp can easily be fixed by enabling WLAN AutoConfig and Windows Conn
 Open CMD and paste sc config "WlanSvc" start=auto &&  sc config "Wcmsvc" start=auto then restart.
 ___
 
-(Snipping Tool)
+# (Snipping Tool)
 
 The ability to use Windows key + Shift + S aka the default snipping tool gets disabled. Please use [LightShot](https://app.prntscr.com/en/download.html) or [Free Snipping Tool](https://freesnippingtool.com/download) Instead.
 ___
 
-(Clipboard)
+# (Clipboard)
 
 The ability to copy and paste remains, but accessing the Clipboard doesn't. Please use [Clipclip](https://app.prntscr.com/en/download.html) or [Ditto](https://ditto-cp.sourceforge.io/) to access your Clipboard.
 ___
 
-(Power Saving & Hibernation Settings)
+# (Power Saving & Hibernation Settings)
 
 Oneclick disables power saving & hibernation settings, meaning I would recommend laptop user to be worry or careful using Oneclick. There's been Many laptop users of Oneclick that haven't reported anything so this is more of a warning.
 ___
 
-(IPv6)
+# (IPv6)
 
 Oneclick disables IPv6, but many people don't actually use it. You can easily renable it manually or using [IPv6 Reenable](https://github.com/QuakedK/Downloads/blob/main/IPv6%20Reenable.bat).
 ___
 
-(Windows Updates)
+# (Windows Updates)
 
 Unlike what the majority of people think, Windows Updates are not actually needed.
 ___
 
-(Spotify)
+# (Spotify)
 
 Spotify may or may not break, as I'm still unsure of what exactly breaks spotify for some users but they report songs being greyed out. 
 I'd recommend using the Website version of spotify not the Microsoft store version, as that may be the reported problem. [Spotify Website Ver](https://www.spotify.com/de-en/download/windows/) before doing Oneclick.
 ___
 
-(Task Scheduler)
+# (Task Scheduler)
 ___
 
-(Storage Sense/Storage options in settings)
+# (Storage Sense/Storage options in settings)
 ___
 
-(Printing)
+# (Printing)
 ___
 
-(Mircosoft Copilot)
+# (Mircosoft Copilot)
 ___
 
-(Virtual Hard Disk)
+# (Virtual Hard Disk)
 ___
 
-(Hyper-V Support/Virtualization)
+# (Hyper-V Support/Virtualization)
 ___
 
-(Widgets)
+# (Widgets)
 ___
 
-(Smart Screen & LockApp)
+# (Smart Screen & LockApp)
 ___
 
-(Sticky Keys)
+# (Sticky Keys)
 ___
 
-(Taskbar Widgets)
+# (Taskbar Widgets)
 ___
 
-(Process Destroyer)
+# (Process Destroyer)
 
 **Not Recommended**: If you're curious
 
