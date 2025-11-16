@@ -111,7 +111,8 @@ ___
 Open Cmd as admin and paste
 1. sc config "DeviceAssociationService" start=auto
 2. sc config "DmEnrollmentSvc" start=auto 
-3. sc config "dmwappushservice" start=auto 
+3. sc config "dmwappushservice" start=auto
+4. sc config "DeviceInstall" start=auto
 then restart.
 
 ___
