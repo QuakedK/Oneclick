@@ -16,6 +16,6 @@ Timer Resolution Value | 0.504ms Recommended, more info here -> [Timer Resolutio
 
 Power Plan Section | Quaked Ultimate Performance Recommended, more info here -> [Power Plan Options](https://github.com/QuakedK/Oneclick/blob/main/Help/Power%20Plan%20Options.md)
 
-Process Destroyer | Not Recommended, you need to meet the [requirements](https://github.com/QuakedK/Process-Destroyer/blob/main/Requirements.md).
+Process Destroyer | Not Recommended, more info here -> [requirements](https://github.com/QuakedK/Process-Destroyer/blob/main/Requirements.md).
 
-Wifi Fixer | Recommended for wifi users, or you'll have no wifi.
+Wi-Fi Fixer | Recommended for wifi users, or you'll have no wifi. -> [Wi-Fi Fixer](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Fixes.md#wi-fi).
