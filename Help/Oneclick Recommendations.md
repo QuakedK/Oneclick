@@ -1,25 +1,21 @@
 # Optional Things & Features:
-**Important Advice** | For the best and most favorably results, we recommend running Oneclick on a fresh/stock Win 11 22H2 or 23H2 install; not 24H2. This way we can guarantee nothing conflicts with or interrupts Oneclick during the tweaking process!
-This however doesn't mean you're forced to use Win 11 or a fresh/stock operating system just that it's recommended. We also recommend disabling/deactivating using [Dcontrol](https://www.sordum.org/9480/defender-control-v2-1/) to permanently disable windows defender, that way Oneclick can make the necessary changes in your system without windows defender blocking it. This often occurs with registy/system changes and maybe prevent Oneclick from being fully effective, although this is only a recommendation!
+We recommend running Oneclick on a completely fresh and stock windows install, this way we can guarantee nothing in the system conflicts with or interrupts Oneclick during the tweaking process!
+However, it's important to check and read the [Supported Windows Versions List](https://github.com/QuakedK/Oneclick/blob/main/Help/Supported%20Windows%20Versions.md) as running Oneclick on an unsupported version of Windows can cause issues, bugs and unexpected behavior.
 
-**Windows version** | Please Use Win 11 22H2 or 22H3. Win 11 24H2, is entirely glitched and not recommended, check [24H2](https://github.com/QuakedK/Oneclick/issues/4). 
+It's important to note because of the automatic nature, many of the debloat features and related tweaks aren't optional. This is why we strongly recommend every potential user read the [Unsupported Features List](https://github.com/QuakedK/Oneclick/blob/main/Unsupported%20Features.md) very thoroughly.
 
-Windows Search | Recommended to remove!
+We aren't responsible for those who fail to read the supported versions and unsupported features lists before running Oneclick, and we are not liable for any data loss or required Windows reinstallation resulting from improper use.
 
-Priority Separation | 42 Decimal/2A Hexadecimal Recommended!
+Window Defender | Recommended to disable temporarily, more info here -> [Windows Defender Options](https://github.com/QuakedK/Oneclick/blob/main/Help/Windows%20Defender%20Options.md)
 
-Timer Res Value | 0.504ms Recommended!
+Windows Search | Recommended to remove, more info here -> [Search Removal Options](https://github.com/QuakedK/Oneclick/blob/main/Help/Search%20Removal%20Options.md)
 
-NDIS Tweaks | Not Recommended, Can Network issues but improve latency on the NDIS driver.
+Priority Separation | 42 Decimal/2A Hexadecimal Recommended, more info here -> [Priority Separation Options](https://github.com/QuakedK/Oneclick/blob/main/Help/Priority%20Separation%20Options.md)
 
-Device Manager Tweaks | Not Recommeded, can cause bluescreens & other issues!
+Timer Resolution Value | 0.504ms Recommended, more info here -> [Timer Resolution Options](https://github.com/QuakedK/Oneclick/blob/main/Help/Timer%20Resolution%20Options.md)
 
-Power Plan Section | Quaked Ultimate Performance Recommended!
-
-Defragging Drives | Not Recommended, can take to long for the average person.
+Power Plan Section | Quaked Ultimate Performance Recommended, more info here -> [Power Plan Options](https://github.com/QuakedK/Oneclick/blob/main/Help/Power%20Plan%20Options.md)
 
 Process Destroyer | Not Recommended, you need to meet the [requirements](https://github.com/QuakedK/Process-Destroyer/blob/main/Requirements.md).
-
-Network Tweaks | Not Recommended, very driver dependent can mess up internet.
 
 Wifi Fixer | Recommended for wifi users, or you'll have no wifi.
