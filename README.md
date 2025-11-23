@@ -31,7 +31,7 @@ Simply follow the quick and easy steps below ↓
 # Help
 [Discord Server](https://discord.gg/8NqDSMzYun) | A server for help from other users, mods and the creator.
 
-[Oneclick Fixes](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Fixes.md) | A simple list going over the most common fixes for things, like Wi-Fi, Epic Games Laucnher and more.
+[Oneclick Fixes](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Fixes.md) | A simple list going over the most common fixes for things, like Wi-Fi, Epic Games Launcher and more.
 
 [Oneclick Recommendations](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Recommendations.md) | A simple recommendation list.
 
