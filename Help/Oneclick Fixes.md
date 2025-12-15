@@ -3,7 +3,7 @@ Because Oneclick disables all services, the users programs, apps, etc are bound 
 On this Github page, will go over some simple and easy fixes!
 
 # Wi-Fi
-As explained in the [Unsupported List](https://github.com/QuakedK/Oneclick/edit/main/Unsupported%20Features.md#wifi), Wi-Fi is natively unsupported/disabled. However, it can be easily re-enabled by running the Wi-Fi Fixer located in the Extras or End Section of Oneclick.
+As explained in the [Unsupported List](https://github.com/QuakedK/Oneclick/blob/main/Unsupported%20Features.md#wifi), Wi-Fi is natively unsupported/disabled. However, it can be easily re-enabled by running the Wi-Fi Fixer located in the Extras or End Section of Oneclick.
 
 <img width="978" height="512" alt="image" src="https://github.com/user-attachments/assets/7e1c261f-de17-484c-8651-14a8db7cf702" />
 
