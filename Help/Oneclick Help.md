@@ -17,7 +17,7 @@ ___
 
 3. Wifi.
    
-Run the "Wifi Fixer" within the Extra's Section of Oneclick or Download the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Turn%20On%20Wifi.bat) and run it as admin!
+Run the "Wifi Fixer" within the Extra's Section of Oneclick or Download the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Wifi%20Fixer%20V3.0.bat) and run it as admin!
 
 It's also possible you may have disabled Wifi by doing the Wifi Device Manager Tweaks, Network Tweaks or by running Process Destoryer. Device Manager Tweaks include a Wifi Device disabler that disables wifi devices which need to be renabled in device manager. Network Tweaks may cause connection issues and brick your wifi driver therefore we recommend avoiding it or using a restore point to revert them. Process Destoryer disables wifi permanently, therefore you'll have to avoid Process Destoryer to use wifi.
 ___
