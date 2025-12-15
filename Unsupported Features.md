@@ -23,7 +23,6 @@ This problem is exclusive to V7.5 and isn't an issue if the user run V7.0.
 
 ___
 
-
 # (Minecraft)
 
 You cannot play the Windows store/Bedrock version of Minecraft due to the required services to login being disabled. The java version of Minecraft works using [Minecraft Legacy Launcher](https://aka.ms/minecraftClientWindows), [Lunar Client](https://www.lunarclient.com/download) or [Badlion Client](https://www.badlion.net/).
@@ -50,7 +49,8 @@ ___
 
 # (Wifi)
 
-Natively Oneclick disables Wifi, but it can simply be turned on by running the Wifi Fixer in the End/Extras section of Oneclick. You can also directly download the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Turn%20On%20Wifi.bat) here! Still having issues with wifi? Read [Oneclick Help's](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Help.md) number 3!
+Natively Oneclick disables Wifi, but it can simply be turned on by running the Wifi Fixer in the End/Extras section of Oneclick. You can also directly download the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Wifi%20Fixer%20V3.0.bat) here! Still having issues with wifi? Read [Oneclick Fixes](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Fixes.md#wi-fi)!
+
 ___
 
 # (VPN)
