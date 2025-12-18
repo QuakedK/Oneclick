@@ -17,7 +17,7 @@ Note: If you created a Restore Point you can just use that <3
 > Users who ran [Process Destroyer](https://github.com/QuakedK/Process-Destroyer), cannot simply use the Wi-Fi Fixer as Process Destroyer contains it's own unsupported list and disaabled features.
 > However Process Destroyer can be reverted, which would allow the Wi-Fi Fixer to work. --> [Process Destroyer Revert](https://discord.com/channels/1315000415409934346/1315000415900794922/1341719257674682399)
 
-# Epic Games Laucnher
+# Epic Games launcher
 Notability ever since the Epic Games Laucnher was updated or since Epic Online Services was introduced, the launcher tends to get stuck on updating.  (Included in Oneclick, -> Extara's -> Fixers) 
 
 **Manual Fix:** 
