@@ -7,8 +7,7 @@ Oneclick the all-in-one automatic debloat and optimization tool, designed to dis
 Downloads Technically inaccurate as I deleted and reuploaded V7.0 losing around 25-30K+. More info here [Oneclick Download Count](https://github.com/QuakedK/Oneclick/issues/16)
 
 # Important
-We recommend running Oneclick on a completely fresh and stock windows install, this way we can guarantee nothing in the system conflicts with or interrupts Oneclick during the tweaking process!
-However, it's important to check and read the [Supported Windows Versions List](https://github.com/QuakedK/Oneclick/blob/main/Help/Supported%20Windows%20Versions.md) as running Oneclick on an unsupported version of Windows can cause issues, bugs and unexpected behavior.
+We recommend running Oneclick on a completely stock and fresh windows install, this way we can guarantee nothing in the system conflicts with or interrupts Oneclick during the tweaking process! However all required apps, drivers, and games should be installed before running Oneclick, in order to prevent any issues of installation after running Oneclick. It's also very important to check and read the [Supported Windows Versions List](https://github.com/QuakedK/Oneclick/blob/main/Help/Supported%20Windows%20Versions.md) as running Oneclick on an unsupported version of Windows can cause issues, bugs and unexpected behavior.
 
 It's important to note because of the automatic nature, many of the debloat features and related tweaks aren't optional. This is why we strongly recommend every potential user read the [Unsupported Features List](https://github.com/QuakedK/Oneclick/blob/main/Unsupported%20Features.md) very thoroughly.
 
