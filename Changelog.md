@@ -489,3 +489,80 @@ Oneclick V7.0 = 202KB & 3789 lines of code.
  - Fixed DisableDynamicPstate's path.
 
 ---
+
+11/10/25 <3
+
+**Oneclick V7.5**
+
+Note: this list isn't fully correct or completed
+
+(Fixed)
+- Fixed the false flagging of Oneclick & Oneclick tools by adding them to the windows defender Exclusion list. 
+- Fixed/Visually revamped the restore Windows Defender code.
+- Fixed Storage Sense.
+- Fixed and Improved GameDVR.
+- Fixed/Renamed Unnecessary WiFi Settings to WiFi Sense.
+- Fixed the Teredo disabler.
+- Fixed SearchOrderConfig reg.
+- Fixed NDU service being set to 2 now 4 to disable.
+- Fixed the capitalized C in Oneclick title. 
+
+(Added)
+- Added/Reworked the Windows Detection, removing the 24H2 Block + added 23H2-24H2 Detection for UCPD.
+- Added a UCPD Detection system, warns and gives the user an explanation while allowing the user to disable UCPD & restart or skip.
+- Added UCPD code that automatically runs Oneclick after restart.
+- Visually revamped the restore Windows Defender code.
+- Added/Completely Revamped the System Restore point code, not only visually but the code will detect the System Drive add reg keys to fix RP, enable System Protection for that System Drive.
+- Added error handling to the System Restore point code, meaning if your System Protection or Restore Point FAILED it warns you.
+- Added -NoProfile to Powershell Commands to speed them up.
+- Added a warning screen for those who choose N to restore.
+- Added Bing Search disabler.
+- Added Start Menu Recommendations disabler.
+- Added Hope Page Settings disabler.
+- Added Serach Button disabler.
+- Added Task View Button disabler.
+- Added Widgets Button Disabler.
+- Added Taskbar Alignment.
+- Added Oneclick Wallpaper Changer.
+- Added Filter Keys & Toggle Keys to the StickyKeys Disabler.
+- Added "Optimizations for Windowed Games" Enabler.
+- Added Disable Driver Searching.
+- Added New OOshutup10 that disables copilot and other ai bloat.
+- Added VSS service enabler.
+- Added swprv service enabler. 
+- Added Update Disabler.
+- Added Task Destroyer.
+- Added/Completely Revamped the Defender Disabler/Dcontrol Download.
+- Added Kernel Tweaks.
+
+(Removed)
+- Removed Numlock On Start Up enabler.
+- Removed ShowTaskViewButton duplicate in Telemetry script.
+- Removed "Multimedia\SystemProfile\Tasks\Games" GPU Priority reg.
+- Removed "Multimedia\SystemProfile\Tasks\Games" Priority reg.
+- Removed "Multimedia\SystemProfile\Tasks\Games" Sheduling Category Priority reg.
+- Removed SetupCleanupTask duplicate in Telemetry script.
+- Removed SnapshotCleanupTask duplicate in Telemetry script.
+- Removed GoogleUpdateTaskMachineCore disable/delete since without the correct guid it doesn't work.
+- Removed GoogleUpdateTaskMachineUA disable/delete since without the correct guid it doesn't work.
+- Removed Opera GX scheduled Autoupdate disable/delete since without the correct guid it doesn't work.
+- Removed BraveSoftwareUpdateTaskMachineCore disable/delete since without the correct guid it doesn't work.
+- Removed BraveSoftwareUpdateTaskMachineUA disable/delete since without the correct guid it doesn't work.
+- Removed the duplicates of UpdateOrchestrator since they're already in Orca.
+- Removed RunUpdateNotificationMgr task from Orca and put it in the in Telemetry script.
+- Removed Edge, Onedrive + other bloat from Orca.
+- Removed Legacy Boot Menu.
+- Removed Task Manager Tweak.
+- Removed 3D Objects remover.
+- Removed "Remove Managed by your organization setting in Edge" code.
+- Removed ossrs Service.
+- Removed Browser Services section.
+- Removed NcbService from the intel section.
+- Removed upfc, as it's not a serivce but rather an Exe.
+- Removed Network Tweaks.
+- Removed Device Manager Tweaks.
+
+---
+
+
+
