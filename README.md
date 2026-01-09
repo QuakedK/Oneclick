@@ -16,7 +16,7 @@ We aren't responsible for those who fail to read the supported versions and unsu
 # Transparency
 It's important for us transparency address what Oneclick downloads and logs.
 
-Oneclick automatically creates and logs, the operation of itself in order to help an experienced user to see what ran, downloaded and executed successfully. It also provides a way for users to receive quick and easy assistance, by simplying sending the log file to a mod in our [Discord Server](https://discord.gg/8NqDSMzYun). Our logging system is user or locally sided, meaning your Oneclick Logs aren't sent or seen by the Oneclick Team unless you manual choose to go and send the log file yourself. The Oneclick Log file is located in the users C: Drive, or C:\Oneclick Logs\Oneclick Log.txt <3
+Oneclick automatically creates and logs, the operation of itself in order to help an experienced user to see what ran, downloaded and executed successfully. It also provides a way for users to receive quick and easy assistance, by simplifying sending the log file to a mod in our [Discord Server](https://discord.gg/8NqDSMzYun). Our logging system is user or locally sided, meaning your Oneclick Logs aren't sent or seen by the Oneclick Team unless you manually choose to go and send the log file yourself. The Oneclick Log file is located in the users C: Drive, or C:\Oneclick Logs\Oneclick Log.txt <3
 
 Oneclick automatically downloads a tools folder at the start, containing various tools, programs and utilities to assist Oneclick in it's usage. A complete breakdown of every downloaded item, along with explanations of their purpose, can be found in the [What's Downloaded List](https://github.com/QuakedK/Oneclick/blob/main/Downloads/V7.5/What%20gets%20downloaded.md) 
 
@@ -30,7 +30,7 @@ Simply follow the quick and easy steps below ↓
 # Help
 [Discord Server](https://discord.gg/8NqDSMzYun) | A server for help from other users, mods and the creator.
 
-[Oneclick Fixes](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Fixes.md) | A simple list going over the most common fixes for things, like Wi-Fi, Epic Games Laucnher and more.
+[Oneclick Fixes](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Fixes.md) | A simple list going over the most common fixes for things, like Wi-Fi, Epic Games Launcher and more.
 
 [Oneclick Recommendations](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Recommendations.md) | A simple recommendation list.
 
@@ -48,7 +48,7 @@ Simply follow the quick and easy steps below ↓
 
 [Windows Defender Options](https://github.com/QuakedK/Oneclick/blob/main/Help/Windows%20Defender%20Options.md) | Explains the different Windows Defender Options.
 
-[Oneclick Changelog](https://github.com/QuakedK/Oneclick/blob/main/Changelog.md) | Covers the changes of all Oneclick verisons.
+[Oneclick Changelog](https://github.com/QuakedK/Oneclick/blob/main/Changelog.md) | Covers the changes of all Oneclick versions.
 
 
 
