@@ -14,15 +14,6 @@ ___
 Example: Xbox Game Bar, Xbox DVR, Xbox App, Xbox Login, or any other Xbox related games.
 ___
 
-# BattleEye AntiCheat
-
-Example: Any game using BattleEye AntiCheat like R6, WarThunder, etc.
-
-This issue is likely related to either Update Disabler, Driver Disabler, or possibly the Xbox Bloat Remover and needs to be looked into.
-This problem is exclusive to V7.5 and isn't an issue if the user run V7.0.
-
-___
-
 # (Minecraft)
 
 You cannot play the Windows store/Bedrock version of Minecraft due to the required services to login being disabled. The java version of Minecraft works using [Minecraft Legacy Launcher](https://aka.ms/minecraftClientWindows), [Lunar Client](https://www.lunarclient.com/download) or [Badlion Client](https://www.badlion.net/).
