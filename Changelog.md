@@ -564,5 +564,11 @@ Note: this list isn't fully correct or completed
 
 ---
 
+1/11/26 <3
+
+**Oneclick V7.6**
+- Removed the deletion of CryptSvc. (Fixes Anti-Cheats Issues)
+
+---
 
 
