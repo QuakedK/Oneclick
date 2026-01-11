@@ -23,7 +23,7 @@ Oneclick automatically downloads a tools folder at the start, containing various
 # Usage
 Simply follow the quick and easy steps below ↓
 
-1. Download [Oneclick](https://github.com/QuakedK/Oneclick/releases/download/optimization/Oneclick-V7.5.bat).
+1. Download [Oneclick](https://github.com/QuakedK/Oneclick/releases/download/DebloatTool/Oneclick-V7.6.bat).
 2. Right-click & run it as admin, and almost everything else is automatic, except user-required inputs.
 3. Once you reach the Extra's section, simply click "Restart" to apply all tweaks!
 
