@@ -1,1 +1,1 @@
-set Latest Version=V8.0
+set Latest_Version=V8.0
