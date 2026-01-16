@@ -1,2 +1,2 @@
-# Oneclick's Lastest Version
-Lastest Version=8.0
+# Oneclick's Latest Version
+set Latest Version=V8.0
