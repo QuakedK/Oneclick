@@ -48,9 +48,7 @@ ___
 
 Oneclick disables services that mess with VPN connection, Vpn's/Apps like Exitlag and Cloudflare Warp are affected.
 
-Cloudflare Warp can easily be fixed by enabling WLAN AutoConfig and Windows Connection Manager.
-
-Open CMD and paste sc config "WlanSvc" start=auto &&  sc config "Wcmsvc" start=auto then restart.
+VPN connection might get restored by running the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Wifi%20Fixer%20V3.0.bat).
 ___
 
 # (Snipping Tool)
@@ -112,6 +110,9 @@ ___
 ___
 
 # (Taskbar Widgets)
+___
+
+# (LockApp)
 ___
 
 # (Process Destroyer)
