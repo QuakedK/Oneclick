@@ -40,17 +40,24 @@ sc config "Rockstar Service" start=auto
 ```
 &nbsp;2. Restart your pc!
 
-# Cloudflare Warp
-(Included in Oneclick, -> Extara's -> Fixers) 
+# Cloudflare Warp (VPN's)
+(Included in Oneclick, -> Extara's -> Fixers) ---- [Outdated, as it didn't include wifi drivers these vpns may need.]
 
 **Manual Fix:**
 
 &nbsp;1. Simple open CMD as admin and paste the following ↓
 ```
 sc config "WlanSvc" start=auto 
-sc config "Wcmsvc" start=auto 
+sc config "Wcmsvc" start=auto
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\vwifibus" /v "Start" /t REG_DWORD /d "3" /f
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\vwififlt" /v "Start" /t REG_DWORD /d "3" /f
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\vwifimp" /v "Start" /t REG_DWORD /d "3" /f
 ```
 &nbsp;2. Restart your pc!
+
+**Fix 2:**
+
+VPN connection might get restored by running the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Wifi%20Fixer%20V3.0.bat).
 
 # Monitor Switching Back to 60hz
 Seems to be related to 24H2 and onwards.
