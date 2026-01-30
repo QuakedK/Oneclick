@@ -26,6 +26,14 @@ The Rockstar Games Launcher breaks, but can be easily fixed by re-enabling the s
 Open CMD and paste sc config "Rockstar Service" start=demand then restart.
 
 If that doesn't work and you're on enternet please run the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Turn%20On%20Wifi.bat) as admin!
+
+___
+
+# (Opera/Opera GX)
+
+The Opera appears to break, my assumption would be a tied driver or service being disabled causes the issue. 
+Whatever Opera relys on might be dumb, as almost any other browser works fine!
+
 ___
 
 # (Razer Apps) 
@@ -60,6 +68,7 @@ ___
 
 The ability to copy and paste remains, but accessing the Clipboard doesn't. Please use [Clipclip](https://app.prntscr.com/en/download.html) or [Ditto](https://ditto-cp.sourceforge.io/) to access your Clipboard.
 ___
+
 
 # (Power Saving & Hibernation Settings)
 
