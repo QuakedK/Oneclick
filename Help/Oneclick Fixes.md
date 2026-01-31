@@ -244,6 +244,18 @@ curl -s -L "%fileURL%" -o "%downloadsFolder%\%fileName%"
 ```
 2. Open file explorer and navigate to your "Downloads Folder" and "chrome_installer.exe" should be there!
 
+# HVCI Anti-Cheat/Game Error
+
+Oneclick disables Core Isolation / Memory Integrity, casuing Hypervisor-protected Code Integrity errors. However it can be easily re-enabled by following the steps below <3
+
+**Manual Fix:**
+1. Open "Cmd" as admin and type the following.
+```
+reg add "HKLM\System\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v "Enabled" /t REG_DWORD /d "1" /f
+```
+2. Restart you're pc!
+
+
 
 
 
