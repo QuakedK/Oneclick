@@ -25,7 +25,7 @@ The Rockstar Games Launcher breaks, but can be easily fixed by re-enabling the s
 
 Open CMD and paste sc config "Rockstar Service" start=demand then restart.
 
-If that doesn't work and you're on enternet please run the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Turn%20On%20Wifi.bat) as admin!
+If that doesn't work and you're on enternet please run the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Wifi%20Fixer%20V3.0.bat) as admin!
 
 ___
 
@@ -83,6 +83,7 @@ ___
 # (Windows Updates)
 
 Unlike what the majority of people think, Windows Updates are not actually needed.
+But can easily be reverted at [Update Disabler Revert](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert.md#4-update-disabler)
 ___
 
 # (Spotify)
@@ -92,6 +93,8 @@ I'd recommend using the Website version of spotify not the Microsoft store versi
 ___
 
 # (Task Scheduler)
+
+Can easily be reverted at [Task Destroyer Revert](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert.md#5-task-destroyer--task-scheduler).
 ___
 
 # (Storage Sense/Storage options in settings)
