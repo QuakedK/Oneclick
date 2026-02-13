@@ -289,3 +289,64 @@ reg add "HKLM\System\CurrentControlSet\Services\UdkUserSvc" /v "Start" /t REG_DW
 > If Process Destroyer Extreme was done, TrustInstaller must be restored differently!
 > 1. Go to file explorer and find ```"C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg"```. and open it up.
 > 2. Then restart and follow step 2 above.
+
+# 15. Nvidia Tweaks
+1. Open CMD as admin and paste the following.
+```
+sc config TrustedInstaller start=demand
+```
+2. Go to file explorer and find ```C:\Oneclick Backup\GPU``` and confirm there's a ```Nvidia.reg``` file.
+3. If it, open ```C:\Oneclick Logs\Oneclick Log.txt``` and copy the Nvidia GPU Reg Path.
+4. Then type CMD in the Address Bar, then click run and paste the following commands.
+```bat
+:: Delete Tweaked Reg Command
+reg delete "Your Nvidia GPU Reg Path" /f
+
+:: Exmple of a Nvidia GPU Reg Path
+reg delete "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000" /f
+```
+5. Now paste the following.
+ ```
+reg delete "HKCR\DesktopBackground\Shell\NvidiaContainer" /f
+```
+6. Drag and run ```Nvidia.reg``` into [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe).
+7. Restart you're PC!
+
+# 16. Nvidia Shadowplay/Clipping
+**Revert Method 1** (If Nvidia GPU Tweaks were done)
+1. Open right-click the destop and hover over ```NvidiaContainer```.
+2. Click ```Nvidia Container ON```.
+
+**Revert Method 2** (If  Nvidia GPU Tweaks weren't done)
+1. Open CMD as admin and paste the following.
+```
+sc config NVDisplay.ContainerLocalSystem start=auto >nul 2>&1
+sc start NVDisplay.ContainerLocalSystem >nul 2>&1
+sc config NvContainerLocalSystem start=auto >nul 2>&1
+sc start NvContainerLocalSystem >nul 2>&1
+```
+
+# 17. AMD GPU Tweaks
+1. Open CMD as admin and paste the following.
+```
+sc config TrustedInstaller start=demand
+```
+2. Go to file explorer and find ```C:\Oneclick Backup\GPU``` and confirm there's a ```AMD.reg``` file.
+3. If it, open ```C:\Oneclick Logs\Oneclick Log.txt``` and copy the AMD GPU Reg Path.
+4. Then type CMD in the Address Bar, then click run and paste the following commands.
+```bat
+:: Delete Tweaked Reg Command
+reg delete "Your AMD GPU Reg Path" /f
+
+:: Exmple of a AMD GPU Reg Path
+reg delete "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000" /f
+```
+5. Drag and run ```AMD.reg``` into [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe).
+6. Restart you're PC!
+
+# 18. AMD GPU Tweaks
+
+
+
+
+
