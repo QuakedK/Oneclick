@@ -297,7 +297,8 @@ sc config TrustedInstaller start=demand
 ```
 2. Go to file explorer and find ```C:\Oneclick Backup\GPU``` and confirm there's a ```Nvidia.reg``` file.
 3. If it, open ```C:\Oneclick Logs\Oneclick Log.txt``` and copy the Nvidia GPU Reg Path.
-4. Then type CMD in the Address Bar, then click run and paste the following commands.
+4. Now open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
+5. Then type CMD in the Address Bar, then click run and paste the following commands.
 ```bat
 :: Delete Tweaked Reg Command
 reg delete "Your Nvidia GPU Reg Path" /f
@@ -305,12 +306,17 @@ reg delete "Your Nvidia GPU Reg Path" /f
 :: Exmple of a Nvidia GPU Reg Path
 reg delete "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000" /f
 ```
-5. Now paste the following.
+6. Now paste the following.
  ```
 reg delete "HKCR\DesktopBackground\Shell\NvidiaContainer" /f
 ```
-6. Drag and run ```Nvidia.reg``` into [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe).
-7. Restart you're PC!
+7. Drag and run ```Nvidia.reg``` into [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe).
+8. Restart you're PC!
+
+> [!NOTE]
+> If Process Destroyer Extreme was done, TrustInstaller must be restored differently!
+> 1. Go to file explorer and find ```"C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg"```. and open it up.
+> 2. Then restart and follow step 2 above.
 
 # 16. Nvidia Shadowplay/Clipping
 **Revert Method 1** (If Nvidia GPU Tweaks were done)
@@ -333,7 +339,8 @@ sc config TrustedInstaller start=demand
 ```
 2. Go to file explorer and find ```C:\Oneclick Backup\GPU``` and confirm there's a ```AMD.reg``` file.
 3. If it, open ```C:\Oneclick Logs\Oneclick Log.txt``` and copy the AMD GPU Reg Path.
-4. Then type CMD in the Address Bar, then click run and paste the following commands.
+4. Now open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
+5. Then type CMD in the Address Bar, then click run and paste the following commands.
 ```bat
 :: Delete Tweaked Reg Command
 reg delete "Your AMD GPU Reg Path" /f
@@ -341,8 +348,13 @@ reg delete "Your AMD GPU Reg Path" /f
 :: Exmple of a AMD GPU Reg Path
 reg delete "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000" /f
 ```
-5. Drag and run ```AMD.reg``` into [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe).
-6. Restart you're PC!
+6. Drag and run ```AMD.reg``` into [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe).
+7. Restart you're PC!
+
+> [!NOTE]
+> If Process Destroyer Extreme was done, TrustInstaller must be restored differently!
+> 1. Go to file explorer and find ```"C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg"```. and open it up.
+> 2. Then restart and follow step 2 above.
 
 # 18. BCDEdit
 1. Open CMD as admin and paste the following.
@@ -416,6 +428,83 @@ reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /v "TimerResolution
 4. Click "Change Plan Settings" on the Quaked on and click "Delete this plan."
 
 # 25. Device Manager
+1. Revert [Services](https://github.com/QuakedK/Oneclick/edit/main/Help/Oneclick%20Revert%202.md#7-services) first!
+2. Download [Enable Device Manager Devices.bat](https://github.com/QuakedK/Oneclick/blob/main/Downloads/Revert/Enable%20Device%20Manager%20Devices.bat).
+3. Run it as admin!
+
+# 26. Process Destroyer
+**Method 1:**
+1. Open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
+2. Then type CMD in the Address Bar, then click run and paste the following commands.
+```
+:: Revert Ctfmon, BackgroundTaskHost, and TextInputHost.
+REN "C:\Windows\System32\ctfmon.exee" "ctfmon.exe" 
+REN "C:\Windows\System32\backgroundTaskHost.exee" "backgroundTaskHost.exe" 
+REN "C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exee" "TextInputHost.exe" 
 
 
+:: Revert Services.
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\mpssvc" /v "Start" /t REG_DWORD /d "2" /f
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\WpnUserService" /v "Start" /t REG_DWORD /d "2" /f
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\SystemEventsBroker" /v "Start" /t REG_DWORD /d "2" /f
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\EventSystem" /v "Start" /t REG_DWORD /d "2" /f
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\wscsvc" /v "Start" /t REG_DWORD /d "2" /f
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\NgcCtnrSvc" /v "Start" /t REG_DWORD /d "3" /f
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\Schedule" /v "Start" /t REG_DWORD /d "2" /f
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\NgcSvc" /v "Start" /t REG_DWORD /d "3" /f
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\sppsvc" /v "Start" /t REG_DWORD /d "2" /f
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\WdNisSvc" /v "Start" /t REG_DWORD /d "3" /f
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\gpsvc" /v "Start" /t REG_DWORD /d "2" /f
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\PlugPlay" /v "Start" /t REG_DWORD /d "3" /f
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\msiserver" /v "Start" /t REG_DWORD /d "3" /f
+```
+3. Restart you're PC!
+**Method 2:**
+1. Open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
+2. Then type CMD in the Address Bar, then click run and paste the following commands.
+```
+:: Import Registry Backup.
+reg import "C:\Oneclick Tools\Process Destroyer\Revert\Services_Backup.reg"
+
+:: Revert Ctfmon, BackgroundTaskHost, and TextInputHost.
+REN "C:\Windows\System32\ctfmon.exee" "ctfmon.exe" 
+REN "C:\Windows\System32\backgroundTaskHost.exee" "backgroundTaskHost.exe" 
+REN "C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exee" "TextInputHost.exe" 
+```
+3. Restart you're PC!
+
+# 27. Process Destroyer Extreme
+1. Go to file explorer and find ```"C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg"```. and open it up.
+2. Then restart.
+3. Now Open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
+4. Then type CMD in the Address Bar, then click run and paste the following commands.
+```
+:: Revert Ctfmon, BackgroundTaskHost, and TextInputHost.
+REN "C:\Windows\System32\ctfmon.exee" "ctfmon.exe" 
+REN "C:\Windows\System32\backgroundTaskHost.exee" "backgroundTaskHost.exe" 
+REN "C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exee" "TextInputHost.exe" 
+
+:: Import Registry Backup.
+reg import "C:\Oneclick Tools\Process Destroyer\Revert\Services_Backup.reg"
+```
+3. Restart you're PC!
+
+# 28. Network Tweaks
+**Note: There may be more NetworkBackup.reg files**
+1. Open CMD as admin and paste the following.
+```
+sc config TrustedInstaller start=demand
+```
+2. Go to file explorer and find ```C:\Oneclick Backup\Network``` and confirm there's a ```NetworkBackup1.reg``` file or possibly more.
+3. Now open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
+4. Then type CMD in the Address Bar, then click run and paste the following commands.
+```bat
+reg import "C:\Oneclick Backup\Network\NetworkBackup1.reg"
+```
+5. Restart you're PC!
+
+# 29. Optional Features (If selected in Additional Features)
+1. Revert [Services](https://github.com/QuakedK/Oneclick/edit/main/Help/Oneclick%20Revert%202.md#7-services) first!
+2. Download [Enable Device Manager Devices.bat](https://github.com/QuakedK/Oneclick/blob/main/Downloads/Revert/Enable%20Device%20Manager%20Devices.bat).
+3. Run it as admin!
 
