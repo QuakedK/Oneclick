@@ -732,8 +732,24 @@ Note: this list isn't fully correct or completed
 
 ---
 
+**Oneclick V8.1**
 
+2/13/26 <3
 
+**Added**
+- Added secret. 
+- Added Device Manager Tweaks Warning.
+
+**Changed**
+- Changed the tool folder logic, and now it downloads the newest tools folder regardless of if it already existed!
+- Changed Device Manager Tweaks to be optional instead of automatic.
+
+**Fixed**
+- Fixed Network Tweaks.
+- Fixed Supported Windows Version comment (21H2-25H2 now 21H2-26H1)
+- Fixed other small things.
+
+---
 
 
 
