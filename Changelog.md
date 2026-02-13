@@ -571,4 +571,172 @@ Note: this list isn't fully correct or completed
 
 ---
 
+**Oneclick V8.0**
+
+2/13/26 <3
+
+*Added*
+- Added ANSI Colors, replacing the slow and slugish Powershell Color Commmands.
+- Added a Oneclick Version Detection System.
+- Added a Oneclick Rainbow Looping Start Screen.
+- Added :Create_Restore_Point Label, jumping to said label if System Protection successfully enabled instead of doing it normally without a label.
+- Added Registry Backup for HKLM.
+- Added Registry Backup for HKCU.
+- Added Registry Backup for HKCR.
+- Added Registry Backup for HKU.
+- Added Registry Backup for HKCC.
+- Added Registry Backup ascii art menu. 
+- Added Log Error Handling for Update Disabler, to see if it ran.
+- Added Log Error Handling for Task Destroyer, to see if it ran.
+- Added Log Error Handling for OOshutup10, to see if it ran or not.
+- Added a browser downloader to Oneclick tools folder.
+- Added Oneclick Backup folder creation, that detections if a backup folder already exists to avoid overwriting existing backups. 
+- Added Autologger Destroyer V1.0.
+- Added a seprate Autologger Destroyer log file to log all disabled Autologger, without cluttering the oneclick log.
+- Added back a Logitech Service to disable, aka logi_lamparray_service.
+- Added back HP services to disable. (basic hp services)
+- Added Brand new and improved Nvidia Tweaks. (Full Credit to p467121/Nova OS)
+- Added NovaOS.nip. (Full Credit to p467121/Nova OS)
+- Added NVDisplay.ContainerLocalSystem service to be disabled. (Breaks Nvidia Control Panel but can be easily re-enabled)
+- Added Brand new and improved Amd Tweaks. (Full Credit to p467121/Nova OS)
+- Added Nvidia Container Toggle on context menu. (Full Credit to p467121/Nova OS)
+- Added New Oneclick Branding to Winver!
+- Added NvContainerLocalSystem service to be disabled. (Breaks Nvidia App, Clipping and Overlays but can be easily re-enabled)
+- Added RzActionSvc service to be disabled.
+- Added CortexLauncherService service to be disabled.
+- Added HapticService service to be disabled.
+- Added Razor Service Detection, detects anything with "Razor" in it's name. (Eg, Razer Elevation Service and Razer Game Manager)
+- Added LGHUBUpdaterService service to be disabled.
+- Added HP Service Detection, detects anything with "HP" in it's name. (Eg, HPAppHelperCap, HPOmenCap, etc)
+- Added Intel Service Detection, detects anything with "Intel" in it's name. (Eg, Intel(R) TPM Provisioning Service, IntelAudioService, etc)
+- Added AMD Service Detection, detects anything with "AMD" in it's name. (Eg, AMD Crash Defender Service, AMD External Events Utility, etc)
+- Added Logging to the Smartscreen deletion.
+- Added Dynamic output messages to the Smartscreen deletion.
+- Added a loop to the Smartscreen deletion. (Doesn't do one file at a time anymore)
+- Added Logging to the Lockapp deletion.
+- Added Dynamic output messages to the Lockapp deletion. 
+- Added Logging to the Xbox Bloat deletion.
+- Added Dynamic output messages to the Xbox Bloat deletion. 
+- Added a seprate Xbox Bloat deletion log file to log all deleted xbox files, without cluttering the oneclick log.
+- Added Optional Features disabler, to oneclick finally and only because of the method to call powershell commmands all in one session.
+- Added Optional Features disabler to oneclick tools. (It gets lauched in the background)
+- Added Logging to the Search deletion.
+- Added Dynamic output messages to the Search deletion. 
+- Added a loop to the Search deletion. (Doesn't do one file at a time anymore)
+- Added Wecsvc service to be disabled.
+- Added McmSvc service to be disabled.
+- Added midisrv service to be disabled.
+- Added SecurityHealthService to be disabled. (If the user disables Defender)
+- Added logging to the disable Startup Apps code.
+- Added mobsync.exe remover.
+- Added CrossDeviceResume.exe remover.
+- Added appinfo service to be disabled.
+- Added "SystemResponsiveness" reg key so we can set it to 10. (the lowest value)
+- Added Coloring to Priority Separation Options.
+- Added Coloring to Timer Resolution  Options.
+- Added Coloring to Power Plan Options.
+- Added back Device Manager Tweaks.
+- Added AMD Controller Emulation to Device Manager Tweaks.
+- Added AMD Crash Defender to Device Manager Tweaks.
+- Added ACPI Processor Aggregator to Device Manager Tweaks.
+- Added ACPI Wake Alarm to Device Manager Tweaks.
+- Added ACPI Thermal Zone to Device Manager Tweaks.
+- Added Microsoft Windows Management Interface for ACPI to Device Manager Tweaks.
+- Added Intel(R) Platform Monitoring Technology Device to Device Manager Tweaks.
+- Added AMD PSP to Device Manager Tweaks.
+- Added Microsoft Kernel Debug Network Adapter to Device Manager Tweaks.
+- Added Programmable interrupt controller to Device Manager Tweaks.
+- Added High Precision Event Timer to Device Manager Tweaks.
+- Added System Timer to Device Manager Tweaks.
+- Added Remote Desktop Device Redirector Bus to Device Manager Tweaks.
+- Added Microsoft Radio Device Enumeration Bus to Device Manager Tweaks.
+- Added Numeric Data Processor to Device Manager Tweaks.
+- Added Resource Hub proxy device to Device Manager Tweaks.
+- Added Intel(R) Management Engine WMI Provider to Device Manager Tweaks.
+- Added Intel(R) Dynamic Application Loader Host Interface to Device Manager Tweaks.
+- Added Intel Management Engine to Device Manager Tweaks.
+- Added Direct memory access controller to Device Manager Tweaks.
+- Added High Precision Event Timer to Device Manager Tweaks.
+- Added Device Power Management Disabler.
+- Added Spotify Cache Deleter.
+- Added Windows Defender Smart App Control Disabler.
+- Added Nvidia GPU Reg Backup.
+- Added AMD GPU Reg Backup.
+- Added Graphics Preferences Reg Backup.
+- Added Priority Reg Backup.
+- Added FSO Reg Backup.
+- Added BluetoothUserService service to be disabled.
+- Added TimeBrokerSvc service to be disabled. (Breaks Task Scheduler, but so does Task Destroyer)
+- Added hidserv service to be disabled.
+- Added a 2 second timeout in the Wifi Fixer to ensure people read "Requires a Restart."
+- Added Network Tweaks back. (Full Credit to p467121/Nova OS)
+- Added 26H1 Support.
+- Added Nvidia Control Panel Download.
+- Added EnablePerCpuClockTickScheduling Reg key.
+- Added Quaked Tweaks Branding Service.
+
+*Removed*
+- Removed Oneclick Exclusion List Code, since adding an already running app is pointless.
+- Removed Oneclick Tools Exclusion Code, since it Dcontrol is download seprately.
+- Removed Disabling Clear Pageing File At Shutdown, as it's off by default on Modern Windows builds.
+- Removed Oneclick Tools Backup folder. (A new "C:\Oneclick Backup" folder is created.)
+- Removed Diagtrack Autologger disabler snippet.
+- Removed Widget deleter, since it can be deleted with simple appx commands.
+- Removed GraphicsPerfSvc.dll from being deleted in the Xbox bloat script.
+- Removed Intel Gpu Tweaks.
+- Removed Windows Processes Priority.
+- Removed the Windows Drive detection in Restore points. (By Default doing %SystemDrive% shows it)
+- Removed MouseHoverTime reg change. (It's "400" by default)
+- Removed IRPStackSize reg change.
+- Removed NetworkThrottlingIndex reg change. (It goes by percentage and 10%/the default is the lowest)
+- Removed KeyboardDelay reg change.
+- Removed AutoEndTasks reg change. (Cost me at times lmao)
+- Removed Powershell UserPreferencesMask reg change. (Replaced with batch version, to avoid PS)
+- Removed Powershell "Classic Right Click Menu" reg change. (Replaced with batch version, to avoid PS)
+- Removed Tcpip6 reg duplicate.
+- Removed all ActiveWebProbe reg changes. (Pointless as long as EnableActiveProbing & NoActiveProbe are changed)
+- Removed Delete 2 appdata Temp duplicates.
+- Removed MicrosoftEdgeElevationService disabler. (Already get removed elsewhere)
+- Removed "C:\Oneclick Tools\Nvidia Profile Inspector" delete.
+- Removed "C:\Oneclick Tools\Process Destroyer" delete.
+- Removed "C:\Oneclick Tools\Oneclick Wallpaper" delete.
+- Removed "C:\Oneclick Tools\NSudo" delete.
+- Removed 60 Hz Reset Fixer as by default the fix is appiled.
+- Removed Cloudflare Warp Fixer as the Wifi Fixer does the samething.
+
+*Fixed*
+- Fixed HKEY_LOCAL_MACHINE command of RPSessionInterval to HKLM.
+- Fixed HKEY_LOCAL_MACHINE command of DisableConfig to HKLM.
+- Fixed the captialized C in the Oneclick, in the Restore Point name.
+- Fixed "System detected an overrun of a stack-based buffer in this application" when opening Restore Points.
+- Fixed "Monitor Switching Back to 60hz" by setting DispBrokerDesktopSvc to auto.
+- Fixed Oneclick Tools, explanation txt's.
+- Fixed Restore Point Options Log, by adding an "a" to  Not creating Restore Point.
+- Fixed no color C in No Restore Point Selected, continue part.
+- Fixed no color C in System Protection/Restore Point Failure, continue part.
+- Fixed the disable of igfxCUIService2.0.0.0, to now detect and disable it regardless of the version name.
+- Fixed the Microsoft Apps Code, making it infinitely faster by using Kons suggestion of doing it all in one session.
+- Fixed Openshell download fail log saying "Downloaded successfully."
+- Fixed Continue anyway of Openshell download color from Dark Yellow to Red.
+- Fixed SwapEffectUpgradeEnable=1 not having ; at the end. (still worked normally tho)
+- Fixed the name of "Disabling Bing Search" echo to "WEB Search"
+- Fixed\Updated the Deleting Edge Services code.
+- Fixed\Changed the Nsudo Comments and language.
+- Fixed\Updated OpenShellTheme link.
+- Fixed\Open shell installation echos.
+- Fixed Oneclick Wallpaper back screen.
+
+*Reordered**
+- Reordered Visual C++ Redistributable Check, to happen after Windows Version is checked.
+- Reordered, Disabling Windows Defender Automatic Sample Submission to happen if the user decides to keep Defender.
+
+---
+
+
+
+
+
+
+
+
 
