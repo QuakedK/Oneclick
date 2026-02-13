@@ -176,4 +176,103 @@ move /Y "C:\Oneclick Backup\LockApp\LockApp.exe" "C:\Windows\SystemApps\Microsof
 > 1. Go to file explorer and find ```"C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg"```. and open it up.
 > 2. Then restart and follow step 2 above.
 
-# 10. SmartScreen
+# 10. Smartscreen
+1. Open CMD as admin and paste the following.
+```
+sc config TrustedInstalller start=demand
+```
+2. Go to file explorer and find ```C:\Oneclick Backup\Smartscreen``` and confirm there's ```CHXSmartScreen.exe, smartscreen.exe``` files.
+3. Now open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
+4. Then type CMD in the Address Bar, then click run and paste the following commands.
+```bat
+move /Y "C:\Oneclick Backup\Smartscreen\CHXSmartScreen.exe" "C:\Windows\SystemApps\Microsoft.Windows.AppRep.ChxApp_cw5n1h2txyewy"
+move /Y "C:\Oneclick Backup\Smartscreen\smartscreen.exe" "C:\Windows\System32"
+```
+5. Restart you're PC!
+
+> [!NOTE]
+> If Process Destroyer Extreme was done, TrustInstaller must be restored differently!
+> 1. Go to file explorer and find ```"C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg"```. and open it up.
+> 2. Then restart and follow step 2 above.
+
+# 11. Sync Programs
+1. Open CMD as admin and paste the following.
+```
+sc config TrustedInstalller start=demand
+```
+2. Go to file explorer and find ```C:\Oneclick Backup\Sync Programs``` and confirm there's ```CrossDeviceResume.exe, mobsync.exe``` files.
+3. Now open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
+4. Then type CMD in the Address Bar, then click run and paste the following commands.
+```bat
+move /Y "C:\Oneclick Backup\Sync Programs\CrossDeviceResume.exe" "C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy"
+move /Y "C:\Oneclick Backup\Sync Programs\mobsync.exe" "C:\Windows\System32"
+```
+5. Restart you're PC!
+
+> [!NOTE]
+> If Process Destroyer Extreme was done, TrustInstaller must be restored differently!
+> 1. Go to file explorer and find ```"C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg"```. and open it up.
+> 2. Then restart and follow step 2 above.
+
+# 12. Xbox Bloat
+1. Open CMD as admin and paste the following.
+```
+sc config TrustedInstalller start=demand
+```
+2. Go to file explorer and find ```C:\Oneclick Backup\Xbox Bloat``` and confirm there's ```22 files```.
+3. Now open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
+4. Then type CMD in the Address Bar, then click run and paste the following commands.
+```bat
+move /Y "C:\Oneclick Backup\Xbox Bloat\GameBarPresenceWriter.exe" "C:\Windows\System32"
+move /Y "C:\Oneclick Backup\Xbox Bloat\GameBarPresenceWriter.proxy.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Backup\Xbox Bloat\GameChatOverlayExt.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Backup\Xbox Bloat\GameChatTranscription.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Backup\Xbox Bloat\GamePanel.exe" "C:\Windows\System32"
+move /Y "C:\Oneclick Backup\Xbox Bloat\GamePanelExternalHook.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Backup\Xbox Bloat\gamestreamingext.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Backup\Xbox Bloat\GameSystemToastIcon.contrast-white.png" "C:\Windows\System32"
+move /Y "C:\Oneclick Backup\Xbox Bloat\GameSystemToastIcon.png" "C:\Windows\System32"
+move /Y "C:\Oneclick Backup\Xbox Bloat\gameux.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Backup\Xbox Bloat\gamingtcui.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Backup\Xbox Bloat\XblAuthManager.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Backup\Xbox Bloat\XblAuthManagerProxy.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Backup\Xbox Bloat\XblAuthTokenBrokerExt.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Backup\Xbox Bloat\XblGameSave.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Backup\Xbox Bloat\XblGameSaveExt.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Backup\Xbox Bloat\XblGameSaveProxy.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Backup\Xbox Bloat\XblGameSaveTask.exe" "C:\Windows\System32"
+move /Y "C:\Oneclick Backup\Xbox Bloat\XboxNetApiSvc.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Backup\Xbox Bloat\Windows.Gaming.Preview.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Backup\Xbox Bloat\Windows.Gaming.UI.GameBar.dll" "C:\Windows\System32"
+move /Y "C:\Oneclick Backup\Xbox Bloat\Windows.Gaming.XboxLive.Storage.dll" "C:\Windows\System32"
+```
+5. Restart you're PC!
+
+> [!NOTE]
+> If Process Destroyer Extreme was done, TrustInstaller must be restored differently!
+> 1. Go to file explorer and find ```"C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg"```. and open it up.
+> 2. Then restart and follow step 2 above.
+
+# 13. Search
+1. Open CMD as admin and paste the following.
+```
+sc config TrustedInstalller start=demand
+```
+2. Go to file explorer and find ```C:\Oneclick Backup\Search``` and confirm there's ```SearchHost.exe, StartMenuExperienceHost.exe, ShellExperienceHost.exe, taskhostw.exe``` files.
+3. Now open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
+4. Then type CMD in the Address Bar, then click run and paste the following commands.
+```bat
+move /Y "C:\Oneclick Backup\Search\SearchHost.exe" "C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy"
+move /Y "C:\Oneclick Backup\Search\StartMenuExperienceHost.exe" "C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy"
+move /Y "C:\Oneclick Backup\Search\ShellExperienceHost.exe" "C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy"
+move /Y "C:\Oneclick Backup\Search\taskhostw.exe" "C:\Windows\System32"
+reg add "HKLM\System\CurrentControlSet\Services\UdkUserSvc" /v "Start" /t REG_DWORD /d "3" /f
+```
+3. Install [Microsoft Edge](https://www.microsoft.com/en-us/edge/download?form=MA13FJ) in order to get web2 back which is **required** to use search on 24H2+.
+4. Unintall Openshell.
+5. Restart you're PC!
+
+> [!NOTE]
+> If Process Destroyer Extreme was done, TrustInstaller must be restored differently!
+> 1. Go to file explorer and find ```"C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg"```. and open it up.
+> 2. Then restart and follow step 2 above.
