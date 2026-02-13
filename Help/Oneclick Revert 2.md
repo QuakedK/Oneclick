@@ -344,9 +344,78 @@ reg delete "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-
 5. Drag and run ```AMD.reg``` into [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe).
 6. Restart you're PC!
 
-# 18. AMD GPU Tweaks
+# 18. BCDEdit
+1. Open CMD as admin and paste the following.
+```
+bcdedit /deletevalue useplatformclock 
 
+bcdedit /deletevalue useplatformtick 
 
+bcdedit /deletevalue disabledynamictick
+```
+2. Restart you're PC!
+
+# 19. Powersettings
+1. Open CMD as admin and paste the following.
+```
+reg add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "EventProcessorEnabled" /t REG_DWORD /d "1" /f 
+reg add "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "HibernateEnabledDefault" /t REG_DWORD /d "1" /f
+reg delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows" /v "TimerCoalescing" /f
+
+reg delete "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "PlatformAoAcOverride" /f
+reg delete "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "PlatformRoleOverride" /f
+reg delete "HKLM\SYSTEM\CurrentControlSet\Control\Power" /v "MSDisabled" /f
+```
+2. Restart you're PC!
+
+# 20. Kernal Tweaks
+1. Open CMD as admin and paste the following.
+```
+reg delete "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Kernel" /v "DynamicHeteroCpuPolicyMask" /f
+reg delete "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Kernel" /v "DefaultDynamicHeteroCpuPolicy" /f
+reg delete "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Kernel" /v "DynamicHeteroCpuPolicyImportant" /f
+reg delete "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Kernel" /v "DynamicHeteroCpuPolicyImportantShort" /f
+reg delete "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Kernel" /v "DynamicHeteroCpuPolicyImportantPriority" /f
+
+reg delete "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Kernel" /v "SerializeTimerExpiration" /f
+reg delete "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\kernel" /v "TimerCheckFlags" /f
+reg delete "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\kernel" /v "GlobalTimerResolutionRequests" /f
+```
+2. Restart you're PC!
+
+# 21. Priority Separation
+1. Open CMD as admin and paste the following.
+```
+reg add "HKLM\SYSTEM\CurrentControlSet\Control\PriorityControl" /v "Win32PrioritySeparation" /t REG_DWORD /d "2" /f 
+```
+2. Restart you're PC!
+
+# 22. DPC Checker
+1. Open CMD as admin and paste the following.
+```
+taskkill /IM dpclat.exe /F
+rd /s /q "C:\Oneclick Tools\DPC Checker"
+reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /v "DPC Checker" /f
+
+```
+2. Restart you're PC!
+
+# 23. Timer Resolution
+1. Open CMD as admin and paste the following.
+```
+taskkill /IM SetTimerResolution.exe /F
+rd /s /q "C:\Oneclick Tools\Timer Resolution"
+reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /v "TimerResolution" /f
+```
+2. Restart you're PC!
+
+# 24. Power Plan
+1. Search "Edit Power Plan" and select it.
+2. Click "Power Options" at the top.
+3. Select a different Power Plan.
+4. Click "Change Plan Settings" on the Quaked on and click "Delete this plan."
+
+# 25. Device Manager
 
 
 
