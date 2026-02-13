@@ -12,7 +12,7 @@ Windows Search | Recommended to remove, more info here -> [Search Removal Option
 
 Priority Separation | 42 Decimal/2A Hexadecimal Recommended, more info here -> [Priority Separation Options](https://github.com/QuakedK/Oneclick/blob/main/Help/Priority%20Separation%20Options.md)
 
-Timer Resolution Value | 0.504ms Recommended, more info here -> [Timer Resolution Options](https://github.com/QuakedK/Oneclick/blob/main/Help/Timer%20Resolution%20Options.md)
+Timer Resolution Value | Skipping it is Recommended, more info here -> [Timer Resolution Options](https://github.com/QuakedK/Oneclick/blob/main/Help/Timer%20Resolution%20Options.md)
 
 Power Plan Section | Quaked Ultimate Performance Recommended, more info here -> [Power Plan Options](https://github.com/QuakedK/Oneclick/blob/main/Help/Power%20Plan%20Options.md)
 
