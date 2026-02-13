@@ -114,6 +114,11 @@ sc config TrustedInstalller start=demand
 4. Drag and run ```AutologgerBackup.reg``` into [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe).
 5. Restart you're PC!
 
+> [!NOTE]
+> If Process Destroyer Extreme was done, TrustInstaller must be restored differently!
+> 1. Go to file explorer and find ```"C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg"```. and open it up.
+> 2. Then restart and follow step 2 above.
+
 # 7. Services
 1. Open CMD as admin and paste the following.
 ```
@@ -124,4 +129,51 @@ sc config TrustedInstalller start=demand
 4. Drag and run ```Services.reg``` into [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe).
 5. Restart you're PC!
 
+> [!NOTE]
+> If Process Destroyer Extreme was done, TrustInstaller must be restored differently!
+> 1. Go to file explorer and find ```"C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg"```. and open it up.
+> 2. Then restart and follow step 2 above.
+
 # 8. Auto Graphics Preferences, Priority and FSO
+1. Open CMD as admin and paste the following.
+```
+sc config TrustedInstalller start=demand
+```
+2. Go to file explorer and find ```C:\Oneclick Backup\Priority``` and confirm there's a ```FSO.reg, GraphicsPreferences.reg, Priority.reg``` files.
+3. Now open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
+4. Then type CMD in the Address Bar, then click run and paste the following commands.
+```bat
+reg delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers" /f
+reg delete "HKCU\SOFTWARE\Microsoft\DirectX\UserGpuPreferences" /f
+reg delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options" /f
+
+reg import "C:\Oneclick Backup\Priority\FSO.reg"
+reg import "C:\Oneclick Backup\Priority\GraphicsPreferences.reg"
+reg import "C:\Oneclick Backup\Priority\Priority.reg"
+```
+5. Restart you're PC! 
+
+> [!NOTE]
+> If Process Destroyer Extreme was done, TrustInstaller must be restored differently!
+> 1. Go to file explorer and find ```"C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg"```. and open it up.
+> 2. Then restart and follow step 2 above.
+
+# 9. LockApp
+1. Open CMD as admin and paste the following.
+```
+sc config TrustedInstalller start=demand
+```
+2. Go to file explorer and find ```C:\Oneclick Backup\LockApp``` and confirm there's ```LockApp.exe``` file.
+3. Now open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
+4. Then type CMD in the Address Bar, then click run and paste the following commands.
+```bat
+move /Y "C:\Oneclick Backup\LockApp\LockApp.exe" "C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy"
+```
+5. Restart you're PC!
+
+> [!NOTE]
+> If Process Destroyer Extreme was done, TrustInstaller must be restored differently!
+> 1. Go to file explorer and find ```"C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg"```. and open it up.
+> 2. Then restart and follow step 2 above.
+
+# 10. SmartScreen
