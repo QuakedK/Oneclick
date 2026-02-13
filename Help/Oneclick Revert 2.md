@@ -505,6 +505,20 @@ reg import "C:\Oneclick Backup\Network\NetworkBackup1.reg"
 
 # 29. Optional Features (If selected in Additional Features)
 1. Revert [Services](https://github.com/QuakedK/Oneclick/edit/main/Help/Oneclick%20Revert%202.md#7-services) first!
-2. Download [Enable Device Manager Devices.bat](https://github.com/QuakedK/Oneclick/blob/main/Downloads/Revert/Enable%20Device%20Manager%20Devices.bat).
+2. Download [Enable Optional Features.bat](https://github.com/QuakedK/Oneclick/blob/main/Downloads/Revert/Enable%20Optional%20Features.bat).
 3. Run it as admin!
 
+# 30. Wi-Fi
+As explained in the [Unsupported List](https://github.com/QuakedK/Oneclick/blob/main/Unsupported%20Features.md#wifi), Wi-Fi is natively unsupported/disabled. However, it can be easily re-enabled by running the Wi-Fi Fixer located in the Extras or End Section of Oneclick.
+
+<img width="978" height="512" alt="image" src="https://github.com/user-attachments/assets/7e1c261f-de17-484c-8651-14a8db7cf702" />
+
+**Note: If you created a Restore Point you can just use that <3 or the [Wifi Fixer](https://github.com/QuakedK/Oneclick/blob/main/Downloads/Revert/Wifi%20Fixer%20V3.0.bat) can be downloaded.**
+
+1. Simply rerun Oneclick.
+2. Once you reach the End\Extras, select Fixers and then choose the Wi-Fi fixer.
+3. Then Restart
+
+> [!NOTE]
+> Users who ran [Process Destroyer](https://github.com/QuakedK/Process-Destroyer), cannot simply use the Wi-Fi Fixer as Process Destroyer contains it's own unsupported list and disaabled features.
+> However Process Destroyer can be reverted, which would allow the Wi-Fi Fixer to work. --> [Process Destroyer Revert](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert%202.md#26-process-destroyer) and  [Process Destroyer Extreme Revert](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert%202.md#27-process-destroyer-extreme)
