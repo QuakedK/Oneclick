@@ -18,7 +18,7 @@ Having trouble navigating in Advanced Recovery? Watch this excellent [tutorial!]
 # 2. Registry
 1. Open CMD as admin and paste the following.
 ```
-sc config TrustedInstalller start=demand
+sc config TrustedInstaller start=demand
 ```
 2. Go to file explorer and find ```C:\Oneclick Backup\Registry``` and confirm there's 5 .reg files.
 3. Now Open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
@@ -33,7 +33,7 @@ sc config TrustedInstalller start=demand
 # 3. Winver Change
 1. Open CMD as admin and paste the following.
 ```
-sc config TrustedInstalller start=demand
+sc config TrustedInstaller start=demand
 ```
 2. Go to file explorer and find ```C:\Oneclick Tools\Winver Logo\DLL Backup``` and confirm there's a ```basebrd.dll``` file.
 3. Now Open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
@@ -52,7 +52,7 @@ move /Y "C:\Oneclick Tools\Winver Logo\DLL Backup\basebrd.dll" "C:\Windows\Brand
 # 4. Update Disabler
 1. Open CMD as admin and paste the following.
 ```
-sc config TrustedInstalller start=demand
+sc config TrustedInstaller start=demand
 ```
 2. Go to file explorer and find ```C:\Oneclick Tools\Update Disabler``` and confirm there's files in ```Reg Backup Folder``` & ```File Backup Folder```.
 3. Now open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
@@ -107,7 +107,7 @@ reg add "HKLM\System\CurrentControlSet\Services\TimeBrokerSvc" /v "Start" /t REG
 # 6. Autologger Destroyer
 1. Open CMD as admin and paste the following.
 ```
-sc config TrustedInstalller start=demand
+sc config TrustedInstaller start=demand
 ```
 2. Go to file explorer and find ```C:\Oneclick Tools\Autologger Destroyer\Reg Backup``` and confirm there's a ```AutologgerBackup.reg``` file.
 3. Now open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
@@ -122,12 +122,16 @@ sc config TrustedInstalller start=demand
 # 7. Services
 1. Open CMD as admin and paste the following.
 ```
-sc config TrustedInstalller start=demand
+sc config TrustedInstaller start=demand
 ```
 2. Go to file explorer and find ```C:\Oneclick Backup\Services``` and confirm there's a ```Services.reg``` file.
 3. Now open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
-4. Drag and run ```Services.reg``` into [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe).
-5. Restart you're PC!
+4. Then type CMD in the Address Bar, then click run and paste the following commands.
+```bat
+reg import "C:\Oneclick Backup\Services\Services.reg"
+reg add "HKLM\SYSTEM\CurrentControlSet\Control" /v "SvcHostSplitThresholdInKB" /t REG_DWORD /d "3670016" /f
+```
+5. Restart you're PC! 
 
 > [!NOTE]
 > If Process Destroyer Extreme was done, TrustInstaller must be restored differently!
@@ -137,7 +141,7 @@ sc config TrustedInstalller start=demand
 # 8. Auto Graphics Preferences, Priority and FSO
 1. Open CMD as admin and paste the following.
 ```
-sc config TrustedInstalller start=demand
+sc config TrustedInstaller start=demand
 ```
 2. Go to file explorer and find ```C:\Oneclick Backup\Priority``` and confirm there's a ```FSO.reg, GraphicsPreferences.reg, Priority.reg``` files.
 3. Now open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
@@ -158,10 +162,19 @@ reg import "C:\Oneclick Backup\Priority\Priority.reg"
 > 1. Go to file explorer and find ```"C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg"```. and open it up.
 > 2. Then restart and follow step 2 above.
 
-# 9. LockApp
+
+# 9. Microsoft Apps
+1. Revert [Services](https://github.com/QuakedK/Oneclick/edit/main/Help/Oneclick%20Revert%202.md#7-services) first!
+2. Open Powershell as admin.
+3. Then paste the following command.
+```bat
+Get-AppxPackage -AllUsers | ForEach-Object {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppxManifest.xml"}
+```
+
+# 10. LockApp
 1. Open CMD as admin and paste the following.
 ```
-sc config TrustedInstalller start=demand
+sc config TrustedInstaller start=demand
 ```
 2. Go to file explorer and find ```C:\Oneclick Backup\LockApp``` and confirm there's ```LockApp.exe``` file.
 3. Now open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
@@ -176,10 +189,10 @@ move /Y "C:\Oneclick Backup\LockApp\LockApp.exe" "C:\Windows\SystemApps\Microsof
 > 1. Go to file explorer and find ```"C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg"```. and open it up.
 > 2. Then restart and follow step 2 above.
 
-# 10. Smartscreen
+# 11. Smartscreen
 1. Open CMD as admin and paste the following.
 ```
-sc config TrustedInstalller start=demand
+sc config TrustedInstaller start=demand
 ```
 2. Go to file explorer and find ```C:\Oneclick Backup\Smartscreen``` and confirm there's ```CHXSmartScreen.exe, smartscreen.exe``` files.
 3. Now open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
@@ -195,10 +208,10 @@ move /Y "C:\Oneclick Backup\Smartscreen\smartscreen.exe" "C:\Windows\System32"
 > 1. Go to file explorer and find ```"C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg"```. and open it up.
 > 2. Then restart and follow step 2 above.
 
-# 11. Sync Programs
+# 12. Sync Programs
 1. Open CMD as admin and paste the following.
 ```
-sc config TrustedInstalller start=demand
+sc config TrustedInstaller start=demand
 ```
 2. Go to file explorer and find ```C:\Oneclick Backup\Sync Programs``` and confirm there's ```CrossDeviceResume.exe, mobsync.exe``` files.
 3. Now open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
@@ -214,10 +227,10 @@ move /Y "C:\Oneclick Backup\Sync Programs\mobsync.exe" "C:\Windows\System32"
 > 1. Go to file explorer and find ```"C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg"```. and open it up.
 > 2. Then restart and follow step 2 above.
 
-# 12. Xbox Bloat
+# 13. Xbox Bloat
 1. Open CMD as admin and paste the following.
 ```
-sc config TrustedInstalller start=demand
+sc config TrustedInstaller start=demand
 ```
 2. Go to file explorer and find ```C:\Oneclick Backup\Xbox Bloat``` and confirm there's ```22 files```.
 3. Now open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
@@ -253,10 +266,10 @@ move /Y "C:\Oneclick Backup\Xbox Bloat\Windows.Gaming.XboxLive.Storage.dll" "C:\
 > 1. Go to file explorer and find ```"C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg"```. and open it up.
 > 2. Then restart and follow step 2 above.
 
-# 13. Search
+# 14. Search
 1. Open CMD as admin and paste the following.
 ```
-sc config TrustedInstalller start=demand
+sc config TrustedInstaller start=demand
 ```
 2. Go to file explorer and find ```C:\Oneclick Backup\Search``` and confirm there's ```SearchHost.exe, StartMenuExperienceHost.exe, ShellExperienceHost.exe, taskhostw.exe``` files.
 3. Now open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
