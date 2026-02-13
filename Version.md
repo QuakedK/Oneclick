@@ -1,2 +1,2 @@
 # Latest Oneclick Version
-Latest_Version=V8.0
+Latest_Version=V8.1
