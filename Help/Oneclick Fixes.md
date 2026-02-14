@@ -194,6 +194,8 @@ sc config LGHUBUpdaterService start=auto
 
 Oneclick natively disables [AppX Deployment Service](https://github.com/QuakedK/Scripting-Station/blob/main/System%20Docs/Services.md#appx-deployment-service), which breaks [Notepad++](https://notepad-plus-plus.org/downloads/) casuing it to restart explorer everytime something is left-clicked within file explorer or the desktop. However AppX Deployment Service can be easily re-enabled!
 
+https://github.com/user-attachments/assets/f600c036-4198-4912-8cb4-335c024e8823
+
 **Manual Fix:**
 1. Open "Cmd" as admin and type the following.
 ```
