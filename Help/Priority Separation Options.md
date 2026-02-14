@@ -21,19 +21,18 @@ Windows uses thread scheduling quanta, the amount of time a thread can run befor
 > [!NOTE]
 > Results will vary from person to person, as there isn't necessarily a definitive good value.
 
-&nbsp;1. FPS - 42 Decimal - 2A Hexadecimal: 
+1. ```FPS - 42 Decimal - 2A Hexadecimal:``` 
 
 This option is more FPS focused, generally the most safe and recommended option, tended for a majority of users!
 
-&nbsp;2. Latency - 36 Decimal - 24 Hexadecimal
+2. ```Latency - 36 Decimal - 24 Hexadecimal```
 
 This option is more Latency focused, generally for more advanced user wanting lower latency.
    
-&nbsp;3. Balanced - 26 Decimal - 1A Hexadecimal
+3. ```Balanced - 26 Decimal - 1A Hexadecimal```
 
 This option is more Balanced focused.
 
-
 # Recommended Priority Separation Value.
-```36 Decimal - 24 Hexadecimal```
+Recommended ```36 Decimal - 24 Hexadecimal```
 
