@@ -153,3 +153,27 @@ Oneclick disables Core Isolation / Memory Integrity, casuing Hypervisor-protecte
 reg add "HKLM\System\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity" /v "Enabled" /t REG_DWORD /d "1" /f
 ```
 2. Restart you're pc!
+
+# 14. The service cannot be started, either because it is disabled or because it has no enabled devices associated with it
+> [!NOTE]
+> The following bug only occurs when is UAC is re-enabled or somehow didn't disable. 
+
+<img width="555" height="194" alt="482180832-4c29503a-b915-4320-98ae-9fa821eb70bd" src="https://github.com/user-attachments/assets/2eb08c44-b184-4e9f-b3f8-f557f1cce24d" />
+
+
+**Cause of issue**
+
+[Appinfo Service](https://github.com/QuakedK/Scripting-Station/blob/main/System%20Docs/Services.md#application-information-service) is responsible for facilitating elevated privilege requests, meaning it allows apps to run as an admin. If disabled, apps can't request admin permissions meaning you can't open apps that request administrator. However disabling Uac/User Account Control, allows you to get away with disabling AppInfo. But if Uac is re-enabled the work around doesn't work and will cause the issue seen in the picture.
+
+**How to fix?**
+1. Hold Shift and click restart.
+2. Click Troubleshoot, then Advanced options and then Startup Settings.
+3. Click 4 to enable Safe Mode.
+4. Once booted you can open things as admin, now Cmd and paste the following and restart!
+```
+:: Enable Appinfo
+sc config Appinfo start=auto
+
+:: Enable UAC
+reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableLUA" /t REG_DWORD /d "0" /f
+```
