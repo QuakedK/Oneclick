@@ -19,7 +19,21 @@ As explained in the [Unsupported List](https://github.com/QuakedK/Oneclick/blob/
 >
 > The same principle applies to network tweaks, as it may negatively impact you're network adapter which could result in Network Connection lose. -> [Network Tweaks Revert](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert.md#28-network-tweaks).
 
-# 2. Epic Games launcher
+# 2. Nvidia (Nvidia Control Panel, Nvidia App, Clipping and Overlays)
+**Revert Method 1** (If Nvidia GPU Tweaks were done)
+1. Open right-click the destop and hover over ```NvidiaContainer```.
+2. Click ```Nvidia Container ON```.
+
+**Revert Method 2** (If  Nvidia GPU Tweaks weren't done)
+1. Open CMD as admin and paste the following.
+```
+sc config NVDisplay.ContainerLocalSystem start=auto 
+sc start NVDisplay.ContainerLocalSystem 
+sc config NvContainerLocalSystem start=auto 
+sc start NvContainerLocalSystem
+```
+
+# 3. Epic Games launcher
 Notability ever since the Epic Games Laucnher was updated or since Epic Online Services was introduced, the launcher tends to get stuck on updating.  (Included in Oneclick, -> Extara's -> Fixers) 
 
 **Manual Fix:** 
@@ -31,7 +45,7 @@ sc config "EpicOnlineServices" start=auto
 ```
 2. Restart your pc!
 
-# 3. Rockstar Games Laucnher
+# 4. Rockstar Games Laucnher
 Similar the Epic Games Laucnher fix, setting Rockstar Games to auto will also fix it. (Included in Oneclick, -> Extara's -> Fixers) 
 
 **Manual Fix:**
@@ -42,7 +56,7 @@ sc config "Rockstar Service" start=auto
 ```
 2. Restart your pc!
 
-# 4. Taskbar Issues
+# 5. Taskbar Issues
 
 > [!NOTE]
 > Most of the following issues, are related to how Oneclick removes Search related components upon, the user selecting the removal of search.
@@ -55,7 +69,7 @@ However this can be easily fixed by selecting your Wifi before loggging in or Pr
 **Revert Search Removal:**
 1. Read [Revert Search](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert%202.md#14-search).
 
-# 5. Can't Search
+# 6. Can't Search
 
 Oneclick has a optional feature to remove search, meaning likely the reason you can't search is due to choosing "Yes" to removing it. If removed it automatic downloads and install the alternative [Open Shell](https://github.com/Open-Shell/Open-Shell-Menu), however their could be possibility it may have not installed.
 
@@ -65,7 +79,7 @@ Oneclick has a optional feature to remove search, meaning likely the reason you 
 **Revert Search Removal:**
 1. Read [Revert Search](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert%202.md#14-search).
 
-# 6. Can't login
+# 7. Can't login
 
 As explained in the [Process Destroyer Requirements](https://github.com/QuakedK/Process-Destroyer/blob/main/Requirements.md), you need to have had install windows without signing into a Microsoft account. It does not matter if you were currently logged into a offline/local accouunt or it displays that you are, regardless you needed to do the offline account install/method upon setting up windows.
 
@@ -74,7 +88,7 @@ Offline/Local Account Tutorial. [Windows 11](https://youtu.be/VOtOEEGxbu4?si=Q9W
 **Restore:**
 1. Watch the this [Tutorial](https://www.tiktok.com/t/ZTYoQrNHx/).
 
-# 7. Devices not working or connecting.
+# 8. Devices not working or connecting.
 
 Oneclick disables a multitude of services, and some may interfere with device installation.
 
@@ -88,14 +102,14 @@ sc config "dmwappushservice" start=auto
 sc config "DeviceInstall" start=auto
 ```
 
-# 8. Brightness Control
+# 9. Brightness Control
 
 Laptop User report issues controlling their brightness.
 
 **Immediate Fix:**
 1. Download [Gamma Manager](https://github.com/luan5431/Gamma-Manager).
 
-# 9. DPC Checker not running on start up
+# 10. DPC Checker not running on start up
 
 DPC Checker not opening is Unknown Issue, however if it happens following the fix below.
 
@@ -103,7 +117,7 @@ DPC Checker not opening is Unknown Issue, however if it happens following the fi
 1. Download [Start DPC Checker Oneclick Ver](https://github.com/QuakedK/Downloads/blob/main/Start%20DPC%20Checker%20Oneclick%20Ver.bat).
 2. Then click Winkey + R and in the run box type, Shell:startup and drag the newly downloaded bat into the startup folder, then restart!
 
-# 10. Windows Security not opening.
+# 11. Windows Security not opening.
 
 Windows Security may break, causing a infinite black screen in the application. This issue may be fixed by resetting various Policies.
 
@@ -111,7 +125,7 @@ Windows Security may break, causing a infinite black screen in the application. 
 1. Download and run [Policies Revert](https://github.com/QuakedK/Downloads/blob/main/Win%20Defend%20Fix.bat)
 2. Then download and run [Security Health Setup](https://github.com/QuakedK/Downloads/blob/main/securityhealthsetup_e16941e14861a6d24750ecdf05c548189b33182a.exe).
 
-# 11. No browser after Oneclick.
+# 12. No browser after Oneclick.
 
 As stated in the in the [Unsupported List](https://github.com/QuakedK/Oneclick/blob/main/Unsupported%20Features.md), Microsoft Edge gets deleted. Althought don't panic you can install another browser via CMD, following the steps below <3
 
@@ -129,7 +143,7 @@ curl -s -L "%fileURL%" -o "%downloadsFolder%\%fileName%"
 ```
 2. Open file explorer and navigate to your ```"Downloads Folder"``` and "chrome_installer.exe" should be there!
 
-# 12. HVCI Anti-Cheat/Game Error
+# 13. HVCI Anti-Cheat/Game Error
 
 Oneclick disables Core Isolation / Memory Integrity, casuing Hypervisor-protected Code Integrity errors. However it can be easily re-enabled by following the steps below <3
 
