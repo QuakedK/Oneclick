@@ -176,7 +176,7 @@ reg add "HKLM\System\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorE
 sc config Appinfo start=auto
 
 :: Enable UAC
-reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableLUA" /t REG_DWORD /d "0" /f
+reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableLUA" /t REG_DWORD /d "1" /f
 ```
 
 # 14. Logitech GHUB
@@ -189,4 +189,15 @@ Oneclick natively disables Logitech services, which can be easily re-enabled!
 sc config logi_lamparray_service start=auto 
 sc config LGHUBUpdaterService start=auto 
 ```
+
+# 15. Left clicking files on the desktop, causing explorer to crash.
+
+Oneclick natively disables [AppX Deployment Service](https://github.com/QuakedK/Scripting-Station/blob/main/System%20Docs/Services.md#appx-deployment-service), which breaks [Notepad++](https://notepad-plus-plus.org/downloads/) casuing it to restart explorer everytime something is left-clicked within file explorer or the desktop. However AppX Deployment Service can be easily re-enabled!
+
+**Manual Fix:**
+1. Open "Cmd" as admin and type the following.
+```
+reg add "HKLM\System\CurrentControlSet\Services\AppXSvc" /v "Start" /t REG_DWORD /d "3" /f
+```
+2. Restart you're pc!
 
