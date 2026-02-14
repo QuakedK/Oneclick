@@ -1,5 +1,7 @@
 # Unsupported or Disabled Features of Oneclick
-⚠️ **Please read carefully, we are not responsible for any issues that may occur:**
+> [!WARNING]
+> Please carefully read the unsupported features listed below, as we are not responsible for any issues that may occur due to not carefully reading said list.
+
 ___
 
 # (All Microsoft Related things)
@@ -16,8 +18,44 @@ ___
 
 # (Minecraft)
 
-You cannot play the Windows store/Bedrock version of Minecraft due to the required services to login being disabled. The java version of Minecraft works using [Minecraft Legacy Launcher](https://aka.ms/minecraftClientWindows), [Lunar Client](https://www.lunarclient.com/download) or [Badlion Client](https://www.badlion.net/).
+You cannot play the Windows store/Bedrock version of Minecraft due to the required services to login being disabled. The java version of Minecraft works using external clients  like, [Lunar Client](https://www.lunarclient.com/download) or [Badlion Client](https://www.badlion.net/).
 ___
+
+
+# (Wi-Fi)
+
+Oneclick natively disables Wi-Fi, however it can simply be re-enabled by running the [Wi-Fi Fixer](https://github.com/QuakedK/Downloads/blob/main/Wifi%20Fixer%20V3.0.bat) located in the End/Extras section of Oneclick. The Wifi fixer doesn't account for external tools or tweaks like [Process Destroyer](https://github.com/QuakedK/Process-Destroyer) or [Network Tweaks](https://github.com/QuakedK/Oneclick/blob/main/Help/Device%20Manager%20Tweaks.md). For more information regarding Wi-Fi and external tools, please read [Wi-Fi Help](https://github.com/QuakedK/Oneclick/edit/main/Help/Oneclick%20Fixes.md#1-wi-fi)!
+
+___
+
+# (Bluetooth)
+
+Oneclick natively disables Bluetooth, but most Bluetooth devices with usb dongles allow for use and connection even after Oneclick. If your device has no dongle and requires full wireless connectivity, **I would not recommend using Oneclick**. The process of reverting Bluetooth is long and tedious, requiring you to enable a lot of disabled services basically making the debloat aspect of Oneclick useless. Hence on why there is no list fixer!
+___
+
+# (VPN)
+
+Oneclick disables services and drivers that may mess with VPN connection, Vpn's/Apps like Exitlag and Cloudflare Warp are affected.
+
+VPN connection might get restored by running the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Wifi%20Fixer%20V3.0.bat) as it restore WiFi, and related driver, services, etc.
+___
+
+# (Nvidia)
+
+Example: Nvidia Control Panel, Nvidia App, Clipping and Overlays.
+
+Oneclick natively disables Nvidia Services, however these services can easily be re-enabled restoring acesss to Nvidia Features. Learn to revert Nvidia Services here [Nvidia Revert](https://github.com/QuakedK/Oneclick/edit/main/Help/Oneclick%20Fixes.md#2-nvidia-nvidia-control-panel-nvidia-app-clipping-and-overlays)!
+
+___
+
+# (UAC)
+
+Oneclick natively disables UAC/User Account Control, which can easily be re-enabled. However the [Appinfo Service](https://github.com/QuakedK/Scripting-Station/blob/main/System%20Docs/Services.md#application-information-service) must be re-enabled before doing so! Learn to revert UAC and Appinfo at [Appinfo BUG](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Fixes.md#14-the-service-cannot-be-started-either-because-it-is-disabled-or-because-it-has-no-enabled-devices-associated-with-it).
+___
+
+
+
+
 
 # (Rockstar Games Launcher) 
 
@@ -29,35 +67,19 @@ If that doesn't work and you're on enternet please run the [Wifi Fixer](https://
 
 ___
 
-# (Opera/Opera GX)
-
-The Opera appears to break, my assumption would be a tied driver or service being disabled causes the issue. 
-Whatever Opera relys on might be dumb, as almost any other browser works fine!
-
-___
 
 # (Razer Apps) 
 
 Razor apps have been reported to break and not work like razer synapse.
 ___
 
-# (Bluetooth)
+# (Opera Browser/Possible Obscure Browsers) 
 
-Natively Oneclick disables Bluetooth, but most Bluetooth devices with usb dongles allow for use and connection even after Oneclick. If your device has no dongle and requires full wireless connection I would not recommend using Oneclick. The process of reverting Bluetooth is long and tedious, requiring you to enable a lot of disabled services basically making the debloat aspect of Oneclick useless.
-___
-
-# (Wifi)
-
-Natively Oneclick disables Wifi, but it can simply be turned on by running the Wifi Fixer in the End/Extras section of Oneclick. You can also directly download the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Wifi%20Fixer%20V3.0.bat) here! Still having issues with wifi? Read [Oneclick Fixes](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Fixes.md#wi-fi)!
+The Opera browser appears to break, my assumption would be a tied driver or service being disabled causes the issue. 
+Whatever Opera relys on might be dumb, as almost any other browser works fine!
 
 ___
 
-# (VPN)
-
-Oneclick disables services that mess with VPN connection, Vpn's/Apps like Exitlag and Cloudflare Warp are affected.
-
-VPN connection might get restored by running the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Wifi%20Fixer%20V3.0.bat).
-___
 
 # (Snipping Tool)
 
