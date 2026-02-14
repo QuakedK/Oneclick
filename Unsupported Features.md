@@ -21,7 +21,6 @@ ___
 You cannot play the Windows store/Bedrock version of Minecraft due to the required services to login being disabled. The java version of Minecraft works using external clients  like, [Lunar Client](https://www.lunarclient.com/download) or [Badlion Client](https://www.badlion.net/).
 ___
 
-
 # (Wi-Fi)
 
 Oneclick natively disables Wi-Fi, however it can simply be re-enabled by running the [Wi-Fi Fixer](https://github.com/QuakedK/Downloads/blob/main/Wifi%20Fixer%20V3.0.bat) located in the End/Extras section of Oneclick. The Wifi fixer doesn't account for external tools or tweaks like [Process Destroyer](https://github.com/QuakedK/Process-Destroyer) or [Network Tweaks](https://github.com/QuakedK/Oneclick/blob/main/Help/Device%20Manager%20Tweaks.md). For more information regarding Wi-Fi and external tools, please read [Wi-Fi Help](https://github.com/QuakedK/Oneclick/edit/main/Help/Oneclick%20Fixes.md#1-wi-fi)!
@@ -37,7 +36,7 @@ ___
 
 Oneclick disables services and drivers that may mess with VPN connection, Vpn's/Apps like Exitlag and Cloudflare Warp are affected.
 
-VPN connection might get restored by running the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Wifi%20Fixer%20V3.0.bat) as it restore WiFi, and related driver, services, etc.
+VPN connection **might** get restored by running the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Wifi%20Fixer%20V3.0.bat) as it restore WiFi, and related driver, services, etc.
 ___
 
 # (Nvidia)
@@ -53,33 +52,46 @@ ___
 Oneclick natively disables UAC/User Account Control, which can easily be re-enabled. However the [Appinfo Service](https://github.com/QuakedK/Scripting-Station/blob/main/System%20Docs/Services.md#application-information-service) must be re-enabled before doing so! Learn to revert UAC and Appinfo at [Appinfo BUG](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Fixes.md#14-the-service-cannot-be-started-either-because-it-is-disabled-or-because-it-has-no-enabled-devices-associated-with-it).
 ___
 
-
-
-
-
 # (Rockstar Games Launcher) 
 
-The Rockstar Games Launcher breaks, but can be easily fixed by re-enabling the service.
-
-Open CMD and paste sc config "Rockstar Service" start=demand then restart.
-
-If that doesn't work and you're on enternet please run the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Wifi%20Fixer%20V3.0.bat) as admin!
+The Rockstar Games Launcher breaks, however **may** be fixed by re-enabling the service and Wi-Fi. Learn more at [Rockstar Fix](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Fixes.md#4-rockstar-games-laucnher)!
 
 ___
 
-
 # (Razer Apps) 
 
-Razor apps have been reported to break and not work like razer synapse.
+Example: Razer Synapse, Razer Chroma, Razer Axon and Razer Cortex.
+
+Oneclick natively disables razor services, which can be re-enabled however are still reportedly broken.
+___
+
+# (Logitech GHUB) 
+
+Oneclick natively disables Logitech services, which can be easily be at re-enabled [Revert Logitech Services](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Fixes.md#14-logitech-ghub)!
 ___
 
 # (Opera Browser/Possible Obscure Browsers) 
 
-The Opera browser appears to break, my assumption would be a tied driver or service being disabled causes the issue. 
-Whatever Opera relys on might be dumb, as almost any other browser works fine!
-
+The Opera browser and possiblely Obscure Browsers appear to break, my assumption would be a tied driver or service being disabled causes the issue. 
+Whatever Opera or other Obscure Browsers rely on might be dumb, as almost any other mainstream browser works fine!
 ___
 
+# (Spotify)
+
+Spotify **may or may not break**, as I'm still unsure of what exactly breaks spotify for some users but they report songs being greyed out. 
+I'd recommend using the Website version of spotify not the Microsoft store version, as that may be the reported problem. [Spotify Website Ver](https://www.spotify.com/de-en/download/windows/) before doing Oneclick. 
+___
+
+# (Task Scheduler)
+
+Can easily be reverted at [Task Destroyer Revert](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert.md#5-task-destroyer--task-scheduler).
+___
+
+# (Windows Updates)
+
+Unlike what the majority of people think, Windows Updates are not actually needed.
+But can easily be reverted at [Update Disabler Revert](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert.md#4-update-disabler)!
+___
 
 # (Snipping Tool)
 
@@ -91,7 +103,6 @@ ___
 The ability to copy and paste remains, but accessing the Clipboard doesn't. Please use [Clipclip](https://app.prntscr.com/en/download.html) or [Ditto](https://ditto-cp.sourceforge.io/) to access your Clipboard.
 ___
 
-
 # (Power Saving & Hibernation Settings)
 
 Oneclick disables power saving & hibernation settings, meaning I would recommend laptop user to be worry or careful using Oneclick. There's been Many laptop users of Oneclick that haven't reported anything so this is more of a warning.
@@ -100,23 +111,6 @@ ___
 # (IPv6)
 
 Oneclick disables IPv6, but many people don't actually use it. You can easily renable it manually or using [IPv6 Reenable](https://github.com/QuakedK/Downloads/blob/main/IPv6%20Reenable.bat).
-___
-
-# (Windows Updates)
-
-Unlike what the majority of people think, Windows Updates are not actually needed.
-But can easily be reverted at [Update Disabler Revert](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert.md#4-update-disabler)
-___
-
-# (Spotify)
-
-Spotify may or may not break, as I'm still unsure of what exactly breaks spotify for some users but they report songs being greyed out. 
-I'd recommend using the Website version of spotify not the Microsoft store version, as that may be the reported problem. [Spotify Website Ver](https://www.spotify.com/de-en/download/windows/) before doing Oneclick.
-___
-
-# (Task Scheduler)
-
-Can easily be reverted at [Task Destroyer Revert](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert.md#5-task-destroyer--task-scheduler).
 ___
 
 # (Storage Sense/Storage options in settings)
