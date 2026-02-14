@@ -13,7 +13,7 @@ After reinstalling Windows, make sure your drivers, applications, and games are 
 It's important to note because of the automatic & **extreme** nature, many of the debloat features and related tweaks aren't optional. This is why we heavily recommend every potential user read the [Unsupported Features List](https://github.com/QuakedK/Oneclick/blob/main/Unsupported%20Features.md) very thoroughly.
 
 > [!WARNING]
-> We aren't responsible for those who fail to read the supported versions and unsupported features lists before running Oneclick, and we are not liable for any data loss or required Windows reinstallation resulting from improper use. By running Oneclick, you acknowledge that you do so at your own risk and accept full responsibility for any outcomes.
+> We aren't responsible for those who fail to read the [Supported Versions](https://github.com/QuakedK/Oneclick/blob/main/Help/Supported%20Windows%20Versions.md) and [Unsupported Features](https://github.com/QuakedK/Oneclick/blob/main/Unsupported%20Features.md) lists before running Oneclick, and we are not liable for any data loss or required Windows reinstallation resulting from improper use. By running Oneclick, you acknowledge that you do so at your own risk and accept full responsibility for any outcomes.
 
 # Transparency
 It's important for us transparency address what Oneclick downloads and logs.
