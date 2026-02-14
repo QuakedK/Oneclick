@@ -31,6 +31,22 @@ As an Open Source Project dedicated to transparency, it's very important we guid
 
 [Winver Logo](https://github.com/QuakedK/Oneclick/blob/main/Downloads/V8.0/Basebrd.zip) | A modified DLL, that changes how the Winver branding looks.
 
+# Optional Downloads
+[Dcontrol](https://www.sordum.org/9480/defender-control-v2-1/) | A Windows Defender disabler. Due to the nature and purpose of dControl disabling windows defender of course it gets flagged. Dcontrol is made by Sordum a known and reputable website known for creating popular software like DNS Jumper, PowerRun, Edge Blocker and More!
+[Dcontrol Reddit Post #1](https://www.reddit.com/r/antivirus/comments/172uziw/sordums_defender_control/)
+[Dcontrol Reddit Post #2](https://www.reddit.com/r/windows/comments/tcqiwm/hey_guys_can_someone_say_if_dcontrol_is_safe_link/)
 
-[]() | A
+[Open Shell](https://github.com/Open-Shell/Open-Shell-Menu/releases/download/v4.4.191/OpenShellSetup_4_4_191.exe) & [Open Shell Config](https://github.com/QuakedK/Oneclick/blob/main/Downloads/V8.0/OpenShellTheme.xml) | A Windows Search Alternative.
 
+# Non-Optional Download
+[Visual C++ 2015-2022 Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe) | A Microsoft Runtimes installer. (Installs only if the user doesn't already have the vc runtimes)
+
+[Nvidia Control Panel](https://github.com/QuakedK/Oneclick/blob/main/Downloads/V8.0/nvcplui.exe) | The offical Nvidia Control Panel standalone exe. (Installs only if the does Nvidia Tweaks)
+
+# Questions
+Why automatically download a folder/files at start, isn't that suspicious? | Oneclick will openly and transparently download a tools/resources folder. Going as far having notations explaining what gets downloaded and inside of the tools folder it contains txt files linking and explaining the use of the programs.
+
+Why doesn't Oneclick download things like NSudo, Dcontrol, DPC Checker, Timer Resolution and OOshutup10 from their original sites? | Oneclick automatically downloads a tools folder containing those program because it's more efficient then having Oneclick download and extract each one by one. Instead of curling and extracting one by one, not only does Oneclick save time upon launch but space and size, having Oneclick not waste lines of code and be as efficient as possible is important!
+
+# GPL obligations
+These external tools are not part of the release itself, are independently licensed, and are not subject to the GPL obligations of the batch script.
