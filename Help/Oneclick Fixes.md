@@ -178,3 +178,15 @@ sc config Appinfo start=auto
 :: Enable UAC
 reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "EnableLUA" /t REG_DWORD /d "0" /f
 ```
+
+# 14. Logitech GHUB
+
+Oneclick natively disables Logitech services, which can be easily re-enabled!
+
+**Manual Fix:**
+1. Open "Cmd" as admin and type the following.
+```
+sc config logi_lamparray_service start=auto 
+sc config LGHUBUpdaterService start=auto 
+```
+
