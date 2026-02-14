@@ -14,8 +14,10 @@ As explained in the [Unsupported List](https://github.com/QuakedK/Oneclick/blob/
 3. Then Restart
 
 > [!NOTE]
-> Users who ran [Process Destroyer](https://github.com/QuakedK/Process-Destroyer), cannot simply use the Wi-Fi Fixer as Process Destroyer contains it's own unsupported list and disaabled features.
+> Users who ran [Process Destroyer](https://github.com/QuakedK/Process-Destroyer), cannot simply use the Wi-Fi Fixer as Process Destroyer contains it's own unsupported list and disabled features.
 > However Process Destroyer can be reverted, which would allow the Wi-Fi Fixer to work. --> [Process Destroyer Revert](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert%202.md#26-process-destroyer) and [Process Destroyer Extreme Revert](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert%202.md#27-process-destroyer-extreme).
+>
+> The same principle applies to network tweaks, as it may negatively impact you're network adapter which could result in Network Connection lose. -> [Network Tweaks Revert](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert.md#28-network-tweaks).
 
 # 2. Epic Games launcher
 Notability ever since the Epic Games Laucnher was updated or since Epic Online Services was introduced, the launcher tends to get stuck on updating.  (Included in Oneclick, -> Extara's -> Fixers) 
