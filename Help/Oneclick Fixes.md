@@ -54,7 +54,8 @@ Similar the Epic Games Laucnher fix, setting Rockstar Games to auto will also fi
 ```
 sc config "Rockstar Service" start=auto
 ```
-2. Restart your pc!
+2. Download and run the Oneclick [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Wifi%20Fixer%20V3.0.bat) as admin.
+3. Restart your pc!
 
 # 5. Taskbar Issues
 
