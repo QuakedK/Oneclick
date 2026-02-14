@@ -52,6 +52,12 @@ ___
 Oneclick natively disables UAC/User Account Control, which can easily be re-enabled. However the [Appinfo Service](https://github.com/QuakedK/Scripting-Station/blob/main/System%20Docs/Services.md#application-information-service) must be re-enabled before doing so! Learn to revert UAC and Appinfo at [Appinfo BUG](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Fixes.md#14-the-service-cannot-be-started-either-because-it-is-disabled-or-because-it-has-no-enabled-devices-associated-with-it).
 ___
 
+# (Notepad++)
+
+Oneclick natively disables [AppX Deployment Service](https://github.com/QuakedK/Scripting-Station/blob/main/System%20Docs/Services.md#appx-deployment-service), which breaks [Notepad++](https://notepad-plus-plus.org/downloads/) casuing it to restart explorer everytime something is left-clicked within file explorer or the desktop. However AppX Deployment Service can be easily re-enabled at [Notepad++ Fix](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Fixes.md#15-left-clicking-files-on-the-desktop-causing-explorer-to-crash).
+
+___
+
 # (Rockstar Games Launcher) 
 
 The Rockstar Games Launcher breaks, however **may** be fixed by re-enabling the service and Wi-Fi. Learn more at [Rockstar Fix](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Fixes.md#4-rockstar-games-laucnher)!
