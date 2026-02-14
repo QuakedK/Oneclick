@@ -17,7 +17,7 @@ As an Open Source Project dedicated to transparency, it's very important we guid
 
 [Power Plans](https://github.com/QuakedK/Oneclick/blob/main/Downloads/PowerPlans.zip) | Pow/Power plan files.
 
-[Oneclick's Wallpaper](https://github.com/QuakedK/Oneclick/blob/main/Downloads/V7.5/Oneclick%20Purple%20%26%20Blue%204K%20Wallpaper.jpg) | The offical Oneclick Wallpaper Jpg, downscaled sightly to lower the tools folder size. Get the full 4K one here -> [4k Oneclick Wallpaper[(https://github.com/QuakedK/Scripting-Station/blob/main/Oneclick%20Wallpapers/Oneclick%20Purple%20%26%20Blue%204K.png)
+[Oneclick's Wallpaper](https://github.com/QuakedK/Oneclick/blob/main/Downloads/V8.0/Oneclick%20Purple%20%26%20Blue%204K%20Wallpaper.jpg) | The offical Oneclick Wallpaper Jpg, downscaled sightly to lower the tools folder size. Get the full 4K one here -> [4k Oneclick Wallpaper](https://github.com/QuakedK/Oneclick/blob/main/Wallpapers/Oneclick%20Purple%20%26%20Blue%204K.png)
 
 [Nvidia Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/2.4.0.4/nvidiaProfileInspector.zip) & [Nvidia Profile Inspector Config](https://github.com/QuakedK/Oneclick/blob/main/Downloads/V7.5/QuakedOptimizedNVProflie.nip) | A Nvidia Control Panel Editor/Inspector.
 
