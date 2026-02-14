@@ -318,7 +318,7 @@ reg delete "HKCR\DesktopBackground\Shell\NvidiaContainer" /f
 > 1. Go to file explorer and find ```"C:\Oneclick Tools\Process Destroyer\Revert\Trusted_Installer_Backup.reg"```. and open it up.
 > 2. Then restart and follow step 2 above.
 
-# 16. Nvidia Shadowplay/Clipping
+# 16. Nvidia (Nvidia Control Panel, Nvidia App, Clipping and Overlays)
 **Revert Method 1** (If Nvidia GPU Tweaks were done)
 1. Open right-click the destop and hover over ```NvidiaContainer```.
 2. Click ```Nvidia Container ON```.
@@ -326,10 +326,10 @@ reg delete "HKCR\DesktopBackground\Shell\NvidiaContainer" /f
 **Revert Method 2** (If  Nvidia GPU Tweaks weren't done)
 1. Open CMD as admin and paste the following.
 ```
-sc config NVDisplay.ContainerLocalSystem start=auto >nul 2>&1
-sc start NVDisplay.ContainerLocalSystem >nul 2>&1
-sc config NvContainerLocalSystem start=auto >nul 2>&1
-sc start NvContainerLocalSystem >nul 2>&1
+sc config NVDisplay.ContainerLocalSystem start=auto 
+sc start NVDisplay.ContainerLocalSystem 
+sc config NvContainerLocalSystem start=auto 
+sc start NvContainerLocalSystem
 ```
 
 # 17. AMD GPU Tweaks
