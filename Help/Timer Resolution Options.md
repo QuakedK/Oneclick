@@ -123,6 +123,13 @@ I wouldn't necessarily recommend a value for everyone, but as far as I've observ
 5080
 ```
 
+# Is Timer Resolution worth it?
+
+Timer Resolution appears to have appears to have quite the controversy. On one hand, people will claim it does absolutely nothing, but on another hand, people will claim it does everything. And sometimes there's even an in-between, stating it just creates unnecessary interrupts.
+
+In my opinion, it's definitely something that should be worth testing out. However, I can't definitively tell you to use it or whether or not it may have impacts on your system. People claim that there's lower system latency, not game latency, as well as claiming things like better 1% lows. But counter to that, other people claim that it worsens system latency and creates unnecessary interrupts.
+
+
 # Links/Sources.
 
 Tools:
