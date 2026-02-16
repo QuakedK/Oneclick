@@ -123,8 +123,18 @@ DPC Checker not opening is Unknown Issue, however if it happens following the fi
 Windows Security may break, causing a infinite black screen in the application. This issue may be fixed by resetting various Policies.
 
 **Manual Fix:**
-1. Download and run [Policies Revert](https://github.com/QuakedK/Downloads/blob/main/Win%20Defend%20Fix.bat)
-2. Then download and run [Security Health Setup](https://github.com/QuakedK/Downloads/blob/main/securityhealthsetup_e16941e14861a6d24750ecdf05c548189b33182a.exe).
+1. Open CMD as admin and paste the following.
+```
+sc config TrustedInstaller start=demand
+```
+2. Now Open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
+3. Then type CMD in the Address Bar, then click run and paste the following commands.
+```bat
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\SecurityHealthService" /v Start /t REG_DWORD /d "3" /f
+```
+4. Restart you're PC!
+5. Download and run [Policies Revert](https://github.com/QuakedK/Downloads/blob/main/Win%20Defend%20Fix.bat)
+6. Then download and run [Security Health Setup](https://github.com/QuakedK/Downloads/blob/main/securityhealthsetup_e16941e14861a6d24750ecdf05c548189b33182a.exe).
 
 # 12. No browser after Oneclick.
 
