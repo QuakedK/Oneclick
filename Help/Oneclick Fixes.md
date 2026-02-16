@@ -136,6 +136,9 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Services\SecurityHealthService" /v Start 
 5. Download and run [Policies Revert](https://github.com/QuakedK/Downloads/blob/main/Win%20Defend%20Fix.bat)
 6. Then download and run [Security Health Setup](https://github.com/QuakedK/Downloads/blob/main/securityhealthsetup_e16941e14861a6d24750ecdf05c548189b33182a.exe).
 
+> [!NOTE]
+> If Defender was disabled with Dcontol, open it and re-enable defender!
+
 # 12. No browser after Oneclick.
 
 As stated in the in the [Unsupported List](https://github.com/QuakedK/Oneclick/blob/main/Unsupported%20Features.md), Microsoft Edge gets deleted. Althought don't panic you can install another browser via CMD, following the steps below <3
