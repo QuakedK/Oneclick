@@ -3,6 +3,8 @@ As an Open Source Project dedicated to transparency, it's very important we guid
 
 [Oneclick Tools Folder](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/OneclickTools.zip) | Includes Autologger Destroyer, Browser Downloader, DPC Checker, Edge Remover, Nsudo, Nvidia Profile Inspector, Oneclick Wallpaper, OOShutup10, Power Plans, Process Destroyer, Task Destroyer, Timer Resolution, Update Disabler, Winver Logo, etc.
 
+[Audio Bloat Remover](https://github.com/QuakedK/Oneclick/blob/main/Downloads/V8.0/Audio%20Bloat%20Remover%20V1.0.bat) | An open source batch that deletes Realtek, Sound Research and VisiSonics audio bloat, created by me!
+
 [Autologger Destroyer](https://github.com/QuakedK/Autologger-Destroyer/releases/download/AutologgerDisabler/Oneclick-Autologger-Destroyer-V1.0.bat) | An open source batch that disables Windows Autologgers, created by me!
 
 [Browser Downloader](https://github.com/QuakedK/Oneclick/blob/main/Downloads/V8.0/Browser%20Downloader%20V1.0.bat) | A simple open source batch that downloads browsers, created by me!
