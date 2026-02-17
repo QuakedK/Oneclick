@@ -60,7 +60,9 @@ Simply follow the quick and easy steps below ↓
 
 [Optional Features Tweaks](https://github.com/QuakedK/Oneclick/blob/main/Help/Optional%20Features.md) | Explains Optional Features Tweaks.
 
-[Oneclick Changelog](https://github.com/QuakedK/Oneclick/blob/main/Changelog.md) | Covers the changes of all Oneclick verisons.
+[Audio Bloat Remover](https://github.com/QuakedK/Oneclick/blob/main/Help/Audio%20Bloat%20Remover.md) | Explains Audio Bloat Remover.
+
+[Oneclick Changelog](https://github.com/QuakedK/Oneclick/blob/main/Changelog.md) | Covers the changes of all current documented Oneclick Verisons.
 
 
 
