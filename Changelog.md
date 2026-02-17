@@ -751,8 +751,49 @@ Note: this list isn't fully correct or completed
 
 ---
 
+**Oneclick V8.2**
 
+2/17/26 <3
 
+**Added**
+- Added an ! to Outdated Win Version Detection echo.
+- Added Cls in User Choice Protection Driver Disable.
+- Added a Windows Defender taskkill in Real Time and Tamper Protection disable.
+- Added an ! to Dcontrol Download Failed echo.
+- Added an ! to VCRuntime Download Failed Failed echo.
+- Added an ! to Tools Download Failed Failed echo.
+- Added an ! to Dcontrol Download Failed Failed echo.
+- Added an ! to OpenShell Download Failed Failed echo.
+- Added an ! to Nvidia Control Panel Download Failed echo.
+- Added back Audio/Sound bloat remover.
+- Added Audio/Sound bloat remover warning.
+- Added more visual checkmarks to Oneclick PD.
+- Added an extra folder in Oneclick logs, to help clean and organize it up.
+
+**Changed**
+- Changed GlobalTimerResolutionRequests path to have a captial K for Kernel.
+- Changed TimerCheckFlags path to have a captial K for Kernel.
+- Changed how Windows Defender opens, nowing opening from the app.
+- Changed the speed of the Oneclick Start Screen color change.
+
+**Fixed**
+- Fixed the echo of High Performance Mode, High Priority and FSO.
+- Fixed the echo of Power Saving Mode and Low Priority.
+- Fixed Endlocal Handing in Windows Version Check.
+- Fixed Endlocal Handing in Windows Server Version Check.
+- Fixed the upcase c in the word Click in the check for admin.
+- Fixed Endlocal Handing in Custom Priority Separation Value.
+- Fixed Endlocal Handing in Re-detect Windows Version.
+- Fixed Endlocal Handing in Check If Power Plan Imported.
+- Fixed the spelling of executing in running PD.
+- Fixed Network Tweaks warning spelling.
+
+**Removed**
+- Removed unnecessary "setlocal disabledelayedexpansion" in VCRuntime Download.
+- Removed unnecessary "setlocal disabledelayedexpansion" in Network Cleanup.
+- Removed Secret.
+
+---
 
 
 
