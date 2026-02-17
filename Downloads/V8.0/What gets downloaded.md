@@ -1,7 +1,7 @@
 # What gets downloaded in Oneclick V8.0+
 As an Open Source Project dedicated to transparency, it's very important we guide and help users understand what gets downloaded and for what reason!
 
-[Oneclick Tools Folder](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/OneclickTools.zip) | Includes Autologger Destroyer, Browser Downloader, DPC Checker, Edge Remover, Nsudo, Nvidia Profile Inspector, Oneclick Wallpaper, OOShutup10, Power Plans, Process Destroyer, Task Destroyer, Timer Resolution, Update Disabler, Winver Logo, etc.
+[Oneclick Tools Folder](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/OneclickTools.zip) | Includes Audio Bloat Remover, Autologger Destroyer, Browser Downloader, DPC Checker, Edge Remover, Nsudo, Nvidia Profile Inspector, Oneclick Wallpaper, OOShutup10, Power Plans, Process Destroyer, Task Destroyer, Timer Resolution, Update Disabler, Winver Logo, etc.
 
 [Audio Bloat Remover](https://github.com/QuakedK/Oneclick/blob/main/Downloads/V8.0/Audio%20Bloat%20Remover%20V1.0.bat) | An open source batch that deletes Realtek, Sound Research and VisiSonics audio bloat, created by me!
 
