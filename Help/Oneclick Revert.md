@@ -22,7 +22,7 @@ sc config TrustedInstaller start=demand
 ```
 2. Go to file explorer and find ```C:\Oneclick Backup\Registry``` and confirm there's 5 .reg files.
 3. Now Open [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) and Enable All Privileges.
-4. Drag and run ```HKCC.reg, HKCR.reg, HKCU.reg, HKLM.reg and HKC.reg``` into [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) one at a time of course.
+4. Drag and run ```HKCC.reg, HKCR.reg, HKCU.reg, HKLM.reg and HKC.reg``` into [Nsudo](https://github.com/QuakedK/Oneclick/raw/refs/heads/main/Downloads/V8.0/NSudoLG.exe) one at a time of course. (Ignore any errors) 
 5. Restart you're PC!
 
 > [!NOTE]
