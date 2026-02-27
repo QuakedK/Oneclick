@@ -164,7 +164,7 @@ reg import "C:\Oneclick Backup\Priority\Priority.reg"
 
 
 # 9. Microsoft Apps
-1. Revert [Services](https://github.com/QuakedK/Oneclick/edit/main/Help/Oneclick%20Revert%202.md#7-services) first!
+1. Revert [Services](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert.md#7-services) first!
 2. Open Powershell as admin.
 3. Then paste the following command.
 ```bat
