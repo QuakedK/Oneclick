@@ -803,3 +803,17 @@ Note: this list isn't fully correct or completed
 - Added Virtualization Based Security Disabler.
 
 ---
+
+**Oneclick Tools Update**
+
+3/1/26 <3
+
+*Added*
+- Added New Power Plans.
+
+- *Power Plans Changes*
+- Disabled USB 3 Link Power Mangement.
+- Disabled USB selective suspend setting.
+
+---
+
