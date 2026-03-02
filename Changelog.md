@@ -811,7 +811,7 @@ Note: this list isn't fully correct or completed
 *Added*
 - Added New Power Plans.
 
-- *Power Plans Changes*
+*Power Plans Changes*
 - Disabled USB 3 Link Power Mangement.
 - Disabled USB selective suspend setting.
 
