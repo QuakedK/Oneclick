@@ -18,6 +18,8 @@ Allow Away Mode Policy: No
 Allow Standby States: Off
 Allow Hybrid Sleep: Off
 Allow Throttle States: Off
+USB 3 Link Power Management: Off
+USB selective suspend setting: Disabled
 Processor performance core parking min cores: 100
 Processor performance time check interval: 5000
 Processor idle disable: enable idle or disable idle, depending on the plan chosen.
