@@ -216,3 +216,45 @@ reg add "HKLM\System\CurrentControlSet\Services\AppXSvc" /v "Start" /t REG_DWORD
 ```
 2. Restart you're pc!
 
+ 
+# 16. Change Light/Dark Mode.
+
+**Manual Fix:**
+1. Open "Cmd" as admin and type the following.
+
+:: Dark Mode.
+```
+reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize /v "AppsUseLightTheme" /t REG_DWORD /d "0" /f
+reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize /v "SystemUsesLightTheme" /t REG_DWORD /d "0" /f
+```
+
+:: Light Mode.
+```
+reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize /v "AppsUseLightTheme" /t REG_DWORD /d "1" /f
+reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize /v "SystemUsesLightTheme" /t REG_DWORD /d "1" /f
+```
+
+:: Apply Changes.
+```
+taskkill.exe /F /IM "explorer.exe"
+start explorer.exe
+```
+
+# 17. Change Wallpaper.
+
+**Manual Fix:**
+1. Open "Cmd" as admin and type the following.
+
+> [!NOTE]
+> The part that says "Input wallpaper path in these quotes" must be changed to the path of your wallpaper.
+> E.g. ```reg add "HKCU\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d "C:\Users\QuakedAMD\Downloads\Idle On.ico" /f```
+
+:: Change Wallpaper Command.
+```
+reg add "HKCU\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d "Input wallpaper path in these quotes" /f 
+```
+
+:: Apply Changes.
+```
+RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters
+```
