@@ -254,7 +254,12 @@ start explorer.exe
 reg add "HKCU\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d "Input wallpaper path in these quotes" /f 
 ```
 
-:: Apply Changes.
-```
-RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters
-```
+# 18. MSI Afterburner. (Startup)
+
+**Manual Fix:**
+1. Open MSI Afterburner and uncheck the start on startup box.
+2. Download [Configure MSI Afterburner Load](https://github.com/QuakedK/Downloads/blob/main/Configure%20MSI%20Afterburner%20Load.bat).
+3. Run it as admin and select you're save profile!
+
+> [!NOTE]
+> The profile you select on [Configure MSI Afterburner Load](https://github.com/QuakedK/Downloads/blob/main/Configure%20MSI%20Afterburner%20Load.bat), needs to be the profile with the changed settings/overclock!
