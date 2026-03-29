@@ -15,7 +15,7 @@ As an Open Source Project dedicated to transparency, it's very important we guid
 
 [NSudo](https://github.com/M2TeamArchived/NSudo/releases/tag/9.0-Preview1) | An Open Source tool that lets you run programs or commands with full system privileges/TrustedInstaller.
 
-[Nvidia Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector) & [Nvidia Profile Inspector Config](https://github.com/QuakedK/Oneclick/blob/main/Downloads/V8.0/NovaOS.nip) | An open source Nvidia Control Panel Editor/Inspector.
+[Nvidia Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector) & [Nvidia Profile Inspector Config](https://github.com/QuakedK/Oneclick/blob/main/Downloads/V8.0/QuakedV2.nip) | An open source Nvidia Control Panel Editor/Inspector.
 
 [Oneclick's Wallpaper](https://github.com/QuakedK/Oneclick/blob/main/Downloads/V7.5/Oneclick%20Purple%20%26%20Blue%204K%20Wallpaper.jpg) | The offical Oneclick Wallpaper Jpg, downscaled sightly to lower the tools folder size. Get the full 4K one here -> [4k Oneclick Wallpaper](https://github.com/QuakedK/Oneclick/blob/main/Wallpapers/Oneclick%20Purple%20%26%20Blue%204K.png)
 
