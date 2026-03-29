@@ -817,3 +817,34 @@ Note: this list isn't fully correct or completed
 
 ---
 
+**Oneclick V8.4**
+
+3/29/26 <3
+
+*Added*
+- Added spectrum service to be disabled. (21H2-23H2)
+- Added New and Improved Quaked Nvidia Profile Inspector Nip.
+- Added -SilentImport to the Nvidia Profile Inspector import.  
+- Added a Learn More page for GPU Tweaks.
+
+*Fixed*
+- Fixed/Nulled WMPNetworkSvc.
+- Fixed/Nulled BDESVC.
+- Fixed/Changed VacSvc from manual to disabled.
+- Fixed/Changed cloudidsvc from manual to disabled.
+- Fixed/Changed AppInfo from disabled to manual. (Prevents issues if others re-enable UAC, etc)
+- Fixed OSU Game Detection.
+- Fixed the Fixers Menu Option 4, echo changing the running to opening The Fixer Github.
+- Fixed/Changed the Search Removal, More Info Option to Learn More.
+- Fixed CrossDeviceResume.exe Missing Error. (https://www.ntlite.com/community/index.php?threads/how-to-disable-crossdeviceresume-exe.5635/)
+
+*Removed*
+- Removed TimeBrokerSvc Disabler. (Gonna Re-add it to Process Destroyer not base Oneclick)
+- Removed AppXSvc Disabler. (Fixes any issue with Notepad++/Left clicking any thing on the desktop, since people don't read the unsupported list)
+- Removed "HKLM\SYSTEM\CurrentControlSet\Control\Power\PowerThrottling" /v "PowerThrottlingOff".
+
+*Oneclick Tools*
+- Added the New Process Destroyer V2.6 to the tools folder.
+- Added New Quaked Nvidia Profile Inspector Nip.
+
+---
