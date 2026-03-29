@@ -18,3 +18,8 @@ Credit: p467121/Nova OS | Most of the registry tweaks are from the following cre
 2. [Nvidia Services Revert](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert.md#16-nvidia-nvidia-control-panel-nvidia-app-clipping-and-overlays) 
 
 3. [AMD GPU Tweaks Revert](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert.md#17-amd-gpu-tweaks) 
+
+# #4 Video
+1. [DDU and Nvcleaninstall Tutorial](https://www.youtube.com/watch?v=0oN5dWyUV_g)
+2. [Gpu Tools/Tweaks](https://github.com/QuakedK/Downloads/raw/refs/heads/main/(Quaked)%20Nivida%20Gpu.zip)
+3. [Gpu Github Instructions](https://github.com/QuakedK/Downloads/blob/main/Nvidia%20GPU%20Tweaks.md)
