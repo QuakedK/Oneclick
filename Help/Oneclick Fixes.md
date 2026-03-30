@@ -7,7 +7,7 @@ As explained in the [Unsupported List](https://github.com/QuakedK/Oneclick/blob/
 
 <img width="978" height="512" alt="image" src="https://github.com/user-attachments/assets/7e1c261f-de17-484c-8651-14a8db7cf702" />
 
-**Note: If you created a Restore Point you can just use that <3 or the [Wifi Fixer](https://github.com/QuakedK/Oneclick/blob/main/Downloads/Revert/Wifi%20Fixer%20V3.0.bat) can be downloaded.**
+**Note: If you created a Restore Point you can just use that <3 or the [Wifi Fixer](https://github.com/QuakedK/Oneclick/blob/main/Downloads/Revert/Wifi%20Fixer%20V3.5.bat) can be downloaded.**
 
 1. Simply rerun Oneclick.
 2. Once you reach the End\Extras, select Fixers and then choose the Wi-Fi fixer.
