@@ -23,7 +23,7 @@ ___
 
 # (Wi-Fi)
 
-Oneclick natively disables Wi-Fi, however it can simply be re-enabled by running the [Wi-Fi Fixer](https://github.com/QuakedK/Downloads/blob/main/Wifi%20Fixer%20V3.0.bat) located in the End/Extras section of Oneclick. The Wifi fixer doesn't account for external tools or tweaks like [Process Destroyer](https://github.com/QuakedK/Process-Destroyer) or [Network Tweaks](https://github.com/QuakedK/Oneclick/blob/main/Help/Device%20Manager%20Tweaks.md). For more information regarding Wi-Fi and external tools, please read [Wi-Fi Help](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Fixes.md#1-wi-fi)!
+Oneclick natively disables Wi-Fi, however it can simply be re-enabled by running the [Wi-Fi Fixer](https://github.com/QuakedK/Oneclick/blob/main/Downloads/Revert/Wifi%20Fixer%20V3.5.bat) located in the End/Extras section of Oneclick. The Wifi fixer doesn't account for external tools or tweaks like [Process Destroyer](https://github.com/QuakedK/Process-Destroyer) or [Network Tweaks](https://github.com/QuakedK/Oneclick/blob/main/Help/Device%20Manager%20Tweaks.md). For more information regarding Wi-Fi and external tools, please read [Wi-Fi Help](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Fixes.md#1-wi-fi)!
 
 ___
 
