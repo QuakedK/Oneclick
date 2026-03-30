@@ -31,6 +31,8 @@ As an Open Source Project dedicated to transparency, it's very important we guid
 
 [Update Disabler](https://github.com/QuakedK/Update-Disabler/releases/download/Winupdatedisabler/Oneclick-Update-Disabler-V1.2.bat) | A simple open source batch that disables Windows Updates, created by me!
 
+[Wifi Fixer](https://github.com/QuakedK/Oneclick/blob/main/Downloads/Revert/Wifi%20Fixer%20V3.5.bat) |  A simple open source batch that enables/fixes Wifi after Oneclick.
+
 [Winver Logo](https://github.com/QuakedK/Oneclick/blob/main/Downloads/V8.0/Basebrd.zip) | A modified DLL, that changes how the Winver branding looks.
 
 # Optional Downloads
