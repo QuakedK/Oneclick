@@ -848,3 +848,13 @@ Note: this list isn't fully correct or completed
 - Added New Quaked Nvidia Profile Inspector Nip.
 
 ---
+
+**Oneclick Tools Update**
+
+3/30/26 <3
+
+*Added*
+- Added Wifi Fixer Folder.
+- Added Process Destroyer V2.6 (Re-release)
+
+---
