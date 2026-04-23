@@ -521,7 +521,7 @@ As explained in the [Unsupported List](https://github.com/QuakedK/Oneclick/blob/
 
 > [!NOTE]
 > Users who ran [Process Destroyer](https://github.com/QuakedK/Process-Destroyer), cannot simply use the Wi-Fi Fixer as Process Destroyer contains it's own unsupported list and disaabled features.
-> However Process Destroyer can be reverted, which would allow the Wi-Fi Fixer to work. --> [Process Destroyer Revert](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert%202.md#26-process-destroyer) and [Process Destroyer Extreme Revert](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert%202.md#27-process-destroyer-extreme).
+> However Process Destroyer can be reverted, which would allow the Wi-Fi Fixer to work. --> [Process Destroyer Revert](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert.md#26-process-destroyer) and [Process Destroyer Extreme Revert](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert.md#27-process-destroyer-extreme).
 
 # 31. Quaked Tweak Service
 1. Open CMD as admin and paste the following.
