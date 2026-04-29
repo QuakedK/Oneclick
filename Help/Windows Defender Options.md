@@ -15,7 +15,7 @@ Selecting Disable Windows Defender, will guide the user to disable Real Time Pro
 > [!NOTE]
 > Most of the following issues, are related to Oneclick's attempt to removing Windows telemetry.
 
-1. Windows Security may break, causing a infinite black screen in the application. This issue may be fixed by resetting various [Policies](https://github.com/QuakedK/Downloads/blob/main/Win%20Defend%20Fix.bat) or running the [Security Health Setup](https://github.com/QuakedK/Downloads/blob/main/securityhealthsetup_e16941e14861a6d24750ecdf05c548189b33182a.exe).
+1. Windows Security may break, causing a infinite black screen in the application. This issue may be fixed by resetting various [Policies](https://github.com/QuakedK/Downloads/blob/main/Win%20Defend%20Fix.bat) or running the [Security Health Setup](https://github.com/QuakedK/Downloads/blob/main/securityhealthsetup_e16941e14861a6d24750ecdf05c548189b33182a.exe) or trying to download the full [Windows Defender App](https://microsoft-defender.en.uptodown.com/windows/download/92609654).
 2. Can't Disable Real Time Protection, if Windows Security is broken the user can't disable it. Real Time Protection is known to be aggressive and flag many program, stoping the user from downloading or running them until Real Time Protection is off.
 
 # #4 Why Does Oneclick Recommend disabling Windows Defender?
