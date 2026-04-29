@@ -135,6 +135,7 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Services\SecurityHealthService" /v Start 
 4. Restart you're PC!
 5. Download and run [Policies Revert](https://github.com/QuakedK/Downloads/blob/main/Win%20Defend%20Fix.bat)
 6. Then download and run [Security Health Setup](https://github.com/QuakedK/Downloads/blob/main/securityhealthsetup_e16941e14861a6d24750ecdf05c548189b33182a.exe).
+7. If all else fails try to download the full [Windows Defender App](https://microsoft-defender.en.uptodown.com/windows/download/92609654).
 
 > [!NOTE]
 > If Defender was disabled with Dcontol, open it and re-enable defender!
