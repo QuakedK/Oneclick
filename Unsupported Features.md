@@ -36,7 +36,7 @@ ___
 
 Oneclick disables services and drivers that may mess with VPN connection, Vpn's/Apps like Exitlag and Cloudflare Warp are affected.
 
-VPN connection **might** get restored by running the [Wifi Fixer](https://github.com/QuakedK/Downloads/blob/main/Wifi%20Fixer%20V3.0.bat) as it restore WiFi, and related driver, services, etc.
+VPN connection **might** get restored by running the [Wi-Fi Fixer](https://github.com/QuakedK/Oneclick/blob/main/Downloads/Revert/Wifi%20Fixer%20V3.5.bat) as it restore WiFi, and related driver, services, etc.
 ___
 
 # (Nvidia)
@@ -65,10 +65,18 @@ ___
 Oneclick natively disables Logitech services, which can be easily be at re-enabled [Revert Logitech Services](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Fixes.md#14-logitech-ghub)!
 ___
 
-# (Opera Browser/Possible Obscure Browsers) 
+# (Windows Security)
 
-The Opera browser and possiblely Obscure Browsers appear to break, my assumption would be a tied driver or service being disabled causes the issue. 
-Whatever Opera or other Obscure Browsers rely on might be dumb, as almost any other mainstream browser works fine!
+Windows Security may break, causing a infinite black screen in the application. This issue may be fixed by resetting various [Policies](https://github.com/QuakedK/Downloads/blob/main/Win%20Defend%20Fix.bat) or running the [Security Health Setup](https://github.com/QuakedK/Downloads/blob/main/securityhealthsetup_e16941e14861a6d24750ecdf05c548189b33182a.exe) or trying to download the full [Windows Defender App](https://microsoft-defender.en.uptodown.com/windows/download/92609654).
+
+This is why it's recommended you disable Windows Defender using Dcontrol, as if you do get the infinite black screen within Windows Security you obviously can't disable real-time protection when needed.
+___
+
+# (Opera, Brave Browser and Other Browsers) 
+
+The Opera and Brave browser as well as possible obscure or unknown browsers appear to break. My assumption would be a tied driver or service being disabled somehow causes said issue. I haven't looked into this issue very thoroughly, mostly becausen it is an unintentional side effect of debloating your computer. And as it stands, some of the most popular browsers, aka Google Chrome, still actively work. If my theory of it being related to a driver or service is correct, simply reverting the services with the service registry backup would indeed fix this issue. -> [Services Registry Backup](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert.md#7-services)
+
+Confirmed Working Browsers: Google Chrome, Microsoft Edge.
 ___
 
 # (Spotify)
