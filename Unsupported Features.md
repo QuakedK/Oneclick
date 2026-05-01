@@ -72,9 +72,9 @@ Windows Security may break, causing a infinite black screen in the application. 
 This is why it's recommended you disable Windows Defender using Dcontrol, as if you do get the infinite black screen within Windows Security you obviously can't disable real-time protection when needed.
 ___
 
-# (Opera, Brave Browser and Other Browsers) 
+# (Opera, Brave, Firefox Browser and Other Browsers) 
 
-The Opera and Brave browser as well as possible obscure or unknown browsers appear to break. My assumption would be a tied driver or service being disabled somehow causes said issue. I haven't looked into this issue very thoroughly, mostly becausen it is an unintentional side effect of debloating your computer. And as it stands, some of the most popular browsers, aka Google Chrome, still actively work. If my theory of it being related to a driver or service is correct, simply reverting the services with the service registry backup would indeed fix this issue. -> [Services Registry Backup](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert.md#7-services)
+The Opera, Brave and Firefox browser as well as possible obscure or unknown browsers appear to break. My assumption would be a tied driver or service being disabled somehow causes said issue. I haven't looked into this issue very thoroughly, mostly becausen it is an unintentional side effect of debloating your computer. And as it stands, some of the most popular browsers, aka Google Chrome, still actively work. If my theory of it being related to a driver or service is correct, simply reverting the services with the service registry backup would indeed fix this issue. -> [Services Registry Backup](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert.md#7-services)
 
 Confirmed Working Browsers: Google Chrome, Microsoft Edge.
 ___
