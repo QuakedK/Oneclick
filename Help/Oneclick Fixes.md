@@ -264,3 +264,15 @@ reg add "HKCU\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d "Input wallpaper 
 
 > [!NOTE]
 > The profile you select on [Configure MSI Afterburner Load](https://github.com/QuakedK/Downloads/blob/main/Configure%20MSI%20Afterburner%20Load.bat), needs to be the profile with the changed settings/overclock!
+
+# 19. GPU Driver Installation (Nvidia/AMD Drivers)
+
+**Manual Fix:**
+1. Open "Cmd" as admin and type the following.
+```
+sc config DeviceInstall start=demand
+```
+2. Restart your pc and install your driver.
+
+> [!NOTE]
+> Users who ran [Process Destroyer](https://github.com/QuakedK/Process-Destroyer), need to revert it here [Process Destroyer Revert](https://github.com/QuakedK/Oneclick/blob/main/Help/Oneclick%20Revert.md#26-process-destroyer)!
