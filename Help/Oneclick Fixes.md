@@ -3,15 +3,17 @@ Because Oneclick disables all services, the users programs, apps, etc are bound 
 On this Github page, will go over some simple and easy fixes!
 
 # 1. Wi-Fi
-As explained in the [Unsupported List](https://github.com/QuakedK/Oneclick/blob/main/Unsupported%20Features.md#wifi), Wi-Fi is natively unsupported/disabled. However, it can be easily re-enabled by running the Wi-Fi Fixer located in the Extras or End Section of Oneclick.
+As explained in the [Unsupported List](https://github.com/QuakedK/Oneclick/blob/main/Unsupported%20Features.md#wifi), Wi-Fi is natively unsupported/disabled. However, it can be easily re-enabled by running the Wi-Fi Fixer located in the Extras or End Section of Oneclick. It's now also located in ```"C:\Oneclick Tools\Wifi Fixer\Wifi Fixer V3.5.bat"```!
 
 <img width="978" height="512" alt="image" src="https://github.com/user-attachments/assets/7e1c261f-de17-484c-8651-14a8db7cf702" />
 
 **Note: If you created a Restore Point you can just use that <3 or the [Wifi Fixer](https://github.com/QuakedK/Oneclick/blob/main/Downloads/Revert/Wifi%20Fixer%20V3.5.bat) can be downloaded.**
 
-1. Simply rerun Oneclick.
-2. Once you reach the End\Extras, select Fixers and then choose the Wi-Fi fixer.
-3. Then Restart
+**Manual Fix**
+1. Simply navigate to ```"C:\Oneclick Tools\Wifi Fixer\Wifi Fixer V3.5.bat"```.
+2. Open and run ```Wifi Fixer V3.5.bat``` as admin!
+
+**Note: If the ```Wifi Fixer V3.5.bat``` doesn't open, right click it and click properties then check unblock**.
 
 > [!NOTE]
 > Users who ran [Process Destroyer](https://github.com/QuakedK/Process-Destroyer), cannot simply use the Wi-Fi Fixer as Process Destroyer contains it's own unsupported list and disabled features.
